@@ -1,0 +1,18 @@
+# Environments and secrets
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Raw Volve data is licensed and not redistributed (see data/README.md)
+data/raw/*
+!data/raw/.gitkeep
+
+# Rebuilt by `python -m src.kg_build.build_graph_nx`
+kg/*.pkl
+
+# LaTeX build artifacts
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out
+.pytest_cache/

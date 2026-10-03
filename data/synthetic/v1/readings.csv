@@ -1,0 +1,1184 @@
+generator_seed,reading_id,well,short,date,metric,value,unit,sensor_id,source_record_id
+42,R_water_cut_F-1C_2014-04-01,15/9-F-1 C,F-1 C,2014-04-01,water_cut,0.0,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2014-04-01
+42,R_np_cum_F-1C_2014-04-01,15/9-F-1 C,F-1 C,2014-04-01,np_cum,11142.47,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2014-04-01
+42,R_pressure_F-1C_2014-04-01,15/9-F-1 C,F-1 C,2014-04-01,pressure,267.8893,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2014-04-01
+42,R_water_cut_F-1C_2014-05-01,15/9-F-1 C,F-1 C,2014-05-01,water_cut,0.0305,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2014-05-01
+42,R_log_wor_F-1C_2014-05-01,15/9-F-1 C,F-1 C,2014-05-01,log_wor,-1.5022,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2014-05-01
+42,R_np_cum_F-1C_2014-05-01,15/9-F-1 C,F-1 C,2014-05-01,np_cum,36044.42,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2014-05-01
+42,R_pressure_F-1C_2014-05-01,15/9-F-1 C,F-1 C,2014-05-01,pressure,223.9705,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2014-05-01
+42,R_water_cut_F-1C_2014-06-01,15/9-F-1 C,F-1 C,2014-06-01,water_cut,0.0954,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2014-06-01
+42,R_log_wor_F-1C_2014-06-01,15/9-F-1 C,F-1 C,2014-06-01,log_wor,-0.977,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2014-06-01
+42,R_np_cum_F-1C_2014-06-01,15/9-F-1 C,F-1 C,2014-06-01,np_cum,55662.18,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2014-06-01
+42,R_pressure_F-1C_2014-06-01,15/9-F-1 C,F-1 C,2014-06-01,pressure,217.4584,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2014-06-01
+42,R_water_cut_F-1C_2014-07-01,15/9-F-1 C,F-1 C,2014-07-01,water_cut,0.2927,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2014-07-01
+42,R_log_wor_F-1C_2014-07-01,15/9-F-1 C,F-1 C,2014-07-01,log_wor,-0.3831,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2014-07-01
+42,R_np_cum_F-1C_2014-07-01,15/9-F-1 C,F-1 C,2014-07-01,np_cum,70747.86,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2014-07-01
+42,R_pressure_F-1C_2014-07-01,15/9-F-1 C,F-1 C,2014-07-01,pressure,215.3059,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2014-07-01
+42,R_water_cut_F-1C_2014-08-01,15/9-F-1 C,F-1 C,2014-08-01,water_cut,0.3939,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2014-08-01
+42,R_log_wor_F-1C_2014-08-01,15/9-F-1 C,F-1 C,2014-08-01,log_wor,-0.1872,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2014-08-01
+42,R_np_cum_F-1C_2014-08-01,15/9-F-1 C,F-1 C,2014-08-01,np_cum,77718.29,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2014-08-01
+42,R_pressure_F-1C_2014-08-01,15/9-F-1 C,F-1 C,2014-08-01,pressure,230.622,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2014-08-01
+42,R_water_cut_F-1C_2014-09-01,15/9-F-1 C,F-1 C,2014-09-01,water_cut,0.4757,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2014-09-01
+42,R_log_wor_F-1C_2014-09-01,15/9-F-1 C,F-1 C,2014-09-01,log_wor,-0.0423,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2014-09-01
+42,R_np_cum_F-1C_2014-09-01,15/9-F-1 C,F-1 C,2014-09-01,np_cum,86886.72,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2014-09-01
+42,R_pressure_F-1C_2014-09-01,15/9-F-1 C,F-1 C,2014-09-01,pressure,229.763,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2014-09-01
+42,R_water_cut_F-1C_2014-10-01,15/9-F-1 C,F-1 C,2014-10-01,water_cut,0.5226,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2014-10-01
+42,R_log_wor_F-1C_2014-10-01,15/9-F-1 C,F-1 C,2014-10-01,log_wor,0.0393,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2014-10-01
+42,R_np_cum_F-1C_2014-10-01,15/9-F-1 C,F-1 C,2014-10-01,np_cum,96354.78,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2014-10-01
+42,R_pressure_F-1C_2014-10-01,15/9-F-1 C,F-1 C,2014-10-01,pressure,220.3039,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2014-10-01
+42,R_water_cut_F-1C_2014-11-01,15/9-F-1 C,F-1 C,2014-11-01,water_cut,0.5188,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2014-11-01
+42,R_log_wor_F-1C_2014-11-01,15/9-F-1 C,F-1 C,2014-11-01,log_wor,0.0326,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2014-11-01
+42,R_np_cum_F-1C_2014-11-01,15/9-F-1 C,F-1 C,2014-11-01,np_cum,103065.11,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2014-11-01
+42,R_pressure_F-1C_2014-11-01,15/9-F-1 C,F-1 C,2014-11-01,pressure,227.587,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2014-11-01
+42,R_water_cut_F-1C_2014-12-01,15/9-F-1 C,F-1 C,2014-12-01,water_cut,0.604,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2014-12-01
+42,R_log_wor_F-1C_2014-12-01,15/9-F-1 C,F-1 C,2014-12-01,log_wor,0.1833,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2014-12-01
+42,R_np_cum_F-1C_2014-12-01,15/9-F-1 C,F-1 C,2014-12-01,np_cum,103185.4,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2014-12-01
+42,R_pressure_F-1C_2014-12-01,15/9-F-1 C,F-1 C,2014-12-01,pressure,289.1543,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2014-12-01
+42,R_water_cut_F-1C_2015-01-01,15/9-F-1 C,F-1 C,2015-01-01,water_cut,0.3865,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-01-01
+42,R_log_wor_F-1C_2015-01-01,15/9-F-1 C,F-1 C,2015-01-01,log_wor,-0.2007,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-01-01
+42,R_np_cum_F-1C_2015-01-01,15/9-F-1 C,F-1 C,2015-01-01,np_cum,114060.93,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-01-01
+42,R_pressure_F-1C_2015-01-01,15/9-F-1 C,F-1 C,2015-01-01,pressure,250.1289,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-01-01
+42,R_water_cut_F-1C_2015-02-01,15/9-F-1 C,F-1 C,2015-02-01,water_cut,0.5285,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-02-01
+42,R_log_wor_F-1C_2015-02-01,15/9-F-1 C,F-1 C,2015-02-01,log_wor,0.0495,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-02-01
+42,R_np_cum_F-1C_2015-02-01,15/9-F-1 C,F-1 C,2015-02-01,np_cum,123647.57,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-02-01
+42,R_pressure_F-1C_2015-02-01,15/9-F-1 C,F-1 C,2015-02-01,pressure,247.9522,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-02-01
+42,R_water_cut_F-1C_2015-03-01,15/9-F-1 C,F-1 C,2015-03-01,water_cut,0.6638,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-03-01
+42,R_log_wor_F-1C_2015-03-01,15/9-F-1 C,F-1 C,2015-03-01,log_wor,0.2954,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-03-01
+42,R_np_cum_F-1C_2015-03-01,15/9-F-1 C,F-1 C,2015-03-01,np_cum,129526.79,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-03-01
+42,R_pressure_F-1C_2015-03-01,15/9-F-1 C,F-1 C,2015-03-01,pressure,246.8768,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-03-01
+42,R_water_cut_F-1C_2015-04-01,15/9-F-1 C,F-1 C,2015-04-01,water_cut,0.7144,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-04-01
+42,R_log_wor_F-1C_2015-04-01,15/9-F-1 C,F-1 C,2015-04-01,log_wor,0.3981,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-04-01
+42,R_np_cum_F-1C_2015-04-01,15/9-F-1 C,F-1 C,2015-04-01,np_cum,133450.97,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-04-01
+42,R_pressure_F-1C_2015-04-01,15/9-F-1 C,F-1 C,2015-04-01,pressure,253.2377,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-04-01
+42,R_water_cut_F-1C_2015-05-01,15/9-F-1 C,F-1 C,2015-05-01,water_cut,0.6167,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-05-01
+42,R_log_wor_F-1C_2015-05-01,15/9-F-1 C,F-1 C,2015-05-01,log_wor,0.2066,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-05-01
+42,R_np_cum_F-1C_2015-05-01,15/9-F-1 C,F-1 C,2015-05-01,np_cum,137283.66,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-05-01
+42,R_pressure_F-1C_2015-05-01,15/9-F-1 C,F-1 C,2015-05-01,pressure,252.3119,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-05-01
+42,R_water_cut_F-1C_2015-06-01,15/9-F-1 C,F-1 C,2015-06-01,water_cut,0.6963,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-06-01
+42,R_log_wor_F-1C_2015-06-01,15/9-F-1 C,F-1 C,2015-06-01,log_wor,0.3604,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-06-01
+42,R_np_cum_F-1C_2015-06-01,15/9-F-1 C,F-1 C,2015-06-01,np_cum,143628.16,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-06-01
+42,R_pressure_F-1C_2015-06-01,15/9-F-1 C,F-1 C,2015-06-01,pressure,252.0173,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-06-01
+42,R_water_cut_F-1C_2015-07-01,15/9-F-1 C,F-1 C,2015-07-01,water_cut,0.8015,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-07-01
+42,R_log_wor_F-1C_2015-07-01,15/9-F-1 C,F-1 C,2015-07-01,log_wor,0.6061,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-07-01
+42,R_np_cum_F-1C_2015-07-01,15/9-F-1 C,F-1 C,2015-07-01,np_cum,145722.11,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-07-01
+42,R_pressure_F-1C_2015-07-01,15/9-F-1 C,F-1 C,2015-07-01,pressure,259.0092,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-07-01
+42,R_water_cut_F-1C_2015-08-01,15/9-F-1 C,F-1 C,2015-08-01,water_cut,0.6501,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-08-01
+42,R_log_wor_F-1C_2015-08-01,15/9-F-1 C,F-1 C,2015-08-01,log_wor,0.269,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-08-01
+42,R_np_cum_F-1C_2015-08-01,15/9-F-1 C,F-1 C,2015-08-01,np_cum,148593.13,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-08-01
+42,R_pressure_F-1C_2015-08-01,15/9-F-1 C,F-1 C,2015-08-01,pressure,260.1124,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-08-01
+42,R_water_cut_F-1C_2015-09-01,15/9-F-1 C,F-1 C,2015-09-01,water_cut,0.6957,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-09-01
+42,R_log_wor_F-1C_2015-09-01,15/9-F-1 C,F-1 C,2015-09-01,log_wor,0.359,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-09-01
+42,R_np_cum_F-1C_2015-09-01,15/9-F-1 C,F-1 C,2015-09-01,np_cum,155053.4,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-09-01
+42,R_pressure_F-1C_2015-09-01,15/9-F-1 C,F-1 C,2015-09-01,pressure,249.1727,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-09-01
+42,R_water_cut_F-1C_2015-10-01,15/9-F-1 C,F-1 C,2015-10-01,water_cut,0.7682,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-10-01
+42,R_log_wor_F-1C_2015-10-01,15/9-F-1 C,F-1 C,2015-10-01,log_wor,0.5203,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-10-01
+42,R_np_cum_F-1C_2015-10-01,15/9-F-1 C,F-1 C,2015-10-01,np_cum,159139.2,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-10-01
+42,R_pressure_F-1C_2015-10-01,15/9-F-1 C,F-1 C,2015-10-01,pressure,260.5255,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-10-01
+42,R_water_cut_F-1C_2015-11-01,15/9-F-1 C,F-1 C,2015-11-01,water_cut,0.7781,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-11-01
+42,R_log_wor_F-1C_2015-11-01,15/9-F-1 C,F-1 C,2015-11-01,log_wor,0.5448,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-11-01
+42,R_np_cum_F-1C_2015-11-01,15/9-F-1 C,F-1 C,2015-11-01,np_cum,162471.25,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-11-01
+42,R_pressure_F-1C_2015-11-01,15/9-F-1 C,F-1 C,2015-11-01,pressure,258.847,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-11-01
+42,R_water_cut_F-1C_2015-12-01,15/9-F-1 C,F-1 C,2015-12-01,water_cut,0.6787,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2015-12-01
+42,R_log_wor_F-1C_2015-12-01,15/9-F-1 C,F-1 C,2015-12-01,log_wor,0.3249,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2015-12-01
+42,R_np_cum_F-1C_2015-12-01,15/9-F-1 C,F-1 C,2015-12-01,np_cum,165420.67,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2015-12-01
+42,R_pressure_F-1C_2015-12-01,15/9-F-1 C,F-1 C,2015-12-01,pressure,251.6409,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2015-12-01
+42,R_water_cut_F-1C_2016-01-01,15/9-F-1 C,F-1 C,2016-01-01,water_cut,0.8248,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2016-01-01
+42,R_log_wor_F-1C_2016-01-01,15/9-F-1 C,F-1 C,2016-01-01,log_wor,0.6728,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2016-01-01
+42,R_np_cum_F-1C_2016-01-01,15/9-F-1 C,F-1 C,2016-01-01,np_cum,168402.11,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2016-01-01
+42,R_pressure_F-1C_2016-01-01,15/9-F-1 C,F-1 C,2016-01-01,pressure,255.9041,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2016-01-01
+42,R_water_cut_F-1C_2016-02-01,15/9-F-1 C,F-1 C,2016-02-01,water_cut,0.7717,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2016-02-01
+42,R_log_wor_F-1C_2016-02-01,15/9-F-1 C,F-1 C,2016-02-01,log_wor,0.5289,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2016-02-01
+42,R_np_cum_F-1C_2016-02-01,15/9-F-1 C,F-1 C,2016-02-01,np_cum,173120.14,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2016-02-01
+42,R_pressure_F-1C_2016-02-01,15/9-F-1 C,F-1 C,2016-02-01,pressure,248.5126,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2016-02-01
+42,R_water_cut_F-1C_2016-03-01,15/9-F-1 C,F-1 C,2016-03-01,water_cut,0.8213,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2016-03-01
+42,R_log_wor_F-1C_2016-03-01,15/9-F-1 C,F-1 C,2016-03-01,log_wor,0.6624,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2016-03-01
+42,R_np_cum_F-1C_2016-03-01,15/9-F-1 C,F-1 C,2016-03-01,np_cum,176037.64,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2016-03-01
+42,R_pressure_F-1C_2016-03-01,15/9-F-1 C,F-1 C,2016-03-01,pressure,265.2924,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2016-03-01
+42,R_water_cut_F-1C_2016-04-01,15/9-F-1 C,F-1 C,2016-04-01,water_cut,0.7265,frac,S_water_cut_F-1 C,volve:prod:15/9-F-1 C:2016-04-01
+42,R_log_wor_F-1C_2016-04-01,15/9-F-1 C,F-1 C,2016-04-01,log_wor,0.4243,log10,S_log_wor_F-1 C,volve:prod:15/9-F-1 C:2016-04-01
+42,R_np_cum_F-1C_2016-04-01,15/9-F-1 C,F-1 C,2016-04-01,np_cum,177709.33,sm3,S_np_cum_F-1 C,volve:prod:15/9-F-1 C:2016-04-01
+42,R_pressure_F-1C_2016-04-01,15/9-F-1 C,F-1 C,2016-04-01,pressure,235.2024,bar,S_pressure_F-1 C,volve:prod:15/9-F-1 C:2016-04-01
+42,R_water_cut_F-11_2013-07-01,15/9-F-11,F-11,2013-07-01,water_cut,0.0,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2013-07-01
+42,R_np_cum_F-11_2013-07-01,15/9-F-11,F-11,2013-07-01,np_cum,3923.08,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2013-07-01
+42,R_pressure_F-11_2013-07-01,15/9-F-11,F-11,2013-07-01,pressure,24.4149,bar,S_pressure_F-11,volve:prod:15/9-F-11:2013-07-01
+42,R_water_cut_F-11_2013-08-01,15/9-F-11,F-11,2013-08-01,water_cut,0.02,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2013-08-01
+42,R_log_wor_F-11_2013-08-01,15/9-F-11,F-11,2013-08-01,log_wor,-1.6905,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2013-08-01
+42,R_np_cum_F-11_2013-08-01,15/9-F-11,F-11,2013-08-01,np_cum,29419.15,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2013-08-01
+42,R_pressure_F-11_2013-08-01,15/9-F-11,F-11,2013-08-01,pressure,277.5439,bar,S_pressure_F-11,volve:prod:15/9-F-11:2013-08-01
+42,R_water_cut_F-11_2013-09-01,15/9-F-11,F-11,2013-09-01,water_cut,0.0621,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2013-09-01
+42,R_log_wor_F-11_2013-09-01,15/9-F-11,F-11,2013-09-01,log_wor,-1.1792,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2013-09-01
+42,R_np_cum_F-11_2013-09-01,15/9-F-11,F-11,2013-09-01,np_cum,53194.23,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2013-09-01
+42,R_pressure_F-11_2013-09-01,15/9-F-11,F-11,2013-09-01,pressure,267.6935,bar,S_pressure_F-11,volve:prod:15/9-F-11:2013-09-01
+42,R_water_cut_F-11_2013-10-01,15/9-F-11,F-11,2013-10-01,water_cut,0.0535,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2013-10-01
+42,R_log_wor_F-11_2013-10-01,15/9-F-11,F-11,2013-10-01,log_wor,-1.2482,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2013-10-01
+42,R_np_cum_F-11_2013-10-01,15/9-F-11,F-11,2013-10-01,np_cum,87308.73,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2013-10-01
+42,R_pressure_F-11_2013-10-01,15/9-F-11,F-11,2013-10-01,pressure,256.3689,bar,S_pressure_F-11,volve:prod:15/9-F-11:2013-10-01
+42,R_water_cut_F-11_2013-11-01,15/9-F-11,F-11,2013-11-01,water_cut,0.0968,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2013-11-01
+42,R_log_wor_F-11_2013-11-01,15/9-F-11,F-11,2013-11-01,log_wor,-0.9701,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2013-11-01
+42,R_np_cum_F-11_2013-11-01,15/9-F-11,F-11,2013-11-01,np_cum,122695.08,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2013-11-01
+42,R_pressure_F-11_2013-11-01,15/9-F-11,F-11,2013-11-01,pressure,253.2812,bar,S_pressure_F-11,volve:prod:15/9-F-11:2013-11-01
+42,R_water_cut_F-11_2013-12-01,15/9-F-11,F-11,2013-12-01,water_cut,0.1294,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2013-12-01
+42,R_log_wor_F-11_2013-12-01,15/9-F-11,F-11,2013-12-01,log_wor,-0.8281,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2013-12-01
+42,R_np_cum_F-11_2013-12-01,15/9-F-11,F-11,2013-12-01,np_cum,156100.83,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2013-12-01
+42,R_pressure_F-11_2013-12-01,15/9-F-11,F-11,2013-12-01,pressure,249.9751,bar,S_pressure_F-11,volve:prod:15/9-F-11:2013-12-01
+42,R_water_cut_F-11_2014-01-01,15/9-F-11,F-11,2014-01-01,water_cut,0.1117,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-01-01
+42,R_log_wor_F-11_2014-01-01,15/9-F-11,F-11,2014-01-01,log_wor,-0.9006,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-01-01
+42,R_np_cum_F-11_2014-01-01,15/9-F-11,F-11,2014-01-01,np_cum,190653.2,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-01-01
+42,R_pressure_F-11_2014-01-01,15/9-F-11,F-11,2014-01-01,pressure,245.873,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-01-01
+42,R_water_cut_F-11_2014-02-01,15/9-F-11,F-11,2014-02-01,water_cut,0.0916,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-02-01
+42,R_log_wor_F-11_2014-02-01,15/9-F-11,F-11,2014-02-01,log_wor,-0.9966,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-02-01
+42,R_np_cum_F-11_2014-02-01,15/9-F-11,F-11,2014-02-01,np_cum,218843.17,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-02-01
+42,R_pressure_F-11_2014-02-01,15/9-F-11,F-11,2014-02-01,pressure,245.384,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-02-01
+42,R_water_cut_F-11_2014-03-01,15/9-F-11,F-11,2014-03-01,water_cut,0.0998,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-03-01
+42,R_log_wor_F-11_2014-03-01,15/9-F-11,F-11,2014-03-01,log_wor,-0.955,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-03-01
+42,R_np_cum_F-11_2014-03-01,15/9-F-11,F-11,2014-03-01,np_cum,252133.96,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-03-01
+42,R_pressure_F-11_2014-03-01,15/9-F-11,F-11,2014-03-01,pressure,239.1562,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-03-01
+42,R_water_cut_F-11_2014-04-01,15/9-F-11,F-11,2014-04-01,water_cut,0.1043,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-04-01
+42,R_log_wor_F-11_2014-04-01,15/9-F-11,F-11,2014-04-01,log_wor,-0.934,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-04-01
+42,R_np_cum_F-11_2014-04-01,15/9-F-11,F-11,2014-04-01,np_cum,287562.69,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-04-01
+42,R_pressure_F-11_2014-04-01,15/9-F-11,F-11,2014-04-01,pressure,236.8356,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-04-01
+42,R_water_cut_F-11_2014-05-01,15/9-F-11,F-11,2014-05-01,water_cut,0.1259,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-05-01
+42,R_log_wor_F-11_2014-05-01,15/9-F-11,F-11,2014-05-01,log_wor,-0.8415,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-05-01
+42,R_np_cum_F-11_2014-05-01,15/9-F-11,F-11,2014-05-01,np_cum,322394.57,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-05-01
+42,R_pressure_F-11_2014-05-01,15/9-F-11,F-11,2014-05-01,pressure,228.6014,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-05-01
+42,R_water_cut_F-11_2014-06-01,15/9-F-11,F-11,2014-06-01,water_cut,0.1522,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-06-01
+42,R_log_wor_F-11_2014-06-01,15/9-F-11,F-11,2014-06-01,log_wor,-0.746,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-06-01
+42,R_np_cum_F-11_2014-06-01,15/9-F-11,F-11,2014-06-01,np_cum,356293.21,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-06-01
+42,R_pressure_F-11_2014-06-01,15/9-F-11,F-11,2014-06-01,pressure,223.6494,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-06-01
+42,R_water_cut_F-11_2014-07-01,15/9-F-11,F-11,2014-07-01,water_cut,0.1677,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-07-01
+42,R_log_wor_F-11_2014-07-01,15/9-F-11,F-11,2014-07-01,log_wor,-0.6958,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-07-01
+42,R_np_cum_F-11_2014-07-01,15/9-F-11,F-11,2014-07-01,np_cum,390053.54,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-07-01
+42,R_pressure_F-11_2014-07-01,15/9-F-11,F-11,2014-07-01,pressure,219.7291,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-07-01
+42,R_water_cut_F-11_2014-08-01,15/9-F-11,F-11,2014-08-01,water_cut,0.1892,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-08-01
+42,R_log_wor_F-11_2014-08-01,15/9-F-11,F-11,2014-08-01,log_wor,-0.6319,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-08-01
+42,R_np_cum_F-11_2014-08-01,15/9-F-11,F-11,2014-08-01,np_cum,416091.08,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-08-01
+42,R_pressure_F-11_2014-08-01,15/9-F-11,F-11,2014-08-01,pressure,242.1678,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-08-01
+42,R_water_cut_F-11_2014-09-01,15/9-F-11,F-11,2014-09-01,water_cut,0.2008,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-09-01
+42,R_log_wor_F-11_2014-09-01,15/9-F-11,F-11,2014-09-01,log_wor,-0.5998,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-09-01
+42,R_np_cum_F-11_2014-09-01,15/9-F-11,F-11,2014-09-01,np_cum,449312.72,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-09-01
+42,R_pressure_F-11_2014-09-01,15/9-F-11,F-11,2014-09-01,pressure,224.3983,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-09-01
+42,R_water_cut_F-11_2014-10-01,15/9-F-11,F-11,2014-10-01,water_cut,0.2331,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-10-01
+42,R_log_wor_F-11_2014-10-01,15/9-F-11,F-11,2014-10-01,log_wor,-0.5173,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-10-01
+42,R_np_cum_F-11_2014-10-01,15/9-F-11,F-11,2014-10-01,np_cum,483164.44,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-10-01
+42,R_pressure_F-11_2014-10-01,15/9-F-11,F-11,2014-10-01,pressure,219.9786,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-10-01
+42,R_water_cut_F-11_2014-11-01,15/9-F-11,F-11,2014-11-01,water_cut,0.2611,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-11-01
+42,R_log_wor_F-11_2014-11-01,15/9-F-11,F-11,2014-11-01,log_wor,-0.4518,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-11-01
+42,R_np_cum_F-11_2014-11-01,15/9-F-11,F-11,2014-11-01,np_cum,509775.94,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-11-01
+42,R_pressure_F-11_2014-11-01,15/9-F-11,F-11,2014-11-01,pressure,228.2522,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-11-01
+42,R_water_cut_F-11_2014-12-01,15/9-F-11,F-11,2014-12-01,water_cut,0.2648,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2014-12-01
+42,R_log_wor_F-11_2014-12-01,15/9-F-11,F-11,2014-12-01,log_wor,-0.4434,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2014-12-01
+42,R_np_cum_F-11_2014-12-01,15/9-F-11,F-11,2014-12-01,np_cum,518323.86,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2014-12-01
+42,R_pressure_F-11_2014-12-01,15/9-F-11,F-11,2014-12-01,pressure,283.0997,bar,S_pressure_F-11,volve:prod:15/9-F-11:2014-12-01
+42,R_water_cut_F-11_2015-01-01,15/9-F-11,F-11,2015-01-01,water_cut,0.3192,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-01-01
+42,R_log_wor_F-11_2015-01-01,15/9-F-11,F-11,2015-01-01,log_wor,-0.3289,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-01-01
+42,R_np_cum_F-11_2015-01-01,15/9-F-11,F-11,2015-01-01,np_cum,547885.66,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-01-01
+42,R_pressure_F-11_2015-01-01,15/9-F-11,F-11,2015-01-01,pressure,224.8868,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-01-01
+42,R_water_cut_F-11_2015-02-01,15/9-F-11,F-11,2015-02-01,water_cut,0.3568,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-02-01
+42,R_log_wor_F-11_2015-02-01,15/9-F-11,F-11,2015-02-01,log_wor,-0.2559,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-02-01
+42,R_np_cum_F-11_2015-02-01,15/9-F-11,F-11,2015-02-01,np_cum,573232.88,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-02-01
+42,R_pressure_F-11_2015-02-01,15/9-F-11,F-11,2015-02-01,pressure,210.521,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-02-01
+42,R_water_cut_F-11_2015-03-01,15/9-F-11,F-11,2015-03-01,water_cut,0.3043,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-03-01
+42,R_log_wor_F-11_2015-03-01,15/9-F-11,F-11,2015-03-01,log_wor,-0.359,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-03-01
+42,R_np_cum_F-11_2015-03-01,15/9-F-11,F-11,2015-03-01,np_cum,617549.07,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-03-01
+42,R_pressure_F-11_2015-03-01,15/9-F-11,F-11,2015-03-01,pressure,220.0601,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-03-01
+42,R_water_cut_F-11_2015-04-01,15/9-F-11,F-11,2015-04-01,water_cut,0.3041,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-04-01
+42,R_log_wor_F-11_2015-04-01,15/9-F-11,F-11,2015-04-01,log_wor,-0.3595,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-04-01
+42,R_np_cum_F-11_2015-04-01,15/9-F-11,F-11,2015-04-01,np_cum,672104.83,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-04-01
+42,R_pressure_F-11_2015-04-01,15/9-F-11,F-11,2015-04-01,pressure,220.7148,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-04-01
+42,R_water_cut_F-11_2015-05-01,15/9-F-11,F-11,2015-05-01,water_cut,0.3074,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-05-01
+42,R_log_wor_F-11_2015-05-01,15/9-F-11,F-11,2015-05-01,log_wor,-0.3527,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-05-01
+42,R_np_cum_F-11_2015-05-01,15/9-F-11,F-11,2015-05-01,np_cum,727134.05,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-05-01
+42,R_pressure_F-11_2015-05-01,15/9-F-11,F-11,2015-05-01,pressure,220.0427,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-05-01
+42,R_water_cut_F-11_2015-06-01,15/9-F-11,F-11,2015-06-01,water_cut,0.3219,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-06-01
+42,R_log_wor_F-11_2015-06-01,15/9-F-11,F-11,2015-06-01,log_wor,-0.3237,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-06-01
+42,R_np_cum_F-11_2015-06-01,15/9-F-11,F-11,2015-06-01,np_cum,775365.15,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-06-01
+42,R_pressure_F-11_2015-06-01,15/9-F-11,F-11,2015-06-01,pressure,221.2804,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-06-01
+42,R_water_cut_F-11_2015-07-01,15/9-F-11,F-11,2015-07-01,water_cut,0.4526,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-07-01
+42,R_log_wor_F-11_2015-07-01,15/9-F-11,F-11,2015-07-01,log_wor,-0.0827,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-07-01
+42,R_np_cum_F-11_2015-07-01,15/9-F-11,F-11,2015-07-01,np_cum,819149.81,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-07-01
+42,R_pressure_F-11_2015-07-01,15/9-F-11,F-11,2015-07-01,pressure,220.1047,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-07-01
+42,R_water_cut_F-11_2015-08-01,15/9-F-11,F-11,2015-08-01,water_cut,0.5029,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-08-01
+42,R_log_wor_F-11_2015-08-01,15/9-F-11,F-11,2015-08-01,log_wor,0.0051,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-08-01
+42,R_np_cum_F-11_2015-08-01,15/9-F-11,F-11,2015-08-01,np_cum,850647.96,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-08-01
+42,R_pressure_F-11_2015-08-01,15/9-F-11,F-11,2015-08-01,pressure,232.296,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-08-01
+42,R_water_cut_F-11_2015-09-01,15/9-F-11,F-11,2015-09-01,water_cut,0.5435,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-09-01
+42,R_log_wor_F-11_2015-09-01,15/9-F-11,F-11,2015-09-01,log_wor,0.0757,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-09-01
+42,R_np_cum_F-11_2015-09-01,15/9-F-11,F-11,2015-09-01,np_cum,882072.55,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-09-01
+42,R_pressure_F-11_2015-09-01,15/9-F-11,F-11,2015-09-01,pressure,221.3557,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-09-01
+42,R_water_cut_F-11_2015-10-01,15/9-F-11,F-11,2015-10-01,water_cut,0.5612,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-10-01
+42,R_log_wor_F-11_2015-10-01,15/9-F-11,F-11,2015-10-01,log_wor,0.1069,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-10-01
+42,R_np_cum_F-11_2015-10-01,15/9-F-11,F-11,2015-10-01,np_cum,911797.33,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-10-01
+42,R_pressure_F-11_2015-10-01,15/9-F-11,F-11,2015-10-01,pressure,224.4338,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-10-01
+42,R_water_cut_F-11_2015-11-01,15/9-F-11,F-11,2015-11-01,water_cut,0.6105,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-11-01
+42,R_log_wor_F-11_2015-11-01,15/9-F-11,F-11,2015-11-01,log_wor,0.1951,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-11-01
+42,R_np_cum_F-11_2015-11-01,15/9-F-11,F-11,2015-11-01,np_cum,948207.56,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-11-01
+42,R_pressure_F-11_2015-11-01,15/9-F-11,F-11,2015-11-01,pressure,229.044,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-11-01
+42,R_water_cut_F-11_2015-12-01,15/9-F-11,F-11,2015-12-01,water_cut,0.6367,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2015-12-01
+42,R_log_wor_F-11_2015-12-01,15/9-F-11,F-11,2015-12-01,log_wor,0.2437,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2015-12-01
+42,R_np_cum_F-11_2015-12-01,15/9-F-11,F-11,2015-12-01,np_cum,984141.46,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2015-12-01
+42,R_pressure_F-11_2015-12-01,15/9-F-11,F-11,2015-12-01,pressure,222.3672,bar,S_pressure_F-11,volve:prod:15/9-F-11:2015-12-01
+42,R_water_cut_F-11_2016-01-01,15/9-F-11,F-11,2016-01-01,water_cut,0.6826,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2016-01-01
+42,R_log_wor_F-11_2016-01-01,15/9-F-11,F-11,2016-01-01,log_wor,0.3327,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2016-01-01
+42,R_np_cum_F-11_2016-01-01,15/9-F-11,F-11,2016-01-01,np_cum,1015744.72,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2016-01-01
+42,R_pressure_F-11_2016-01-01,15/9-F-11,F-11,2016-01-01,pressure,227.8386,bar,S_pressure_F-11,volve:prod:15/9-F-11:2016-01-01
+42,R_water_cut_F-11_2016-02-01,15/9-F-11,F-11,2016-02-01,water_cut,0.7196,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2016-02-01
+42,R_log_wor_F-11_2016-02-01,15/9-F-11,F-11,2016-02-01,log_wor,0.4093,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2016-02-01
+42,R_np_cum_F-11_2016-02-01,15/9-F-11,F-11,2016-02-01,np_cum,1041699.29,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2016-02-01
+42,R_pressure_F-11_2016-02-01,15/9-F-11,F-11,2016-02-01,pressure,231.7645,bar,S_pressure_F-11,volve:prod:15/9-F-11:2016-02-01
+42,R_water_cut_F-11_2016-03-01,15/9-F-11,F-11,2016-03-01,water_cut,0.7539,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2016-03-01
+42,R_log_wor_F-11_2016-03-01,15/9-F-11,F-11,2016-03-01,log_wor,0.4861,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2016-03-01
+42,R_np_cum_F-11_2016-03-01,15/9-F-11,F-11,2016-03-01,np_cum,1066722.95,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2016-03-01
+42,R_pressure_F-11_2016-03-01,15/9-F-11,F-11,2016-03-01,pressure,238.7684,bar,S_pressure_F-11,volve:prod:15/9-F-11:2016-03-01
+42,R_water_cut_F-11_2016-04-01,15/9-F-11,F-11,2016-04-01,water_cut,0.8118,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2016-04-01
+42,R_log_wor_F-11_2016-04-01,15/9-F-11,F-11,2016-04-01,log_wor,0.6349,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2016-04-01
+42,R_np_cum_F-11_2016-04-01,15/9-F-11,F-11,2016-04-01,np_cum,1080151.95,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2016-04-01
+42,R_pressure_F-11_2016-04-01,15/9-F-11,F-11,2016-04-01,pressure,257.9722,bar,S_pressure_F-11,volve:prod:15/9-F-11:2016-04-01
+42,R_water_cut_F-11_2016-05-01,15/9-F-11,F-11,2016-05-01,water_cut,0.8255,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2016-05-01
+42,R_log_wor_F-11_2016-05-01,15/9-F-11,F-11,2016-05-01,log_wor,0.6748,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2016-05-01
+42,R_np_cum_F-11_2016-05-01,15/9-F-11,F-11,2016-05-01,np_cum,1095680.7,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2016-05-01
+42,R_pressure_F-11_2016-05-01,15/9-F-11,F-11,2016-05-01,pressure,250.025,bar,S_pressure_F-11,volve:prod:15/9-F-11:2016-05-01
+42,R_water_cut_F-11_2016-06-01,15/9-F-11,F-11,2016-06-01,water_cut,0.8309,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2016-06-01
+42,R_log_wor_F-11_2016-06-01,15/9-F-11,F-11,2016-06-01,log_wor,0.6914,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2016-06-01
+42,R_np_cum_F-11_2016-06-01,15/9-F-11,F-11,2016-06-01,np_cum,1110271.31,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2016-06-01
+42,R_pressure_F-11_2016-06-01,15/9-F-11,F-11,2016-06-01,pressure,250.739,bar,S_pressure_F-11,volve:prod:15/9-F-11:2016-06-01
+42,R_water_cut_F-11_2016-07-01,15/9-F-11,F-11,2016-07-01,water_cut,0.8427,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2016-07-01
+42,R_log_wor_F-11_2016-07-01,15/9-F-11,F-11,2016-07-01,log_wor,0.7291,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2016-07-01
+42,R_np_cum_F-11_2016-07-01,15/9-F-11,F-11,2016-07-01,np_cum,1124656.19,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2016-07-01
+42,R_pressure_F-11_2016-07-01,15/9-F-11,F-11,2016-07-01,pressure,250.7082,bar,S_pressure_F-11,volve:prod:15/9-F-11:2016-07-01
+42,R_water_cut_F-11_2016-08-01,15/9-F-11,F-11,2016-08-01,water_cut,0.8575,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2016-08-01
+42,R_log_wor_F-11_2016-08-01,15/9-F-11,F-11,2016-08-01,log_wor,0.7794,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2016-08-01
+42,R_np_cum_F-11_2016-08-01,15/9-F-11,F-11,2016-08-01,np_cum,1139239.92,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2016-08-01
+42,R_pressure_F-11_2016-08-01,15/9-F-11,F-11,2016-08-01,pressure,252.0385,bar,S_pressure_F-11,volve:prod:15/9-F-11:2016-08-01
+42,R_water_cut_F-11_2016-09-01,15/9-F-11,F-11,2016-09-01,water_cut,0.8446,frac,S_water_cut_F-11,volve:prod:15/9-F-11:2016-09-01
+42,R_log_wor_F-11_2016-09-01,15/9-F-11,F-11,2016-09-01,log_wor,0.7351,log10,S_log_wor_F-11,volve:prod:15/9-F-11:2016-09-01
+42,R_np_cum_F-11_2016-09-01,15/9-F-11,F-11,2016-09-01,np_cum,1147849.1,sm3,S_np_cum_F-11,volve:prod:15/9-F-11:2016-09-01
+42,R_pressure_F-11_2016-09-01,15/9-F-11,F-11,2016-09-01,pressure,253.5817,bar,S_pressure_F-11,volve:prod:15/9-F-11:2016-09-01
+42,R_water_cut_F-12_2008-02-01,15/9-F-12,F-12,2008-02-01,water_cut,0.0083,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-02-01
+42,R_log_wor_F-12_2008-02-01,15/9-F-12,F-12,2008-02-01,log_wor,-2.0755,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-02-01
+42,R_np_cum_F-12_2008-02-01,15/9-F-12,F-12,2008-02-01,np_cum,49091.06,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-02-01
+42,R_pressure_F-12_2008-02-01,15/9-F-12,F-12,2008-02-01,pressure,293.8611,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-02-01
+42,R_water_cut_F-12_2008-03-01,15/9-F-12,F-12,2008-03-01,water_cut,0.0003,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-03-01
+42,R_log_wor_F-12_2008-03-01,15/9-F-12,F-12,2008-03-01,log_wor,-3.4829,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-03-01
+42,R_np_cum_F-12_2008-03-01,15/9-F-12,F-12,2008-03-01,np_cum,132452.32,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-03-01
+42,R_pressure_F-12_2008-03-01,15/9-F-12,F-12,2008-03-01,pressure,278.6227,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-03-01
+42,R_water_cut_F-12_2008-04-01,15/9-F-12,F-12,2008-04-01,water_cut,0.0064,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-04-01
+42,R_log_wor_F-12_2008-04-01,15/9-F-12,F-12,2008-04-01,log_wor,-2.1893,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-04-01
+42,R_np_cum_F-12_2008-04-01,15/9-F-12,F-12,2008-04-01,np_cum,206984.77,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-04-01
+42,R_pressure_F-12_2008-04-01,15/9-F-12,F-12,2008-04-01,pressure,264.3004,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-04-01
+42,R_water_cut_F-12_2008-05-01,15/9-F-12,F-12,2008-05-01,water_cut,0.1148,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-05-01
+42,R_log_wor_F-12_2008-05-01,15/9-F-12,F-12,2008-05-01,log_wor,-0.8869,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-05-01
+42,R_np_cum_F-12_2008-05-01,15/9-F-12,F-12,2008-05-01,np_cum,332463.33,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-05-01
+42,R_pressure_F-12_2008-05-01,15/9-F-12,F-12,2008-05-01,pressure,263.4497,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-05-01
+42,R_water_cut_F-12_2008-06-01,15/9-F-12,F-12,2008-06-01,water_cut,0.0033,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-06-01
+42,R_log_wor_F-12_2008-06-01,15/9-F-12,F-12,2008-06-01,log_wor,-2.4816,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-06-01
+42,R_np_cum_F-12_2008-06-01,15/9-F-12,F-12,2008-06-01,np_cum,476250.18,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-06-01
+42,R_pressure_F-12_2008-06-01,15/9-F-12,F-12,2008-06-01,pressure,258.7937,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-06-01
+42,R_water_cut_F-12_2008-07-01,15/9-F-12,F-12,2008-07-01,water_cut,0.0025,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-07-01
+42,R_log_wor_F-12_2008-07-01,15/9-F-12,F-12,2008-07-01,log_wor,-2.5982,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-07-01
+42,R_np_cum_F-12_2008-07-01,15/9-F-12,F-12,2008-07-01,np_cum,591244.79,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-07-01
+42,R_pressure_F-12_2008-07-01,15/9-F-12,F-12,2008-07-01,pressure,264.4628,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-07-01
+42,R_water_cut_F-12_2008-08-01,15/9-F-12,F-12,2008-08-01,water_cut,0.0036,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-08-01
+42,R_log_wor_F-12_2008-08-01,15/9-F-12,F-12,2008-08-01,log_wor,-2.4412,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-08-01
+42,R_np_cum_F-12_2008-08-01,15/9-F-12,F-12,2008-08-01,np_cum,689067.25,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-08-01
+42,R_pressure_F-12_2008-08-01,15/9-F-12,F-12,2008-08-01,pressure,261.1179,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-08-01
+42,R_water_cut_F-12_2008-09-01,15/9-F-12,F-12,2008-09-01,water_cut,0.0024,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-09-01
+42,R_log_wor_F-12_2008-09-01,15/9-F-12,F-12,2008-09-01,log_wor,-2.6152,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-09-01
+42,R_np_cum_F-12_2008-09-01,15/9-F-12,F-12,2008-09-01,np_cum,766734.2,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-09-01
+42,R_pressure_F-12_2008-09-01,15/9-F-12,F-12,2008-09-01,pressure,255.3374,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-09-01
+42,R_water_cut_F-12_2008-10-01,15/9-F-12,F-12,2008-10-01,water_cut,0.0066,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-10-01
+42,R_log_wor_F-12_2008-10-01,15/9-F-12,F-12,2008-10-01,log_wor,-2.1796,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-10-01
+42,R_np_cum_F-12_2008-10-01,15/9-F-12,F-12,2008-10-01,np_cum,861091.43,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-10-01
+42,R_pressure_F-12_2008-10-01,15/9-F-12,F-12,2008-10-01,pressure,237.2781,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-10-01
+42,R_water_cut_F-12_2008-11-01,15/9-F-12,F-12,2008-11-01,water_cut,0.0161,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-11-01
+42,R_log_wor_F-12_2008-11-01,15/9-F-12,F-12,2008-11-01,log_wor,-1.7856,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-11-01
+42,R_np_cum_F-12_2008-11-01,15/9-F-12,F-12,2008-11-01,np_cum,1007006.99,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-11-01
+42,R_pressure_F-12_2008-11-01,15/9-F-12,F-12,2008-11-01,pressure,225.0696,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-11-01
+42,R_water_cut_F-12_2008-12-01,15/9-F-12,F-12,2008-12-01,water_cut,0.006,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2008-12-01
+42,R_log_wor_F-12_2008-12-01,15/9-F-12,F-12,2008-12-01,log_wor,-2.2198,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2008-12-01
+42,R_np_cum_F-12_2008-12-01,15/9-F-12,F-12,2008-12-01,np_cum,1173446.66,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2008-12-01
+42,R_pressure_F-12_2008-12-01,15/9-F-12,F-12,2008-12-01,pressure,237.6068,bar,S_pressure_F-12,volve:prod:15/9-F-12:2008-12-01
+42,R_water_cut_F-12_2009-01-01,15/9-F-12,F-12,2009-01-01,water_cut,0.0025,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-01-01
+42,R_log_wor_F-12_2009-01-01,15/9-F-12,F-12,2009-01-01,log_wor,-2.5958,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2009-01-01
+42,R_np_cum_F-12_2009-01-01,15/9-F-12,F-12,2009-01-01,np_cum,1327123.82,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-01-01
+42,R_pressure_F-12_2009-01-01,15/9-F-12,F-12,2009-01-01,pressure,261.5193,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-01-01
+42,R_water_cut_F-12_2009-02-01,15/9-F-12,F-12,2009-02-01,water_cut,0.0,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-02-01
+42,R_np_cum_F-12_2009-02-01,15/9-F-12,F-12,2009-02-01,np_cum,1449028.83,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-02-01
+42,R_pressure_F-12_2009-02-01,15/9-F-12,F-12,2009-02-01,pressure,274.4868,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-02-01
+42,R_water_cut_F-12_2009-03-01,15/9-F-12,F-12,2009-03-01,water_cut,0.0,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-03-01
+42,R_np_cum_F-12_2009-03-01,15/9-F-12,F-12,2009-03-01,np_cum,1541987.54,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-03-01
+42,R_pressure_F-12_2009-03-01,15/9-F-12,F-12,2009-03-01,pressure,273.6718,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-03-01
+42,R_water_cut_F-12_2009-04-01,15/9-F-12,F-12,2009-04-01,water_cut,0.0082,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-04-01
+42,R_log_wor_F-12_2009-04-01,15/9-F-12,F-12,2009-04-01,log_wor,-2.0832,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2009-04-01
+42,R_np_cum_F-12_2009-04-01,15/9-F-12,F-12,2009-04-01,np_cum,1692943.22,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-04-01
+42,R_pressure_F-12_2009-04-01,15/9-F-12,F-12,2009-04-01,pressure,235.3065,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-04-01
+42,R_water_cut_F-12_2009-05-01,15/9-F-12,F-12,2009-05-01,water_cut,0.0216,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-05-01
+42,R_log_wor_F-12_2009-05-01,15/9-F-12,F-12,2009-05-01,log_wor,-1.6571,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2009-05-01
+42,R_np_cum_F-12_2009-05-01,15/9-F-12,F-12,2009-05-01,np_cum,1833982.23,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-05-01
+42,R_pressure_F-12_2009-05-01,15/9-F-12,F-12,2009-05-01,pressure,232.0423,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-05-01
+42,R_water_cut_F-12_2009-06-01,15/9-F-12,F-12,2009-06-01,water_cut,0.0197,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-06-01
+42,R_log_wor_F-12_2009-06-01,15/9-F-12,F-12,2009-06-01,log_wor,-1.6973,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2009-06-01
+42,R_np_cum_F-12_2009-06-01,15/9-F-12,F-12,2009-06-01,np_cum,1966411.94,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-06-01
+42,R_pressure_F-12_2009-06-01,15/9-F-12,F-12,2009-06-01,pressure,230.5545,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-06-01
+42,R_water_cut_F-12_2009-07-01,15/9-F-12,F-12,2009-07-01,water_cut,0.0301,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-07-01
+42,R_log_wor_F-12_2009-07-01,15/9-F-12,F-12,2009-07-01,log_wor,-1.5086,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2009-07-01
+42,R_np_cum_F-12_2009-07-01,15/9-F-12,F-12,2009-07-01,np_cum,2072517.19,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-07-01
+42,R_pressure_F-12_2009-07-01,15/9-F-12,F-12,2009-07-01,pressure,236.1362,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-07-01
+42,R_water_cut_F-12_2009-08-01,15/9-F-12,F-12,2009-08-01,water_cut,0.0428,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-08-01
+42,R_log_wor_F-12_2009-08-01,15/9-F-12,F-12,2009-08-01,log_wor,-1.3498,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2009-08-01
+42,R_np_cum_F-12_2009-08-01,15/9-F-12,F-12,2009-08-01,np_cum,2184931.46,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-08-01
+42,R_pressure_F-12_2009-08-01,15/9-F-12,F-12,2009-08-01,pressure,245.4615,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-08-01
+42,R_water_cut_F-12_2009-09-01,15/9-F-12,F-12,2009-09-01,water_cut,0.0242,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-09-01
+42,R_log_wor_F-12_2009-09-01,15/9-F-12,F-12,2009-09-01,log_wor,-1.6054,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2009-09-01
+42,R_np_cum_F-12_2009-09-01,15/9-F-12,F-12,2009-09-01,np_cum,2275030.35,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-09-01
+42,R_pressure_F-12_2009-09-01,15/9-F-12,F-12,2009-09-01,pressure,256.2404,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-09-01
+42,R_water_cut_F-12_2009-10-01,15/9-F-12,F-12,2009-10-01,water_cut,0.0509,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-10-01
+42,R_log_wor_F-12_2009-10-01,15/9-F-12,F-12,2009-10-01,log_wor,-1.2703,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2009-10-01
+42,R_np_cum_F-12_2009-10-01,15/9-F-12,F-12,2009-10-01,np_cum,2401970.0,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-10-01
+42,R_pressure_F-12_2009-10-01,15/9-F-12,F-12,2009-10-01,pressure,257.9114,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-10-01
+42,R_water_cut_F-12_2009-11-01,15/9-F-12,F-12,2009-11-01,water_cut,0.0766,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-11-01
+42,R_log_wor_F-12_2009-11-01,15/9-F-12,F-12,2009-11-01,log_wor,-1.081,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2009-11-01
+42,R_np_cum_F-12_2009-11-01,15/9-F-12,F-12,2009-11-01,np_cum,2537985.68,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-11-01
+42,R_pressure_F-12_2009-11-01,15/9-F-12,F-12,2009-11-01,pressure,255.7724,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-11-01
+42,R_water_cut_F-12_2009-12-01,15/9-F-12,F-12,2009-12-01,water_cut,0.0988,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2009-12-01
+42,R_log_wor_F-12_2009-12-01,15/9-F-12,F-12,2009-12-01,log_wor,-0.9601,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2009-12-01
+42,R_np_cum_F-12_2009-12-01,15/9-F-12,F-12,2009-12-01,np_cum,2695987.2,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2009-12-01
+42,R_pressure_F-12_2009-12-01,15/9-F-12,F-12,2009-12-01,pressure,251.3044,bar,S_pressure_F-12,volve:prod:15/9-F-12:2009-12-01
+42,R_water_cut_F-12_2010-01-01,15/9-F-12,F-12,2010-01-01,water_cut,0.168,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-01-01
+42,R_log_wor_F-12_2010-01-01,15/9-F-12,F-12,2010-01-01,log_wor,-0.6947,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-01-01
+42,R_np_cum_F-12_2010-01-01,15/9-F-12,F-12,2010-01-01,np_cum,2845646.03,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-01-01
+42,R_pressure_F-12_2010-01-01,15/9-F-12,F-12,2010-01-01,pressure,248.0748,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-01-01
+42,R_water_cut_F-12_2010-02-01,15/9-F-12,F-12,2010-02-01,water_cut,0.2955,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-02-01
+42,R_log_wor_F-12_2010-02-01,15/9-F-12,F-12,2010-02-01,log_wor,-0.3773,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-02-01
+42,R_np_cum_F-12_2010-02-01,15/9-F-12,F-12,2010-02-01,np_cum,2948672.03,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-02-01
+42,R_pressure_F-12_2010-02-01,15/9-F-12,F-12,2010-02-01,pressure,255.0573,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-02-01
+42,R_water_cut_F-12_2010-03-01,15/9-F-12,F-12,2010-03-01,water_cut,0.3471,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-03-01
+42,R_log_wor_F-12_2010-03-01,15/9-F-12,F-12,2010-03-01,log_wor,-0.2744,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-03-01
+42,R_np_cum_F-12_2010-03-01,15/9-F-12,F-12,2010-03-01,np_cum,3050243.64,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-03-01
+42,R_pressure_F-12_2010-03-01,15/9-F-12,F-12,2010-03-01,pressure,251.9434,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-03-01
+42,R_water_cut_F-12_2010-04-01,15/9-F-12,F-12,2010-04-01,water_cut,0.4408,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-04-01
+42,R_log_wor_F-12_2010-04-01,15/9-F-12,F-12,2010-04-01,log_wor,-0.1033,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-04-01
+42,R_np_cum_F-12_2010-04-01,15/9-F-12,F-12,2010-04-01,np_cum,3136497.25,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-04-01
+42,R_pressure_F-12_2010-04-01,15/9-F-12,F-12,2010-04-01,pressure,254.7176,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-04-01
+42,R_water_cut_F-12_2010-05-01,15/9-F-12,F-12,2010-05-01,water_cut,0.4912,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-05-01
+42,R_log_wor_F-12_2010-05-01,15/9-F-12,F-12,2010-05-01,log_wor,-0.0153,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-05-01
+42,R_np_cum_F-12_2010-05-01,15/9-F-12,F-12,2010-05-01,np_cum,3213610.81,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-05-01
+42,R_pressure_F-12_2010-05-01,15/9-F-12,F-12,2010-05-01,pressure,267.3074,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-05-01
+42,R_water_cut_F-12_2010-06-01,15/9-F-12,F-12,2010-06-01,water_cut,0.5446,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-06-01
+42,R_log_wor_F-12_2010-06-01,15/9-F-12,F-12,2010-06-01,log_wor,0.0778,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-06-01
+42,R_np_cum_F-12_2010-06-01,15/9-F-12,F-12,2010-06-01,np_cum,3283228.18,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-06-01
+42,R_pressure_F-12_2010-06-01,15/9-F-12,F-12,2010-06-01,pressure,280.7361,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-06-01
+42,R_water_cut_F-12_2010-07-01,15/9-F-12,F-12,2010-07-01,water_cut,0.5975,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-07-01
+42,R_log_wor_F-12_2010-07-01,15/9-F-12,F-12,2010-07-01,log_wor,0.1715,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-07-01
+42,R_np_cum_F-12_2010-07-01,15/9-F-12,F-12,2010-07-01,np_cum,3347267.87,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-07-01
+42,R_pressure_F-12_2010-07-01,15/9-F-12,F-12,2010-07-01,pressure,279.5193,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-07-01
+42,R_water_cut_F-12_2010-08-01,15/9-F-12,F-12,2010-08-01,water_cut,0.6453,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-08-01
+42,R_log_wor_F-12_2010-08-01,15/9-F-12,F-12,2010-08-01,log_wor,0.2599,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-08-01
+42,R_np_cum_F-12_2010-08-01,15/9-F-12,F-12,2010-08-01,np_cum,3377385.23,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-08-01
+42,R_pressure_F-12_2010-08-01,15/9-F-12,F-12,2010-08-01,pressure,296.3297,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-08-01
+42,R_water_cut_F-12_2010-09-01,15/9-F-12,F-12,2010-09-01,water_cut,0.6354,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-09-01
+42,R_log_wor_F-12_2010-09-01,15/9-F-12,F-12,2010-09-01,log_wor,0.2413,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-09-01
+42,R_np_cum_F-12_2010-09-01,15/9-F-12,F-12,2010-09-01,np_cum,3428698.16,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-09-01
+42,R_pressure_F-12_2010-09-01,15/9-F-12,F-12,2010-09-01,pressure,280.3615,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-09-01
+42,R_water_cut_F-12_2010-10-01,15/9-F-12,F-12,2010-10-01,water_cut,0.6593,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-10-01
+42,R_log_wor_F-12_2010-10-01,15/9-F-12,F-12,2010-10-01,log_wor,0.2868,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-10-01
+42,R_np_cum_F-12_2010-10-01,15/9-F-12,F-12,2010-10-01,np_cum,3480128.74,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-10-01
+42,R_pressure_F-12_2010-10-01,15/9-F-12,F-12,2010-10-01,pressure,97.0073,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-10-01
+42,R_water_cut_F-12_2010-11-01,15/9-F-12,F-12,2010-11-01,water_cut,0.6969,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-11-01
+42,R_log_wor_F-12_2010-11-01,15/9-F-12,F-12,2010-11-01,log_wor,0.3616,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-11-01
+42,R_np_cum_F-12_2010-11-01,15/9-F-12,F-12,2010-11-01,np_cum,3524597.19,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-11-01
+42,R_pressure_F-12_2010-11-01,15/9-F-12,F-12,2010-11-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-11-01
+42,R_water_cut_F-12_2010-12-01,15/9-F-12,F-12,2010-12-01,water_cut,0.7112,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2010-12-01
+42,R_log_wor_F-12_2010-12-01,15/9-F-12,F-12,2010-12-01,log_wor,0.3913,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2010-12-01
+42,R_np_cum_F-12_2010-12-01,15/9-F-12,F-12,2010-12-01,np_cum,3569815.15,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2010-12-01
+42,R_pressure_F-12_2010-12-01,15/9-F-12,F-12,2010-12-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2010-12-01
+42,R_water_cut_F-12_2011-01-01,15/9-F-12,F-12,2011-01-01,water_cut,0.7232,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-01-01
+42,R_log_wor_F-12_2011-01-01,15/9-F-12,F-12,2011-01-01,log_wor,0.417,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-01-01
+42,R_np_cum_F-12_2011-01-01,15/9-F-12,F-12,2011-01-01,np_cum,3614561.7,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-01-01
+42,R_pressure_F-12_2011-01-01,15/9-F-12,F-12,2011-01-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-01-01
+42,R_water_cut_F-12_2011-02-01,15/9-F-12,F-12,2011-02-01,water_cut,0.7452,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-02-01
+42,R_log_wor_F-12_2011-02-01,15/9-F-12,F-12,2011-02-01,log_wor,0.4661,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-02-01
+42,R_np_cum_F-12_2011-02-01,15/9-F-12,F-12,2011-02-01,np_cum,3643719.19,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-02-01
+42,R_pressure_F-12_2011-02-01,15/9-F-12,F-12,2011-02-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-02-01
+42,R_water_cut_F-12_2011-03-01,15/9-F-12,F-12,2011-03-01,water_cut,0.7517,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-03-01
+42,R_log_wor_F-12_2011-03-01,15/9-F-12,F-12,2011-03-01,log_wor,0.4812,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-03-01
+42,R_np_cum_F-12_2011-03-01,15/9-F-12,F-12,2011-03-01,np_cum,3681114.24,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-03-01
+42,R_pressure_F-12_2011-03-01,15/9-F-12,F-12,2011-03-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-03-01
+42,R_water_cut_F-12_2011-04-01,15/9-F-12,F-12,2011-04-01,water_cut,0.7544,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-04-01
+42,R_log_wor_F-12_2011-04-01,15/9-F-12,F-12,2011-04-01,log_wor,0.4875,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-04-01
+42,R_np_cum_F-12_2011-04-01,15/9-F-12,F-12,2011-04-01,np_cum,3718933.96,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-04-01
+42,R_pressure_F-12_2011-04-01,15/9-F-12,F-12,2011-04-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-04-01
+42,R_water_cut_F-12_2011-05-01,15/9-F-12,F-12,2011-05-01,water_cut,0.7627,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-05-01
+42,R_log_wor_F-12_2011-05-01,15/9-F-12,F-12,2011-05-01,log_wor,0.507,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-05-01
+42,R_np_cum_F-12_2011-05-01,15/9-F-12,F-12,2011-05-01,np_cum,3756138.67,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-05-01
+42,R_pressure_F-12_2011-05-01,15/9-F-12,F-12,2011-05-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-05-01
+42,R_water_cut_F-12_2011-06-01,15/9-F-12,F-12,2011-06-01,water_cut,0.772,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-06-01
+42,R_log_wor_F-12_2011-06-01,15/9-F-12,F-12,2011-06-01,log_wor,0.5296,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-06-01
+42,R_np_cum_F-12_2011-06-01,15/9-F-12,F-12,2011-06-01,np_cum,3778164.73,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-06-01
+42,R_pressure_F-12_2011-06-01,15/9-F-12,F-12,2011-06-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-06-01
+42,R_water_cut_F-12_2011-07-01,15/9-F-12,F-12,2011-07-01,water_cut,0.719,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-07-01
+42,R_log_wor_F-12_2011-07-01,15/9-F-12,F-12,2011-07-01,log_wor,0.408,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-07-01
+42,R_np_cum_F-12_2011-07-01,15/9-F-12,F-12,2011-07-01,np_cum,3790627.15,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-07-01
+42,R_pressure_F-12_2011-07-01,15/9-F-12,F-12,2011-07-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-07-01
+42,R_water_cut_F-12_2011-08-01,15/9-F-12,F-12,2011-08-01,water_cut,0.7313,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-08-01
+42,R_log_wor_F-12_2011-08-01,15/9-F-12,F-12,2011-08-01,log_wor,0.4348,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-08-01
+42,R_np_cum_F-12_2011-08-01,15/9-F-12,F-12,2011-08-01,np_cum,3827007.3,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-08-01
+42,R_pressure_F-12_2011-08-01,15/9-F-12,F-12,2011-08-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-08-01
+42,R_water_cut_F-12_2011-09-01,15/9-F-12,F-12,2011-09-01,water_cut,0.7864,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-09-01
+42,R_log_wor_F-12_2011-09-01,15/9-F-12,F-12,2011-09-01,log_wor,0.5661,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-09-01
+42,R_np_cum_F-12_2011-09-01,15/9-F-12,F-12,2011-09-01,np_cum,3857006.47,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-09-01
+42,R_pressure_F-12_2011-09-01,15/9-F-12,F-12,2011-09-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-09-01
+42,R_water_cut_F-12_2011-10-01,15/9-F-12,F-12,2011-10-01,water_cut,0.807,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-10-01
+42,R_log_wor_F-12_2011-10-01,15/9-F-12,F-12,2011-10-01,log_wor,0.6213,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-10-01
+42,R_np_cum_F-12_2011-10-01,15/9-F-12,F-12,2011-10-01,np_cum,3869653.97,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-10-01
+42,R_pressure_F-12_2011-10-01,15/9-F-12,F-12,2011-10-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-10-01
+42,R_water_cut_F-12_2011-11-01,15/9-F-12,F-12,2011-11-01,water_cut,0.7767,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-11-01
+42,R_log_wor_F-12_2011-11-01,15/9-F-12,F-12,2011-11-01,log_wor,0.5413,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-11-01
+42,R_np_cum_F-12_2011-11-01,15/9-F-12,F-12,2011-11-01,np_cum,3891443.02,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-11-01
+42,R_pressure_F-12_2011-11-01,15/9-F-12,F-12,2011-11-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-11-01
+42,R_water_cut_F-12_2011-12-01,15/9-F-12,F-12,2011-12-01,water_cut,0.7814,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2011-12-01
+42,R_log_wor_F-12_2011-12-01,15/9-F-12,F-12,2011-12-01,log_wor,0.5533,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2011-12-01
+42,R_np_cum_F-12_2011-12-01,15/9-F-12,F-12,2011-12-01,np_cum,3909533.22,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2011-12-01
+42,R_pressure_F-12_2011-12-01,15/9-F-12,F-12,2011-12-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2011-12-01
+42,R_water_cut_F-12_2012-01-01,15/9-F-12,F-12,2012-01-01,water_cut,0.778,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-01-01
+42,R_log_wor_F-12_2012-01-01,15/9-F-12,F-12,2012-01-01,log_wor,0.5447,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-01-01
+42,R_np_cum_F-12_2012-01-01,15/9-F-12,F-12,2012-01-01,np_cum,3927751.07,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-01-01
+42,R_pressure_F-12_2012-01-01,15/9-F-12,F-12,2012-01-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-01-01
+42,R_water_cut_F-12_2012-02-01,15/9-F-12,F-12,2012-02-01,water_cut,0.8304,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-02-01
+42,R_log_wor_F-12_2012-02-01,15/9-F-12,F-12,2012-02-01,log_wor,0.6898,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-02-01
+42,R_np_cum_F-12_2012-02-01,15/9-F-12,F-12,2012-02-01,np_cum,3955113.33,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-02-01
+42,R_pressure_F-12_2012-02-01,15/9-F-12,F-12,2012-02-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-02-01
+42,R_water_cut_F-12_2012-03-01,15/9-F-12,F-12,2012-03-01,water_cut,0.842,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-03-01
+42,R_log_wor_F-12_2012-03-01,15/9-F-12,F-12,2012-03-01,log_wor,0.7267,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-03-01
+42,R_np_cum_F-12_2012-03-01,15/9-F-12,F-12,2012-03-01,np_cum,3981793.21,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-03-01
+42,R_pressure_F-12_2012-03-01,15/9-F-12,F-12,2012-03-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-03-01
+42,R_water_cut_F-12_2012-04-01,15/9-F-12,F-12,2012-04-01,water_cut,0.8515,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-04-01
+42,R_log_wor_F-12_2012-04-01,15/9-F-12,F-12,2012-04-01,log_wor,0.7584,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-04-01
+42,R_np_cum_F-12_2012-04-01,15/9-F-12,F-12,2012-04-01,np_cum,4005881.56,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-04-01
+42,R_pressure_F-12_2012-04-01,15/9-F-12,F-12,2012-04-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-04-01
+42,R_water_cut_F-12_2012-05-01,15/9-F-12,F-12,2012-05-01,water_cut,0.8622,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-05-01
+42,R_log_wor_F-12_2012-05-01,15/9-F-12,F-12,2012-05-01,log_wor,0.7962,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-05-01
+42,R_np_cum_F-12_2012-05-01,15/9-F-12,F-12,2012-05-01,np_cum,4028296.71,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-05-01
+42,R_pressure_F-12_2012-05-01,15/9-F-12,F-12,2012-05-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-05-01
+42,R_water_cut_F-12_2012-06-01,15/9-F-12,F-12,2012-06-01,water_cut,0.8652,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-06-01
+42,R_log_wor_F-12_2012-06-01,15/9-F-12,F-12,2012-06-01,log_wor,0.8075,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-06-01
+42,R_np_cum_F-12_2012-06-01,15/9-F-12,F-12,2012-06-01,np_cum,4049184.09,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-06-01
+42,R_pressure_F-12_2012-06-01,15/9-F-12,F-12,2012-06-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-06-01
+42,R_water_cut_F-12_2012-07-01,15/9-F-12,F-12,2012-07-01,water_cut,0.8686,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-07-01
+42,R_log_wor_F-12_2012-07-01,15/9-F-12,F-12,2012-07-01,log_wor,0.8202,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-07-01
+42,R_np_cum_F-12_2012-07-01,15/9-F-12,F-12,2012-07-01,np_cum,4070391.03,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-07-01
+42,R_pressure_F-12_2012-07-01,15/9-F-12,F-12,2012-07-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-07-01
+42,R_water_cut_F-12_2012-08-01,15/9-F-12,F-12,2012-08-01,water_cut,0.8589,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-08-01
+42,R_log_wor_F-12_2012-08-01,15/9-F-12,F-12,2012-08-01,log_wor,0.7845,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-08-01
+42,R_np_cum_F-12_2012-08-01,15/9-F-12,F-12,2012-08-01,np_cum,4079389.27,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-08-01
+42,R_pressure_F-12_2012-08-01,15/9-F-12,F-12,2012-08-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-08-01
+42,R_water_cut_F-12_2012-09-01,15/9-F-12,F-12,2012-09-01,water_cut,0.8165,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-09-01
+42,R_log_wor_F-12_2012-09-01,15/9-F-12,F-12,2012-09-01,log_wor,0.6485,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-09-01
+42,R_np_cum_F-12_2012-09-01,15/9-F-12,F-12,2012-09-01,np_cum,4080403.2,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-09-01
+42,R_pressure_F-12_2012-09-01,15/9-F-12,F-12,2012-09-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-09-01
+42,R_water_cut_F-12_2012-10-01,15/9-F-12,F-12,2012-10-01,water_cut,0.8608,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-10-01
+42,R_log_wor_F-12_2012-10-01,15/9-F-12,F-12,2012-10-01,log_wor,0.7914,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-10-01
+42,R_np_cum_F-12_2012-10-01,15/9-F-12,F-12,2012-10-01,np_cum,4100016.05,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-10-01
+42,R_pressure_F-12_2012-10-01,15/9-F-12,F-12,2012-10-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-10-01
+42,R_water_cut_F-12_2012-11-01,15/9-F-12,F-12,2012-11-01,water_cut,0.8764,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-11-01
+42,R_log_wor_F-12_2012-11-01,15/9-F-12,F-12,2012-11-01,log_wor,0.8509,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-11-01
+42,R_np_cum_F-12_2012-11-01,15/9-F-12,F-12,2012-11-01,np_cum,4119034.93,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-11-01
+42,R_pressure_F-12_2012-11-01,15/9-F-12,F-12,2012-11-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-11-01
+42,R_water_cut_F-12_2012-12-01,15/9-F-12,F-12,2012-12-01,water_cut,0.8897,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2012-12-01
+42,R_log_wor_F-12_2012-12-01,15/9-F-12,F-12,2012-12-01,log_wor,0.9067,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2012-12-01
+42,R_np_cum_F-12_2012-12-01,15/9-F-12,F-12,2012-12-01,np_cum,4135355.58,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2012-12-01
+42,R_pressure_F-12_2012-12-01,15/9-F-12,F-12,2012-12-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2012-12-01
+42,R_water_cut_F-12_2013-01-01,15/9-F-12,F-12,2013-01-01,water_cut,0.8893,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-01-01
+42,R_log_wor_F-12_2013-01-01,15/9-F-12,F-12,2013-01-01,log_wor,0.9047,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-01-01
+42,R_np_cum_F-12_2013-01-01,15/9-F-12,F-12,2013-01-01,np_cum,4152764.15,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-01-01
+42,R_pressure_F-12_2013-01-01,15/9-F-12,F-12,2013-01-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-01-01
+42,R_water_cut_F-12_2013-02-01,15/9-F-12,F-12,2013-02-01,water_cut,0.8933,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-02-01
+42,R_log_wor_F-12_2013-02-01,15/9-F-12,F-12,2013-02-01,log_wor,0.9229,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-02-01
+42,R_np_cum_F-12_2013-02-01,15/9-F-12,F-12,2013-02-01,np_cum,4167851.53,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-02-01
+42,R_pressure_F-12_2013-02-01,15/9-F-12,F-12,2013-02-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-02-01
+42,R_water_cut_F-12_2013-03-01,15/9-F-12,F-12,2013-03-01,water_cut,0.9006,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-03-01
+42,R_log_wor_F-12_2013-03-01,15/9-F-12,F-12,2013-03-01,log_wor,0.9571,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-03-01
+42,R_np_cum_F-12_2013-03-01,15/9-F-12,F-12,2013-03-01,np_cum,4174157.34,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-03-01
+42,R_pressure_F-12_2013-03-01,15/9-F-12,F-12,2013-03-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-03-01
+42,R_water_cut_F-12_2013-04-01,15/9-F-12,F-12,2013-04-01,water_cut,0.8929,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-04-01
+42,R_log_wor_F-12_2013-04-01,15/9-F-12,F-12,2013-04-01,log_wor,0.9209,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-04-01
+42,R_np_cum_F-12_2013-04-01,15/9-F-12,F-12,2013-04-01,np_cum,4186508.68,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-04-01
+42,R_pressure_F-12_2013-04-01,15/9-F-12,F-12,2013-04-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-04-01
+42,R_water_cut_F-12_2013-05-01,15/9-F-12,F-12,2013-05-01,water_cut,0.9002,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-05-01
+42,R_log_wor_F-12_2013-05-01,15/9-F-12,F-12,2013-05-01,log_wor,0.9553,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-05-01
+42,R_np_cum_F-12_2013-05-01,15/9-F-12,F-12,2013-05-01,np_cum,4202822.08,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-05-01
+42,R_pressure_F-12_2013-05-01,15/9-F-12,F-12,2013-05-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-05-01
+42,R_water_cut_F-12_2013-06-01,15/9-F-12,F-12,2013-06-01,water_cut,0.9044,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-06-01
+42,R_log_wor_F-12_2013-06-01,15/9-F-12,F-12,2013-06-01,log_wor,0.9758,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-06-01
+42,R_np_cum_F-12_2013-06-01,15/9-F-12,F-12,2013-06-01,np_cum,4214721.65,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-06-01
+42,R_pressure_F-12_2013-06-01,15/9-F-12,F-12,2013-06-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-06-01
+42,R_water_cut_F-12_2013-07-01,15/9-F-12,F-12,2013-07-01,water_cut,0.9044,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-07-01
+42,R_log_wor_F-12_2013-07-01,15/9-F-12,F-12,2013-07-01,log_wor,0.9757,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-07-01
+42,R_np_cum_F-12_2013-07-01,15/9-F-12,F-12,2013-07-01,np_cum,4226583.28,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-07-01
+42,R_pressure_F-12_2013-07-01,15/9-F-12,F-12,2013-07-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-07-01
+42,R_water_cut_F-12_2013-08-01,15/9-F-12,F-12,2013-08-01,water_cut,0.9099,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-08-01
+42,R_log_wor_F-12_2013-08-01,15/9-F-12,F-12,2013-08-01,log_wor,1.0043,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-08-01
+42,R_np_cum_F-12_2013-08-01,15/9-F-12,F-12,2013-08-01,np_cum,4241730.46,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-08-01
+42,R_pressure_F-12_2013-08-01,15/9-F-12,F-12,2013-08-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-08-01
+42,R_water_cut_F-12_2013-09-01,15/9-F-12,F-12,2013-09-01,water_cut,0.919,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-09-01
+42,R_log_wor_F-12_2013-09-01,15/9-F-12,F-12,2013-09-01,log_wor,1.055,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-09-01
+42,R_np_cum_F-12_2013-09-01,15/9-F-12,F-12,2013-09-01,np_cum,4250953.99,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-09-01
+42,R_pressure_F-12_2013-09-01,15/9-F-12,F-12,2013-09-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-09-01
+42,R_water_cut_F-12_2013-10-01,15/9-F-12,F-12,2013-10-01,water_cut,0.9431,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-10-01
+42,R_log_wor_F-12_2013-10-01,15/9-F-12,F-12,2013-10-01,log_wor,1.2191,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-10-01
+42,R_np_cum_F-12_2013-10-01,15/9-F-12,F-12,2013-10-01,np_cum,4259259.0,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-10-01
+42,R_pressure_F-12_2013-10-01,15/9-F-12,F-12,2013-10-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-10-01
+42,R_water_cut_F-12_2013-11-01,15/9-F-12,F-12,2013-11-01,water_cut,0.9449,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-11-01
+42,R_log_wor_F-12_2013-11-01,15/9-F-12,F-12,2013-11-01,log_wor,1.2343,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-11-01
+42,R_np_cum_F-12_2013-11-01,15/9-F-12,F-12,2013-11-01,np_cum,4266429.56,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-11-01
+42,R_pressure_F-12_2013-11-01,15/9-F-12,F-12,2013-11-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-11-01
+42,R_water_cut_F-12_2013-12-01,15/9-F-12,F-12,2013-12-01,water_cut,0.9467,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2013-12-01
+42,R_log_wor_F-12_2013-12-01,15/9-F-12,F-12,2013-12-01,log_wor,1.2499,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2013-12-01
+42,R_np_cum_F-12_2013-12-01,15/9-F-12,F-12,2013-12-01,np_cum,4273509.08,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2013-12-01
+42,R_pressure_F-12_2013-12-01,15/9-F-12,F-12,2013-12-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2013-12-01
+42,R_water_cut_F-12_2014-01-01,15/9-F-12,F-12,2014-01-01,water_cut,0.9457,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-01-01
+42,R_log_wor_F-12_2014-01-01,15/9-F-12,F-12,2014-01-01,log_wor,1.2409,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-01-01
+42,R_np_cum_F-12_2014-01-01,15/9-F-12,F-12,2014-01-01,np_cum,4278506.32,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-01-01
+42,R_pressure_F-12_2014-01-01,15/9-F-12,F-12,2014-01-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-01-01
+42,R_water_cut_F-12_2014-02-01,15/9-F-12,F-12,2014-02-01,water_cut,0.9476,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-02-01
+42,R_log_wor_F-12_2014-02-01,15/9-F-12,F-12,2014-02-01,log_wor,1.2571,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-02-01
+42,R_np_cum_F-12_2014-02-01,15/9-F-12,F-12,2014-02-01,np_cum,4284607.72,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-02-01
+42,R_pressure_F-12_2014-02-01,15/9-F-12,F-12,2014-02-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-02-01
+42,R_water_cut_F-12_2014-03-01,15/9-F-12,F-12,2014-03-01,water_cut,0.9491,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-03-01
+42,R_log_wor_F-12_2014-03-01,15/9-F-12,F-12,2014-03-01,log_wor,1.2702,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-03-01
+42,R_np_cum_F-12_2014-03-01,15/9-F-12,F-12,2014-03-01,np_cum,4291443.38,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-03-01
+42,R_pressure_F-12_2014-03-01,15/9-F-12,F-12,2014-03-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-03-01
+42,R_water_cut_F-12_2014-04-01,15/9-F-12,F-12,2014-04-01,water_cut,0.9599,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-04-01
+42,R_log_wor_F-12_2014-04-01,15/9-F-12,F-12,2014-04-01,log_wor,1.3794,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-04-01
+42,R_np_cum_F-12_2014-04-01,15/9-F-12,F-12,2014-04-01,np_cum,4297335.39,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-04-01
+42,R_pressure_F-12_2014-04-01,15/9-F-12,F-12,2014-04-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-04-01
+42,R_water_cut_F-12_2014-05-01,15/9-F-12,F-12,2014-05-01,water_cut,0.9648,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-05-01
+42,R_log_wor_F-12_2014-05-01,15/9-F-12,F-12,2014-05-01,log_wor,1.4379,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-05-01
+42,R_np_cum_F-12_2014-05-01,15/9-F-12,F-12,2014-05-01,np_cum,4300573.09,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-05-01
+42,R_pressure_F-12_2014-05-01,15/9-F-12,F-12,2014-05-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-05-01
+42,R_water_cut_F-12_2014-06-01,15/9-F-12,F-12,2014-06-01,water_cut,0.9636,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-06-01
+42,R_log_wor_F-12_2014-06-01,15/9-F-12,F-12,2014-06-01,log_wor,1.4222,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-06-01
+42,R_np_cum_F-12_2014-06-01,15/9-F-12,F-12,2014-06-01,np_cum,4306324.29,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-06-01
+42,R_pressure_F-12_2014-06-01,15/9-F-12,F-12,2014-06-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-06-01
+42,R_water_cut_F-12_2014-07-01,15/9-F-12,F-12,2014-07-01,water_cut,0.9634,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-07-01
+42,R_log_wor_F-12_2014-07-01,15/9-F-12,F-12,2014-07-01,log_wor,1.4199,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-07-01
+42,R_np_cum_F-12_2014-07-01,15/9-F-12,F-12,2014-07-01,np_cum,4312116.13,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-07-01
+42,R_pressure_F-12_2014-07-01,15/9-F-12,F-12,2014-07-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-07-01
+42,R_water_cut_F-12_2014-08-01,15/9-F-12,F-12,2014-08-01,water_cut,0.9661,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-08-01
+42,R_log_wor_F-12_2014-08-01,15/9-F-12,F-12,2014-08-01,log_wor,1.4543,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-08-01
+42,R_np_cum_F-12_2014-08-01,15/9-F-12,F-12,2014-08-01,np_cum,4316564.62,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-08-01
+42,R_pressure_F-12_2014-08-01,15/9-F-12,F-12,2014-08-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-08-01
+42,R_water_cut_F-12_2014-09-01,15/9-F-12,F-12,2014-09-01,water_cut,0.9672,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-09-01
+42,R_log_wor_F-12_2014-09-01,15/9-F-12,F-12,2014-09-01,log_wor,1.4699,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-09-01
+42,R_np_cum_F-12_2014-09-01,15/9-F-12,F-12,2014-09-01,np_cum,4321627.21,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-09-01
+42,R_pressure_F-12_2014-09-01,15/9-F-12,F-12,2014-09-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-09-01
+42,R_water_cut_F-12_2014-10-01,15/9-F-12,F-12,2014-10-01,water_cut,0.9665,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-10-01
+42,R_log_wor_F-12_2014-10-01,15/9-F-12,F-12,2014-10-01,log_wor,1.4601,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-10-01
+42,R_np_cum_F-12_2014-10-01,15/9-F-12,F-12,2014-10-01,np_cum,4327012.82,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-10-01
+42,R_pressure_F-12_2014-10-01,15/9-F-12,F-12,2014-10-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-10-01
+42,R_water_cut_F-12_2014-11-01,15/9-F-12,F-12,2014-11-01,water_cut,0.9623,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2014-11-01
+42,R_log_wor_F-12_2014-11-01,15/9-F-12,F-12,2014-11-01,log_wor,1.4067,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2014-11-01
+42,R_np_cum_F-12_2014-11-01,15/9-F-12,F-12,2014-11-01,np_cum,4331507.88,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-11-01
+42,R_pressure_F-12_2014-11-01,15/9-F-12,F-12,2014-11-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-11-01
+42,R_np_cum_F-12_2014-12-01,15/9-F-12,F-12,2014-12-01,np_cum,4331507.88,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2014-12-01
+42,R_pressure_F-12_2014-12-01,15/9-F-12,F-12,2014-12-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2014-12-01
+42,R_water_cut_F-12_2015-01-01,15/9-F-12,F-12,2015-01-01,water_cut,0.3107,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-01-01
+42,R_log_wor_F-12_2015-01-01,15/9-F-12,F-12,2015-01-01,log_wor,-0.3461,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-01-01
+42,R_np_cum_F-12_2015-01-01,15/9-F-12,F-12,2015-01-01,np_cum,4357220.43,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-01-01
+42,R_pressure_F-12_2015-01-01,15/9-F-12,F-12,2015-01-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-01-01
+42,R_water_cut_F-12_2015-02-01,15/9-F-12,F-12,2015-02-01,water_cut,0.4357,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-02-01
+42,R_log_wor_F-12_2015-02-01,15/9-F-12,F-12,2015-02-01,log_wor,-0.1124,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-02-01
+42,R_np_cum_F-12_2015-02-01,15/9-F-12,F-12,2015-02-01,np_cum,4376798.98,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-02-01
+42,R_pressure_F-12_2015-02-01,15/9-F-12,F-12,2015-02-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-02-01
+42,R_water_cut_F-12_2015-03-01,15/9-F-12,F-12,2015-03-01,water_cut,0.4989,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-03-01
+42,R_log_wor_F-12_2015-03-01,15/9-F-12,F-12,2015-03-01,log_wor,-0.0019,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-03-01
+42,R_np_cum_F-12_2015-03-01,15/9-F-12,F-12,2015-03-01,np_cum,4396140.41,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-03-01
+42,R_pressure_F-12_2015-03-01,15/9-F-12,F-12,2015-03-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-03-01
+42,R_water_cut_F-12_2015-04-01,15/9-F-12,F-12,2015-04-01,water_cut,0.5125,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-04-01
+42,R_log_wor_F-12_2015-04-01,15/9-F-12,F-12,2015-04-01,log_wor,0.0216,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-04-01
+42,R_np_cum_F-12_2015-04-01,15/9-F-12,F-12,2015-04-01,np_cum,4415936.97,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-04-01
+42,R_pressure_F-12_2015-04-01,15/9-F-12,F-12,2015-04-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-04-01
+42,R_water_cut_F-12_2015-05-01,15/9-F-12,F-12,2015-05-01,water_cut,0.5972,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-05-01
+42,R_log_wor_F-12_2015-05-01,15/9-F-12,F-12,2015-05-01,log_wor,0.1711,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-05-01
+42,R_np_cum_F-12_2015-05-01,15/9-F-12,F-12,2015-05-01,np_cum,4432933.45,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-05-01
+42,R_pressure_F-12_2015-05-01,15/9-F-12,F-12,2015-05-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-05-01
+42,R_water_cut_F-12_2015-06-01,15/9-F-12,F-12,2015-06-01,water_cut,0.6274,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-06-01
+42,R_log_wor_F-12_2015-06-01,15/9-F-12,F-12,2015-06-01,log_wor,0.2264,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-06-01
+42,R_np_cum_F-12_2015-06-01,15/9-F-12,F-12,2015-06-01,np_cum,4452469.75,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-06-01
+42,R_pressure_F-12_2015-06-01,15/9-F-12,F-12,2015-06-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-06-01
+42,R_water_cut_F-12_2015-07-01,15/9-F-12,F-12,2015-07-01,water_cut,0.6557,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-07-01
+42,R_log_wor_F-12_2015-07-01,15/9-F-12,F-12,2015-07-01,log_wor,0.2797,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-07-01
+42,R_np_cum_F-12_2015-07-01,15/9-F-12,F-12,2015-07-01,np_cum,4471627.2,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-07-01
+42,R_pressure_F-12_2015-07-01,15/9-F-12,F-12,2015-07-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-07-01
+42,R_water_cut_F-12_2015-08-01,15/9-F-12,F-12,2015-08-01,water_cut,0.7013,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-08-01
+42,R_log_wor_F-12_2015-08-01,15/9-F-12,F-12,2015-08-01,log_wor,0.3706,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-08-01
+42,R_np_cum_F-12_2015-08-01,15/9-F-12,F-12,2015-08-01,np_cum,4485100.47,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-08-01
+42,R_pressure_F-12_2015-08-01,15/9-F-12,F-12,2015-08-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-08-01
+42,R_water_cut_F-12_2015-09-01,15/9-F-12,F-12,2015-09-01,water_cut,0.7373,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-09-01
+42,R_log_wor_F-12_2015-09-01,15/9-F-12,F-12,2015-09-01,log_wor,0.4482,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-09-01
+42,R_np_cum_F-12_2015-09-01,15/9-F-12,F-12,2015-09-01,np_cum,4497594.98,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-09-01
+42,R_pressure_F-12_2015-09-01,15/9-F-12,F-12,2015-09-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-09-01
+42,R_water_cut_F-12_2015-10-01,15/9-F-12,F-12,2015-10-01,water_cut,0.7624,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-10-01
+42,R_log_wor_F-12_2015-10-01,15/9-F-12,F-12,2015-10-01,log_wor,0.5064,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-10-01
+42,R_np_cum_F-12_2015-10-01,15/9-F-12,F-12,2015-10-01,np_cum,4509483.61,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-10-01
+42,R_pressure_F-12_2015-10-01,15/9-F-12,F-12,2015-10-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-10-01
+42,R_water_cut_F-12_2015-11-01,15/9-F-12,F-12,2015-11-01,water_cut,0.7681,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-11-01
+42,R_log_wor_F-12_2015-11-01,15/9-F-12,F-12,2015-11-01,log_wor,0.5202,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-11-01
+42,R_np_cum_F-12_2015-11-01,15/9-F-12,F-12,2015-11-01,np_cum,4520853.09,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-11-01
+42,R_pressure_F-12_2015-11-01,15/9-F-12,F-12,2015-11-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-11-01
+42,R_water_cut_F-12_2015-12-01,15/9-F-12,F-12,2015-12-01,water_cut,0.7745,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2015-12-01
+42,R_log_wor_F-12_2015-12-01,15/9-F-12,F-12,2015-12-01,log_wor,0.5359,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2015-12-01
+42,R_np_cum_F-12_2015-12-01,15/9-F-12,F-12,2015-12-01,np_cum,4531709.06,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2015-12-01
+42,R_pressure_F-12_2015-12-01,15/9-F-12,F-12,2015-12-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2015-12-01
+42,R_water_cut_F-12_2016-01-01,15/9-F-12,F-12,2016-01-01,water_cut,0.8041,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2016-01-01
+42,R_log_wor_F-12_2016-01-01,15/9-F-12,F-12,2016-01-01,log_wor,0.6132,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2016-01-01
+42,R_np_cum_F-12_2016-01-01,15/9-F-12,F-12,2016-01-01,np_cum,4541204.04,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2016-01-01
+42,R_pressure_F-12_2016-01-01,15/9-F-12,F-12,2016-01-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2016-01-01
+42,R_water_cut_F-12_2016-02-01,15/9-F-12,F-12,2016-02-01,water_cut,0.8218,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2016-02-01
+42,R_log_wor_F-12_2016-02-01,15/9-F-12,F-12,2016-02-01,log_wor,0.6639,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2016-02-01
+42,R_np_cum_F-12_2016-02-01,15/9-F-12,F-12,2016-02-01,np_cum,4548848.16,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2016-02-01
+42,R_pressure_F-12_2016-02-01,15/9-F-12,F-12,2016-02-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2016-02-01
+42,R_water_cut_F-12_2016-03-01,15/9-F-12,F-12,2016-03-01,water_cut,0.8462,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2016-03-01
+42,R_log_wor_F-12_2016-03-01,15/9-F-12,F-12,2016-03-01,log_wor,0.7407,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2016-03-01
+42,R_np_cum_F-12_2016-03-01,15/9-F-12,F-12,2016-03-01,np_cum,4556208.09,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2016-03-01
+42,R_pressure_F-12_2016-03-01,15/9-F-12,F-12,2016-03-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2016-03-01
+42,R_water_cut_F-12_2016-04-01,15/9-F-12,F-12,2016-04-01,water_cut,0.8578,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2016-04-01
+42,R_log_wor_F-12_2016-04-01,15/9-F-12,F-12,2016-04-01,log_wor,0.7807,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2016-04-01
+42,R_np_cum_F-12_2016-04-01,15/9-F-12,F-12,2016-04-01,np_cum,4562360.26,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2016-04-01
+42,R_pressure_F-12_2016-04-01,15/9-F-12,F-12,2016-04-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2016-04-01
+42,R_water_cut_F-12_2016-05-01,15/9-F-12,F-12,2016-05-01,water_cut,0.8604,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2016-05-01
+42,R_log_wor_F-12_2016-05-01,15/9-F-12,F-12,2016-05-01,log_wor,0.7898,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2016-05-01
+42,R_np_cum_F-12_2016-05-01,15/9-F-12,F-12,2016-05-01,np_cum,4568225.39,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2016-05-01
+42,R_pressure_F-12_2016-05-01,15/9-F-12,F-12,2016-05-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2016-05-01
+42,R_water_cut_F-12_2016-06-01,15/9-F-12,F-12,2016-06-01,water_cut,0.8648,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2016-06-01
+42,R_log_wor_F-12_2016-06-01,15/9-F-12,F-12,2016-06-01,log_wor,0.8061,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2016-06-01
+42,R_np_cum_F-12_2016-06-01,15/9-F-12,F-12,2016-06-01,np_cum,4573633.7,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2016-06-01
+42,R_pressure_F-12_2016-06-01,15/9-F-12,F-12,2016-06-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2016-06-01
+42,R_water_cut_F-12_2016-07-01,15/9-F-12,F-12,2016-07-01,water_cut,0.8685,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2016-07-01
+42,R_log_wor_F-12_2016-07-01,15/9-F-12,F-12,2016-07-01,log_wor,0.8198,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2016-07-01
+42,R_np_cum_F-12_2016-07-01,15/9-F-12,F-12,2016-07-01,np_cum,4578167.52,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2016-07-01
+42,R_pressure_F-12_2016-07-01,15/9-F-12,F-12,2016-07-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2016-07-01
+42,R_water_cut_F-12_2016-08-01,15/9-F-12,F-12,2016-08-01,water_cut,0.8835,frac,S_water_cut_F-12,volve:prod:15/9-F-12:2016-08-01
+42,R_log_wor_F-12_2016-08-01,15/9-F-12,F-12,2016-08-01,log_wor,0.8799,log10,S_log_wor_F-12,volve:prod:15/9-F-12:2016-08-01
+42,R_np_cum_F-12_2016-08-01,15/9-F-12,F-12,2016-08-01,np_cum,4579609.55,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2016-08-01
+42,R_pressure_F-12_2016-08-01,15/9-F-12,F-12,2016-08-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2016-08-01
+42,R_np_cum_F-12_2016-09-01,15/9-F-12,F-12,2016-09-01,np_cum,4579609.55,sm3,S_np_cum_F-12,volve:prod:15/9-F-12:2016-09-01
+42,R_pressure_F-12_2016-09-01,15/9-F-12,F-12,2016-09-01,pressure,0.0,bar,S_pressure_F-12,volve:prod:15/9-F-12:2016-09-01
+42,R_np_cum_F-14_2008-02-01,15/9-F-14,F-14,2008-02-01,np_cum,0.0,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-02-01
+42,R_pressure_F-14_2008-02-01,15/9-F-14,F-14,2008-02-01,pressure,0.0,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-02-01
+42,R_np_cum_F-14_2008-03-01,15/9-F-14,F-14,2008-03-01,np_cum,0.0,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-03-01
+42,R_pressure_F-14_2008-03-01,15/9-F-14,F-14,2008-03-01,pressure,0.0,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-03-01
+42,R_np_cum_F-14_2008-04-01,15/9-F-14,F-14,2008-04-01,np_cum,0.0,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-04-01
+42,R_pressure_F-14_2008-04-01,15/9-F-14,F-14,2008-04-01,pressure,0.0,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-04-01
+42,R_np_cum_F-14_2008-05-01,15/9-F-14,F-14,2008-05-01,np_cum,0.0,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-05-01
+42,R_pressure_F-14_2008-05-01,15/9-F-14,F-14,2008-05-01,pressure,14.6733,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-05-01
+42,R_np_cum_F-14_2008-06-01,15/9-F-14,F-14,2008-06-01,np_cum,0.0,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-06-01
+42,R_pressure_F-14_2008-06-01,15/9-F-14,F-14,2008-06-01,pressure,5.0137,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-06-01
+42,R_water_cut_F-14_2008-07-01,15/9-F-14,F-14,2008-07-01,water_cut,0.0025,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2008-07-01
+42,R_log_wor_F-14_2008-07-01,15/9-F-14,F-14,2008-07-01,log_wor,-2.609,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2008-07-01
+42,R_np_cum_F-14_2008-07-01,15/9-F-14,F-14,2008-07-01,np_cum,51285.08,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-07-01
+42,R_pressure_F-14_2008-07-01,15/9-F-14,F-14,2008-07-01,pressure,255.9984,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-07-01
+42,R_water_cut_F-14_2008-08-01,15/9-F-14,F-14,2008-08-01,water_cut,0.0033,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2008-08-01
+42,R_log_wor_F-14_2008-08-01,15/9-F-14,F-14,2008-08-01,log_wor,-2.4827,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2008-08-01
+42,R_np_cum_F-14_2008-08-01,15/9-F-14,F-14,2008-08-01,np_cum,118906.28,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-08-01
+42,R_pressure_F-14_2008-08-01,15/9-F-14,F-14,2008-08-01,pressure,249.9432,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-08-01
+42,R_water_cut_F-14_2008-09-01,15/9-F-14,F-14,2008-09-01,water_cut,0.0024,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2008-09-01
+42,R_log_wor_F-14_2008-09-01,15/9-F-14,F-14,2008-09-01,log_wor,-2.6187,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2008-09-01
+42,R_np_cum_F-14_2008-09-01,15/9-F-14,F-14,2008-09-01,np_cum,233502.54,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-09-01
+42,R_pressure_F-14_2008-09-01,15/9-F-14,F-14,2008-09-01,pressure,231.7765,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-09-01
+42,R_water_cut_F-14_2008-10-01,15/9-F-14,F-14,2008-10-01,water_cut,0.0007,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2008-10-01
+42,R_log_wor_F-14_2008-10-01,15/9-F-14,F-14,2008-10-01,log_wor,-3.1494,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2008-10-01
+42,R_np_cum_F-14_2008-10-01,15/9-F-14,F-14,2008-10-01,np_cum,376319.6,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-10-01
+42,R_pressure_F-14_2008-10-01,15/9-F-14,F-14,2008-10-01,pressure,210.8147,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-10-01
+42,R_water_cut_F-14_2008-11-01,15/9-F-14,F-14,2008-11-01,water_cut,0.0018,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2008-11-01
+42,R_log_wor_F-14_2008-11-01,15/9-F-14,F-14,2008-11-01,log_wor,-2.7402,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2008-11-01
+42,R_np_cum_F-14_2008-11-01,15/9-F-14,F-14,2008-11-01,np_cum,480729.21,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-11-01
+42,R_pressure_F-14_2008-11-01,15/9-F-14,F-14,2008-11-01,pressure,224.08,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-11-01
+42,R_water_cut_F-14_2008-12-01,15/9-F-14,F-14,2008-12-01,water_cut,0.0006,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2008-12-01
+42,R_log_wor_F-14_2008-12-01,15/9-F-14,F-14,2008-12-01,log_wor,-3.2191,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2008-12-01
+42,R_np_cum_F-14_2008-12-01,15/9-F-14,F-14,2008-12-01,np_cum,590928.49,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2008-12-01
+42,R_pressure_F-14_2008-12-01,15/9-F-14,F-14,2008-12-01,pressure,238.5173,bar,S_pressure_F-14,volve:prod:15/9-F-14:2008-12-01
+42,R_water_cut_F-14_2009-01-01,15/9-F-14,F-14,2009-01-01,water_cut,0.0084,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-01-01
+42,R_log_wor_F-14_2009-01-01,15/9-F-14,F-14,2009-01-01,log_wor,-2.0726,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-01-01
+42,R_np_cum_F-14_2009-01-01,15/9-F-14,F-14,2009-01-01,np_cum,706501.15,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-01-01
+42,R_pressure_F-14_2009-01-01,15/9-F-14,F-14,2009-01-01,pressure,254.3079,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-01-01
+42,R_water_cut_F-14_2009-02-01,15/9-F-14,F-14,2009-02-01,water_cut,0.0217,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-02-01
+42,R_log_wor_F-14_2009-02-01,15/9-F-14,F-14,2009-02-01,log_wor,-1.6535,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-02-01
+42,R_np_cum_F-14_2009-02-01,15/9-F-14,F-14,2009-02-01,np_cum,820382.13,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-02-01
+42,R_pressure_F-14_2009-02-01,15/9-F-14,F-14,2009-02-01,pressure,263.7446,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-02-01
+42,R_water_cut_F-14_2009-03-01,15/9-F-14,F-14,2009-03-01,water_cut,0.0182,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-03-01
+42,R_log_wor_F-14_2009-03-01,15/9-F-14,F-14,2009-03-01,log_wor,-1.7325,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-03-01
+42,R_np_cum_F-14_2009-03-01,15/9-F-14,F-14,2009-03-01,np_cum,911026.57,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-03-01
+42,R_pressure_F-14_2009-03-01,15/9-F-14,F-14,2009-03-01,pressure,258.7975,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-03-01
+42,R_water_cut_F-14_2009-04-01,15/9-F-14,F-14,2009-04-01,water_cut,0.0028,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-04-01
+42,R_log_wor_F-14_2009-04-01,15/9-F-14,F-14,2009-04-01,log_wor,-2.5475,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-04-01
+42,R_np_cum_F-14_2009-04-01,15/9-F-14,F-14,2009-04-01,np_cum,997970.63,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-04-01
+42,R_pressure_F-14_2009-04-01,15/9-F-14,F-14,2009-04-01,pressure,152.7435,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-04-01
+42,R_water_cut_F-14_2009-05-01,15/9-F-14,F-14,2009-05-01,water_cut,0.0288,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-05-01
+42,R_log_wor_F-14_2009-05-01,15/9-F-14,F-14,2009-05-01,log_wor,-1.5285,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-05-01
+42,R_np_cum_F-14_2009-05-01,15/9-F-14,F-14,2009-05-01,np_cum,1114145.67,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-05-01
+42,R_pressure_F-14_2009-05-01,15/9-F-14,F-14,2009-05-01,pressure,220.5795,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-05-01
+42,R_water_cut_F-14_2009-06-01,15/9-F-14,F-14,2009-06-01,water_cut,0.062,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-06-01
+42,R_log_wor_F-14_2009-06-01,15/9-F-14,F-14,2009-06-01,log_wor,-1.1795,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-06-01
+42,R_np_cum_F-14_2009-06-01,15/9-F-14,F-14,2009-06-01,np_cum,1200799.7,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-06-01
+42,R_pressure_F-14_2009-06-01,15/9-F-14,F-14,2009-06-01,pressure,222.5476,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-06-01
+42,R_water_cut_F-14_2009-07-01,15/9-F-14,F-14,2009-07-01,water_cut,0.0945,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-07-01
+42,R_log_wor_F-14_2009-07-01,15/9-F-14,F-14,2009-07-01,log_wor,-0.9813,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-07-01
+42,R_np_cum_F-14_2009-07-01,15/9-F-14,F-14,2009-07-01,np_cum,1265671.52,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-07-01
+42,R_pressure_F-14_2009-07-01,15/9-F-14,F-14,2009-07-01,pressure,231.0883,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-07-01
+42,R_water_cut_F-14_2009-08-01,15/9-F-14,F-14,2009-08-01,water_cut,0.156,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-08-01
+42,R_log_wor_F-14_2009-08-01,15/9-F-14,F-14,2009-08-01,log_wor,-0.7332,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-08-01
+42,R_np_cum_F-14_2009-08-01,15/9-F-14,F-14,2009-08-01,np_cum,1378165.02,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-08-01
+42,R_pressure_F-14_2009-08-01,15/9-F-14,F-14,2009-08-01,pressure,228.6535,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-08-01
+42,R_water_cut_F-14_2009-09-01,15/9-F-14,F-14,2009-09-01,water_cut,0.1446,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-09-01
+42,R_log_wor_F-14_2009-09-01,15/9-F-14,F-14,2009-09-01,log_wor,-0.772,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-09-01
+42,R_np_cum_F-14_2009-09-01,15/9-F-14,F-14,2009-09-01,np_cum,1468514.82,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-09-01
+42,R_pressure_F-14_2009-09-01,15/9-F-14,F-14,2009-09-01,pressure,237.3598,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-09-01
+42,R_water_cut_F-14_2009-10-01,15/9-F-14,F-14,2009-10-01,water_cut,0.2125,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-10-01
+42,R_log_wor_F-14_2009-10-01,15/9-F-14,F-14,2009-10-01,log_wor,-0.5688,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-10-01
+42,R_np_cum_F-14_2009-10-01,15/9-F-14,F-14,2009-10-01,np_cum,1565222.14,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-10-01
+42,R_pressure_F-14_2009-10-01,15/9-F-14,F-14,2009-10-01,pressure,239.7956,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-10-01
+42,R_water_cut_F-14_2009-11-01,15/9-F-14,F-14,2009-11-01,water_cut,0.2847,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-11-01
+42,R_log_wor_F-14_2009-11-01,15/9-F-14,F-14,2009-11-01,log_wor,-0.4002,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-11-01
+42,R_np_cum_F-14_2009-11-01,15/9-F-14,F-14,2009-11-01,np_cum,1663265.64,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-11-01
+42,R_pressure_F-14_2009-11-01,15/9-F-14,F-14,2009-11-01,pressure,242.7251,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-11-01
+42,R_water_cut_F-14_2009-12-01,15/9-F-14,F-14,2009-12-01,water_cut,0.3856,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2009-12-01
+42,R_log_wor_F-14_2009-12-01,15/9-F-14,F-14,2009-12-01,log_wor,-0.2024,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2009-12-01
+42,R_np_cum_F-14_2009-12-01,15/9-F-14,F-14,2009-12-01,np_cum,1752779.99,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2009-12-01
+42,R_pressure_F-14_2009-12-01,15/9-F-14,F-14,2009-12-01,pressure,238.6191,bar,S_pressure_F-14,volve:prod:15/9-F-14:2009-12-01
+42,R_water_cut_F-14_2010-01-01,15/9-F-14,F-14,2010-01-01,water_cut,0.4599,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-01-01
+42,R_log_wor_F-14_2010-01-01,15/9-F-14,F-14,2010-01-01,log_wor,-0.0699,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-01-01
+42,R_np_cum_F-14_2010-01-01,15/9-F-14,F-14,2010-01-01,np_cum,1835001.24,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-01-01
+42,R_pressure_F-14_2010-01-01,15/9-F-14,F-14,2010-01-01,pressure,237.3967,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-01-01
+42,R_water_cut_F-14_2010-02-01,15/9-F-14,F-14,2010-02-01,water_cut,0.4996,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-02-01
+42,R_log_wor_F-14_2010-02-01,15/9-F-14,F-14,2010-02-01,log_wor,-0.0006,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-02-01
+42,R_np_cum_F-14_2010-02-01,15/9-F-14,F-14,2010-02-01,np_cum,1897094.22,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-02-01
+42,R_pressure_F-14_2010-02-01,15/9-F-14,F-14,2010-02-01,pressure,158.1079,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-02-01
+42,R_water_cut_F-14_2010-03-01,15/9-F-14,F-14,2010-03-01,water_cut,0.4908,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-03-01
+42,R_log_wor_F-14_2010-03-01,15/9-F-14,F-14,2010-03-01,log_wor,-0.016,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-03-01
+42,R_np_cum_F-14_2010-03-01,15/9-F-14,F-14,2010-03-01,np_cum,1964083.47,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-03-01
+42,R_pressure_F-14_2010-03-01,15/9-F-14,F-14,2010-03-01,pressure,243.7043,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-03-01
+42,R_water_cut_F-14_2010-04-01,15/9-F-14,F-14,2010-04-01,water_cut,0.4889,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-04-01
+42,R_log_wor_F-14_2010-04-01,15/9-F-14,F-14,2010-04-01,log_wor,-0.0193,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-04-01
+42,R_np_cum_F-14_2010-04-01,15/9-F-14,F-14,2010-04-01,np_cum,2037119.28,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-04-01
+42,R_pressure_F-14_2010-04-01,15/9-F-14,F-14,2010-04-01,pressure,241.6364,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-04-01
+42,R_water_cut_F-14_2010-05-01,15/9-F-14,F-14,2010-05-01,water_cut,0.4928,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-05-01
+42,R_log_wor_F-14_2010-05-01,15/9-F-14,F-14,2010-05-01,log_wor,-0.0125,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-05-01
+42,R_np_cum_F-14_2010-05-01,15/9-F-14,F-14,2010-05-01,np_cum,2124928.56,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-05-01
+42,R_pressure_F-14_2010-05-01,15/9-F-14,F-14,2010-05-01,pressure,241.4964,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-05-01
+42,R_water_cut_F-14_2010-06-01,15/9-F-14,F-14,2010-06-01,water_cut,0.5619,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-06-01
+42,R_log_wor_F-14_2010-06-01,15/9-F-14,F-14,2010-06-01,log_wor,0.108,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-06-01
+42,R_np_cum_F-14_2010-06-01,15/9-F-14,F-14,2010-06-01,np_cum,2200238.38,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-06-01
+42,R_pressure_F-14_2010-06-01,15/9-F-14,F-14,2010-06-01,pressure,250.5153,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-06-01
+42,R_water_cut_F-14_2010-07-01,15/9-F-14,F-14,2010-07-01,water_cut,0.5925,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-07-01
+42,R_log_wor_F-14_2010-07-01,15/9-F-14,F-14,2010-07-01,log_wor,0.1626,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-07-01
+42,R_np_cum_F-14_2010-07-01,15/9-F-14,F-14,2010-07-01,np_cum,2269838.63,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-07-01
+42,R_pressure_F-14_2010-07-01,15/9-F-14,F-14,2010-07-01,pressure,255.4595,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-07-01
+42,R_water_cut_F-14_2010-08-01,15/9-F-14,F-14,2010-08-01,water_cut,0.5951,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-08-01
+42,R_log_wor_F-14_2010-08-01,15/9-F-14,F-14,2010-08-01,log_wor,0.1672,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-08-01
+42,R_np_cum_F-14_2010-08-01,15/9-F-14,F-14,2010-08-01,np_cum,2308252.36,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-08-01
+42,R_pressure_F-14_2010-08-01,15/9-F-14,F-14,2010-08-01,pressure,270.0456,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-08-01
+42,R_water_cut_F-14_2010-09-01,15/9-F-14,F-14,2010-09-01,water_cut,0.5455,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-09-01
+42,R_log_wor_F-14_2010-09-01,15/9-F-14,F-14,2010-09-01,log_wor,0.0793,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-09-01
+42,R_np_cum_F-14_2010-09-01,15/9-F-14,F-14,2010-09-01,np_cum,2363657.57,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-09-01
+42,R_pressure_F-14_2010-09-01,15/9-F-14,F-14,2010-09-01,pressure,258.2654,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-09-01
+42,R_water_cut_F-14_2010-10-01,15/9-F-14,F-14,2010-10-01,water_cut,0.5618,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-10-01
+42,R_log_wor_F-14_2010-10-01,15/9-F-14,F-14,2010-10-01,log_wor,0.1078,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-10-01
+42,R_np_cum_F-14_2010-10-01,15/9-F-14,F-14,2010-10-01,np_cum,2442412.88,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-10-01
+42,R_pressure_F-14_2010-10-01,15/9-F-14,F-14,2010-10-01,pressure,243.178,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-10-01
+42,R_water_cut_F-14_2010-11-01,15/9-F-14,F-14,2010-11-01,water_cut,0.6079,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-11-01
+42,R_log_wor_F-14_2010-11-01,15/9-F-14,F-14,2010-11-01,log_wor,0.1904,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-11-01
+42,R_np_cum_F-14_2010-11-01,15/9-F-14,F-14,2010-11-01,np_cum,2504968.36,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-11-01
+42,R_pressure_F-14_2010-11-01,15/9-F-14,F-14,2010-11-01,pressure,241.063,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-11-01
+42,R_water_cut_F-14_2010-12-01,15/9-F-14,F-14,2010-12-01,water_cut,0.636,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2010-12-01
+42,R_log_wor_F-14_2010-12-01,15/9-F-14,F-14,2010-12-01,log_wor,0.2424,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2010-12-01
+42,R_np_cum_F-14_2010-12-01,15/9-F-14,F-14,2010-12-01,np_cum,2568854.59,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2010-12-01
+42,R_pressure_F-14_2010-12-01,15/9-F-14,F-14,2010-12-01,pressure,242.2604,bar,S_pressure_F-14,volve:prod:15/9-F-14:2010-12-01
+42,R_water_cut_F-14_2011-01-01,15/9-F-14,F-14,2011-01-01,water_cut,0.6445,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-01-01
+42,R_log_wor_F-14_2011-01-01,15/9-F-14,F-14,2011-01-01,log_wor,0.2583,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-01-01
+42,R_np_cum_F-14_2011-01-01,15/9-F-14,F-14,2011-01-01,np_cum,2630183.04,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-01-01
+42,R_pressure_F-14_2011-01-01,15/9-F-14,F-14,2011-01-01,pressure,241.8012,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-01-01
+42,R_water_cut_F-14_2011-02-01,15/9-F-14,F-14,2011-02-01,water_cut,0.6434,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-02-01
+42,R_log_wor_F-14_2011-02-01,15/9-F-14,F-14,2011-02-01,log_wor,0.2562,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-02-01
+42,R_np_cum_F-14_2011-02-01,15/9-F-14,F-14,2011-02-01,np_cum,2674249.35,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-02-01
+42,R_pressure_F-14_2011-02-01,15/9-F-14,F-14,2011-02-01,pressure,241.0251,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-02-01
+42,R_water_cut_F-14_2011-03-01,15/9-F-14,F-14,2011-03-01,water_cut,0.6745,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-03-01
+42,R_log_wor_F-14_2011-03-01,15/9-F-14,F-14,2011-03-01,log_wor,0.3164,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-03-01
+42,R_np_cum_F-14_2011-03-01,15/9-F-14,F-14,2011-03-01,np_cum,2730959.31,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-03-01
+42,R_pressure_F-14_2011-03-01,15/9-F-14,F-14,2011-03-01,pressure,243.6808,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-03-01
+42,R_water_cut_F-14_2011-04-01,15/9-F-14,F-14,2011-04-01,water_cut,0.702,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-04-01
+42,R_log_wor_F-14_2011-04-01,15/9-F-14,F-14,2011-04-01,log_wor,0.3721,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-04-01
+42,R_np_cum_F-14_2011-04-01,15/9-F-14,F-14,2011-04-01,np_cum,2782773.55,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-04-01
+42,R_pressure_F-14_2011-04-01,15/9-F-14,F-14,2011-04-01,pressure,245.7647,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-04-01
+42,R_water_cut_F-14_2011-05-01,15/9-F-14,F-14,2011-05-01,water_cut,0.7167,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-05-01
+42,R_log_wor_F-14_2011-05-01,15/9-F-14,F-14,2011-05-01,log_wor,0.4031,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-05-01
+42,R_np_cum_F-14_2011-05-01,15/9-F-14,F-14,2011-05-01,np_cum,2833895.17,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-05-01
+42,R_pressure_F-14_2011-05-01,15/9-F-14,F-14,2011-05-01,pressure,247.0743,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-05-01
+42,R_water_cut_F-14_2011-06-01,15/9-F-14,F-14,2011-06-01,water_cut,0.7226,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-06-01
+42,R_log_wor_F-14_2011-06-01,15/9-F-14,F-14,2011-06-01,log_wor,0.4158,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-06-01
+42,R_np_cum_F-14_2011-06-01,15/9-F-14,F-14,2011-06-01,np_cum,2865089.68,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-06-01
+42,R_pressure_F-14_2011-06-01,15/9-F-14,F-14,2011-06-01,pressure,251.1234,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-06-01
+42,R_water_cut_F-14_2011-07-01,15/9-F-14,F-14,2011-07-01,water_cut,0.6752,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-07-01
+42,R_log_wor_F-14_2011-07-01,15/9-F-14,F-14,2011-07-01,log_wor,0.3178,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-07-01
+42,R_np_cum_F-14_2011-07-01,15/9-F-14,F-14,2011-07-01,np_cum,2885300.99,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-07-01
+42,R_pressure_F-14_2011-07-01,15/9-F-14,F-14,2011-07-01,pressure,262.5866,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-07-01
+42,R_water_cut_F-14_2011-08-01,15/9-F-14,F-14,2011-08-01,water_cut,0.6866,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-08-01
+42,R_log_wor_F-14_2011-08-01,15/9-F-14,F-14,2011-08-01,log_wor,0.3405,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-08-01
+42,R_np_cum_F-14_2011-08-01,15/9-F-14,F-14,2011-08-01,np_cum,2935031.27,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-08-01
+42,R_pressure_F-14_2011-08-01,15/9-F-14,F-14,2011-08-01,pressure,251.2445,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-08-01
+42,R_water_cut_F-14_2011-09-01,15/9-F-14,F-14,2011-09-01,water_cut,0.7241,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-09-01
+42,R_log_wor_F-14_2011-09-01,15/9-F-14,F-14,2011-09-01,log_wor,0.4189,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-09-01
+42,R_np_cum_F-14_2011-09-01,15/9-F-14,F-14,2011-09-01,np_cum,2986084.4,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-09-01
+42,R_pressure_F-14_2011-09-01,15/9-F-14,F-14,2011-09-01,pressure,244.7437,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-09-01
+42,R_water_cut_F-14_2011-10-01,15/9-F-14,F-14,2011-10-01,water_cut,0.7215,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-10-01
+42,R_log_wor_F-14_2011-10-01,15/9-F-14,F-14,2011-10-01,log_wor,0.4134,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-10-01
+42,R_np_cum_F-14_2011-10-01,15/9-F-14,F-14,2011-10-01,np_cum,3007891.63,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-10-01
+42,R_pressure_F-14_2011-10-01,15/9-F-14,F-14,2011-10-01,pressure,269.3767,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-10-01
+42,R_water_cut_F-14_2011-11-01,15/9-F-14,F-14,2011-11-01,water_cut,0.6774,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-11-01
+42,R_log_wor_F-14_2011-11-01,15/9-F-14,F-14,2011-11-01,log_wor,0.3222,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-11-01
+42,R_np_cum_F-14_2011-11-01,15/9-F-14,F-14,2011-11-01,np_cum,3042935.52,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-11-01
+42,R_pressure_F-14_2011-11-01,15/9-F-14,F-14,2011-11-01,pressure,252.5303,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-11-01
+42,R_water_cut_F-14_2011-12-01,15/9-F-14,F-14,2011-12-01,water_cut,0.6854,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2011-12-01
+42,R_log_wor_F-14_2011-12-01,15/9-F-14,F-14,2011-12-01,log_wor,0.3382,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2011-12-01
+42,R_np_cum_F-14_2011-12-01,15/9-F-14,F-14,2011-12-01,np_cum,3077101.92,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2011-12-01
+42,R_pressure_F-14_2011-12-01,15/9-F-14,F-14,2011-12-01,pressure,245.9159,bar,S_pressure_F-14,volve:prod:15/9-F-14:2011-12-01
+42,R_water_cut_F-14_2012-01-01,15/9-F-14,F-14,2012-01-01,water_cut,0.6781,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-01-01
+42,R_log_wor_F-14_2012-01-01,15/9-F-14,F-14,2012-01-01,log_wor,0.3235,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-01-01
+42,R_np_cum_F-14_2012-01-01,15/9-F-14,F-14,2012-01-01,np_cum,3104411.15,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-01-01
+42,R_pressure_F-14_2012-01-01,15/9-F-14,F-14,2012-01-01,pressure,246.9703,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-01-01
+42,R_water_cut_F-14_2012-02-01,15/9-F-14,F-14,2012-02-01,water_cut,0.6003,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-02-01
+42,R_log_wor_F-14_2012-02-01,15/9-F-14,F-14,2012-02-01,log_wor,0.1767,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-02-01
+42,R_np_cum_F-14_2012-02-01,15/9-F-14,F-14,2012-02-01,np_cum,3141208.81,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-02-01
+42,R_pressure_F-14_2012-02-01,15/9-F-14,F-14,2012-02-01,pressure,220.3897,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-02-01
+42,R_water_cut_F-14_2012-03-01,15/9-F-14,F-14,2012-03-01,water_cut,0.6341,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-03-01
+42,R_log_wor_F-14_2012-03-01,15/9-F-14,F-14,2012-03-01,log_wor,0.2389,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-03-01
+42,R_np_cum_F-14_2012-03-01,15/9-F-14,F-14,2012-03-01,np_cum,3175954.4,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-03-01
+42,R_pressure_F-14_2012-03-01,15/9-F-14,F-14,2012-03-01,pressure,226.3917,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-03-01
+42,R_water_cut_F-14_2012-04-01,15/9-F-14,F-14,2012-04-01,water_cut,0.666,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-04-01
+42,R_log_wor_F-14_2012-04-01,15/9-F-14,F-14,2012-04-01,log_wor,0.2998,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-04-01
+42,R_np_cum_F-14_2012-04-01,15/9-F-14,F-14,2012-04-01,np_cum,3212464.19,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-04-01
+42,R_pressure_F-14_2012-04-01,15/9-F-14,F-14,2012-04-01,pressure,221.0975,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-04-01
+42,R_water_cut_F-14_2012-05-01,15/9-F-14,F-14,2012-05-01,water_cut,0.7028,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-05-01
+42,R_log_wor_F-14_2012-05-01,15/9-F-14,F-14,2012-05-01,log_wor,0.3737,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-05-01
+42,R_np_cum_F-14_2012-05-01,15/9-F-14,F-14,2012-05-01,np_cum,3247516.15,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-05-01
+42,R_pressure_F-14_2012-05-01,15/9-F-14,F-14,2012-05-01,pressure,226.6179,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-05-01
+42,R_water_cut_F-14_2012-06-01,15/9-F-14,F-14,2012-06-01,water_cut,0.7169,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-06-01
+42,R_log_wor_F-14_2012-06-01,15/9-F-14,F-14,2012-06-01,log_wor,0.4035,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-06-01
+42,R_np_cum_F-14_2012-06-01,15/9-F-14,F-14,2012-06-01,np_cum,3279181.7,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-06-01
+42,R_pressure_F-14_2012-06-01,15/9-F-14,F-14,2012-06-01,pressure,229.4816,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-06-01
+42,R_water_cut_F-14_2012-07-01,15/9-F-14,F-14,2012-07-01,water_cut,0.7181,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-07-01
+42,R_log_wor_F-14_2012-07-01,15/9-F-14,F-14,2012-07-01,log_wor,0.4061,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-07-01
+42,R_np_cum_F-14_2012-07-01,15/9-F-14,F-14,2012-07-01,np_cum,3312142.4,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-07-01
+42,R_pressure_F-14_2012-07-01,15/9-F-14,F-14,2012-07-01,pressure,230.0788,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-07-01
+42,R_water_cut_F-14_2012-08-01,15/9-F-14,F-14,2012-08-01,water_cut,0.7238,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-08-01
+42,R_log_wor_F-14_2012-08-01,15/9-F-14,F-14,2012-08-01,log_wor,0.4184,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-08-01
+42,R_np_cum_F-14_2012-08-01,15/9-F-14,F-14,2012-08-01,np_cum,3324832.24,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-08-01
+42,R_pressure_F-14_2012-08-01,15/9-F-14,F-14,2012-08-01,pressure,266.3456,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-08-01
+42,R_water_cut_F-14_2012-09-01,15/9-F-14,F-14,2012-09-01,water_cut,0.6381,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-09-01
+42,R_log_wor_F-14_2012-09-01,15/9-F-14,F-14,2012-09-01,log_wor,0.2463,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-09-01
+42,R_np_cum_F-14_2012-09-01,15/9-F-14,F-14,2012-09-01,np_cum,3326487.32,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-09-01
+42,R_pressure_F-14_2012-09-01,15/9-F-14,F-14,2012-09-01,pressure,259.9808,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-09-01
+42,R_water_cut_F-14_2012-10-01,15/9-F-14,F-14,2012-10-01,water_cut,0.6389,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-10-01
+42,R_log_wor_F-14_2012-10-01,15/9-F-14,F-14,2012-10-01,log_wor,0.2478,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-10-01
+42,R_np_cum_F-14_2012-10-01,15/9-F-14,F-14,2012-10-01,np_cum,3360431.34,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-10-01
+42,R_pressure_F-14_2012-10-01,15/9-F-14,F-14,2012-10-01,pressure,231.7147,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-10-01
+42,R_water_cut_F-14_2012-11-01,15/9-F-14,F-14,2012-11-01,water_cut,0.714,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-11-01
+42,R_log_wor_F-14_2012-11-01,15/9-F-14,F-14,2012-11-01,log_wor,0.3974,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-11-01
+42,R_np_cum_F-14_2012-11-01,15/9-F-14,F-14,2012-11-01,np_cum,3395363.0,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-11-01
+42,R_pressure_F-14_2012-11-01,15/9-F-14,F-14,2012-11-01,pressure,241.3788,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-11-01
+42,R_water_cut_F-14_2012-12-01,15/9-F-14,F-14,2012-12-01,water_cut,0.7564,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2012-12-01
+42,R_log_wor_F-14_2012-12-01,15/9-F-14,F-14,2012-12-01,log_wor,0.492,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2012-12-01
+42,R_np_cum_F-14_2012-12-01,15/9-F-14,F-14,2012-12-01,np_cum,3425485.89,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2012-12-01
+42,R_pressure_F-14_2012-12-01,15/9-F-14,F-14,2012-12-01,pressure,242.9772,bar,S_pressure_F-14,volve:prod:15/9-F-14:2012-12-01
+42,R_water_cut_F-14_2013-01-01,15/9-F-14,F-14,2013-01-01,water_cut,0.7678,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-01-01
+42,R_log_wor_F-14_2013-01-01,15/9-F-14,F-14,2013-01-01,log_wor,0.5193,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-01-01
+42,R_np_cum_F-14_2013-01-01,15/9-F-14,F-14,2013-01-01,np_cum,3455670.69,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-01-01
+42,R_pressure_F-14_2013-01-01,15/9-F-14,F-14,2013-01-01,pressure,241.8149,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-01-01
+42,R_water_cut_F-14_2013-02-01,15/9-F-14,F-14,2013-02-01,water_cut,0.776,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-02-01
+42,R_log_wor_F-14_2013-02-01,15/9-F-14,F-14,2013-02-01,log_wor,0.5395,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-02-01
+42,R_np_cum_F-14_2013-02-01,15/9-F-14,F-14,2013-02-01,np_cum,3482266.22,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-02-01
+42,R_pressure_F-14_2013-02-01,15/9-F-14,F-14,2013-02-01,pressure,242.4214,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-02-01
+42,R_water_cut_F-14_2013-03-01,15/9-F-14,F-14,2013-03-01,water_cut,0.7896,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-03-01
+42,R_log_wor_F-14_2013-03-01,15/9-F-14,F-14,2013-03-01,log_wor,0.5744,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-03-01
+42,R_np_cum_F-14_2013-03-01,15/9-F-14,F-14,2013-03-01,np_cum,3501082.74,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-03-01
+42,R_pressure_F-14_2013-03-01,15/9-F-14,F-14,2013-03-01,pressure,246.5366,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-03-01
+42,R_water_cut_F-14_2013-04-01,15/9-F-14,F-14,2013-04-01,water_cut,0.7764,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-04-01
+42,R_log_wor_F-14_2013-04-01,15/9-F-14,F-14,2013-04-01,log_wor,0.5407,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-04-01
+42,R_np_cum_F-14_2013-04-01,15/9-F-14,F-14,2013-04-01,np_cum,3523958.16,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-04-01
+42,R_pressure_F-14_2013-04-01,15/9-F-14,F-14,2013-04-01,pressure,246.0117,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-04-01
+42,R_water_cut_F-14_2013-05-01,15/9-F-14,F-14,2013-05-01,water_cut,0.7984,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-05-01
+42,R_log_wor_F-14_2013-05-01,15/9-F-14,F-14,2013-05-01,log_wor,0.5977,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-05-01
+42,R_np_cum_F-14_2013-05-01,15/9-F-14,F-14,2013-05-01,np_cum,3551619.69,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-05-01
+42,R_pressure_F-14_2013-05-01,15/9-F-14,F-14,2013-05-01,pressure,238.6059,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-05-01
+42,R_water_cut_F-14_2013-06-01,15/9-F-14,F-14,2013-06-01,water_cut,0.8073,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-06-01
+42,R_log_wor_F-14_2013-06-01,15/9-F-14,F-14,2013-06-01,log_wor,0.6221,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-06-01
+42,R_np_cum_F-14_2013-06-01,15/9-F-14,F-14,2013-06-01,np_cum,3573917.95,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-06-01
+42,R_pressure_F-14_2013-06-01,15/9-F-14,F-14,2013-06-01,pressure,245.434,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-06-01
+42,R_water_cut_F-14_2013-07-01,15/9-F-14,F-14,2013-07-01,water_cut,0.8071,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-07-01
+42,R_log_wor_F-14_2013-07-01,15/9-F-14,F-14,2013-07-01,log_wor,0.6217,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-07-01
+42,R_np_cum_F-14_2013-07-01,15/9-F-14,F-14,2013-07-01,np_cum,3596520.73,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-07-01
+42,R_pressure_F-14_2013-07-01,15/9-F-14,F-14,2013-07-01,pressure,246.6337,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-07-01
+42,R_water_cut_F-14_2013-08-01,15/9-F-14,F-14,2013-08-01,water_cut,0.8085,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-08-01
+42,R_log_wor_F-14_2013-08-01,15/9-F-14,F-14,2013-08-01,log_wor,0.6254,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-08-01
+42,R_np_cum_F-14_2013-08-01,15/9-F-14,F-14,2013-08-01,np_cum,3618187.63,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-08-01
+42,R_pressure_F-14_2013-08-01,15/9-F-14,F-14,2013-08-01,pressure,249.929,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-08-01
+42,R_water_cut_F-14_2013-09-01,15/9-F-14,F-14,2013-09-01,water_cut,0.8383,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-09-01
+42,R_log_wor_F-14_2013-09-01,15/9-F-14,F-14,2013-09-01,log_wor,0.7148,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-09-01
+42,R_np_cum_F-14_2013-09-01,15/9-F-14,F-14,2013-09-01,np_cum,3636058.35,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-09-01
+42,R_pressure_F-14_2013-09-01,15/9-F-14,F-14,2013-09-01,pressure,235.4182,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-09-01
+42,R_water_cut_F-14_2013-10-01,15/9-F-14,F-14,2013-10-01,water_cut,0.8399,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-10-01
+42,R_log_wor_F-14_2013-10-01,15/9-F-14,F-14,2013-10-01,log_wor,0.7199,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-10-01
+42,R_np_cum_F-14_2013-10-01,15/9-F-14,F-14,2013-10-01,np_cum,3654499.46,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-10-01
+42,R_pressure_F-14_2013-10-01,15/9-F-14,F-14,2013-10-01,pressure,253.7304,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-10-01
+42,R_water_cut_F-14_2013-11-01,15/9-F-14,F-14,2013-11-01,water_cut,0.8435,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-11-01
+42,R_log_wor_F-14_2013-11-01,15/9-F-14,F-14,2013-11-01,log_wor,0.7315,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-11-01
+42,R_np_cum_F-14_2013-11-01,15/9-F-14,F-14,2013-11-01,np_cum,3673748.12,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-11-01
+42,R_pressure_F-14_2013-11-01,15/9-F-14,F-14,2013-11-01,pressure,251.0083,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-11-01
+42,R_water_cut_F-14_2013-12-01,15/9-F-14,F-14,2013-12-01,water_cut,0.8626,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2013-12-01
+42,R_log_wor_F-14_2013-12-01,15/9-F-14,F-14,2013-12-01,log_wor,0.7979,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2013-12-01
+42,R_np_cum_F-14_2013-12-01,15/9-F-14,F-14,2013-12-01,np_cum,3689244.09,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2013-12-01
+42,R_pressure_F-14_2013-12-01,15/9-F-14,F-14,2013-12-01,pressure,255.4683,bar,S_pressure_F-14,volve:prod:15/9-F-14:2013-12-01
+42,R_water_cut_F-14_2014-01-01,15/9-F-14,F-14,2014-01-01,water_cut,0.8648,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-01-01
+42,R_log_wor_F-14_2014-01-01,15/9-F-14,F-14,2014-01-01,log_wor,0.8059,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-01-01
+42,R_np_cum_F-14_2014-01-01,15/9-F-14,F-14,2014-01-01,np_cum,3705930.67,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-01-01
+42,R_pressure_F-14_2014-01-01,15/9-F-14,F-14,2014-01-01,pressure,253.5976,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-01-01
+42,R_water_cut_F-14_2014-02-01,15/9-F-14,F-14,2014-02-01,water_cut,0.8672,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-02-01
+42,R_log_wor_F-14_2014-02-01,15/9-F-14,F-14,2014-02-01,log_wor,0.8149,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-02-01
+42,R_np_cum_F-14_2014-02-01,15/9-F-14,F-14,2014-02-01,np_cum,3720696.8,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-02-01
+42,R_pressure_F-14_2014-02-01,15/9-F-14,F-14,2014-02-01,pressure,254.3775,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-02-01
+42,R_water_cut_F-14_2014-03-01,15/9-F-14,F-14,2014-03-01,water_cut,0.8716,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-03-01
+42,R_log_wor_F-14_2014-03-01,15/9-F-14,F-14,2014-03-01,log_wor,0.8317,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-03-01
+42,R_np_cum_F-14_2014-03-01,15/9-F-14,F-14,2014-03-01,np_cum,3735651.64,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-03-01
+42,R_pressure_F-14_2014-03-01,15/9-F-14,F-14,2014-03-01,pressure,256.7017,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-03-01
+42,R_water_cut_F-14_2014-04-01,15/9-F-14,F-14,2014-04-01,water_cut,0.8635,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-04-01
+42,R_log_wor_F-14_2014-04-01,15/9-F-14,F-14,2014-04-01,log_wor,0.8012,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-04-01
+42,R_np_cum_F-14_2014-04-01,15/9-F-14,F-14,2014-04-01,np_cum,3752223.88,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-04-01
+42,R_pressure_F-14_2014-04-01,15/9-F-14,F-14,2014-04-01,pressure,256.6263,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-04-01
+42,R_water_cut_F-14_2014-05-01,15/9-F-14,F-14,2014-05-01,water_cut,0.8788,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-05-01
+42,R_log_wor_F-14_2014-05-01,15/9-F-14,F-14,2014-05-01,log_wor,0.8603,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-05-01
+42,R_np_cum_F-14_2014-05-01,15/9-F-14,F-14,2014-05-01,np_cum,3765860.9,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-05-01
+42,R_pressure_F-14_2014-05-01,15/9-F-14,F-14,2014-05-01,pressure,259.2384,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-05-01
+42,R_water_cut_F-14_2014-06-01,15/9-F-14,F-14,2014-06-01,water_cut,0.8864,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-06-01
+42,R_log_wor_F-14_2014-06-01,15/9-F-14,F-14,2014-06-01,log_wor,0.8921,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-06-01
+42,R_np_cum_F-14_2014-06-01,15/9-F-14,F-14,2014-06-01,np_cum,3779118.89,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-06-01
+42,R_pressure_F-14_2014-06-01,15/9-F-14,F-14,2014-06-01,pressure,253.6869,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-06-01
+42,R_water_cut_F-14_2014-07-01,15/9-F-14,F-14,2014-07-01,water_cut,0.8808,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-07-01
+42,R_log_wor_F-14_2014-07-01,15/9-F-14,F-14,2014-07-01,log_wor,0.8688,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-07-01
+42,R_np_cum_F-14_2014-07-01,15/9-F-14,F-14,2014-07-01,np_cum,3792614.87,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-07-01
+42,R_pressure_F-14_2014-07-01,15/9-F-14,F-14,2014-07-01,pressure,260.7434,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-07-01
+42,R_water_cut_F-14_2014-08-01,15/9-F-14,F-14,2014-08-01,water_cut,0.9075,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-08-01
+42,R_log_wor_F-14_2014-08-01,15/9-F-14,F-14,2014-08-01,log_wor,0.9916,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-08-01
+42,R_np_cum_F-14_2014-08-01,15/9-F-14,F-14,2014-08-01,np_cum,3801058.6,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-08-01
+42,R_pressure_F-14_2014-08-01,15/9-F-14,F-14,2014-08-01,pressure,262.0104,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-08-01
+42,R_water_cut_F-14_2014-09-01,15/9-F-14,F-14,2014-09-01,water_cut,0.9105,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-09-01
+42,R_log_wor_F-14_2014-09-01,15/9-F-14,F-14,2014-09-01,log_wor,1.0077,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-09-01
+42,R_np_cum_F-14_2014-09-01,15/9-F-14,F-14,2014-09-01,np_cum,3810680.81,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-09-01
+42,R_pressure_F-14_2014-09-01,15/9-F-14,F-14,2014-09-01,pressure,261.2948,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-09-01
+42,R_water_cut_F-14_2014-10-01,15/9-F-14,F-14,2014-10-01,water_cut,0.9124,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-10-01
+42,R_log_wor_F-14_2014-10-01,15/9-F-14,F-14,2014-10-01,log_wor,1.0177,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-10-01
+42,R_np_cum_F-14_2014-10-01,15/9-F-14,F-14,2014-10-01,np_cum,3820757.03,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-10-01
+42,R_pressure_F-14_2014-10-01,15/9-F-14,F-14,2014-10-01,pressure,261.5427,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-10-01
+42,R_water_cut_F-14_2014-11-01,15/9-F-14,F-14,2014-11-01,water_cut,0.9087,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-11-01
+42,R_log_wor_F-14_2014-11-01,15/9-F-14,F-14,2014-11-01,log_wor,0.998,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-11-01
+42,R_np_cum_F-14_2014-11-01,15/9-F-14,F-14,2014-11-01,np_cum,3831143.44,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-11-01
+42,R_pressure_F-14_2014-11-01,15/9-F-14,F-14,2014-11-01,pressure,260.8208,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-11-01
+42,R_water_cut_F-14_2014-12-01,15/9-F-14,F-14,2014-12-01,water_cut,0.9121,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2014-12-01
+42,R_log_wor_F-14_2014-12-01,15/9-F-14,F-14,2014-12-01,log_wor,1.0159,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2014-12-01
+42,R_np_cum_F-14_2014-12-01,15/9-F-14,F-14,2014-12-01,np_cum,3840808.55,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2014-12-01
+42,R_pressure_F-14_2014-12-01,15/9-F-14,F-14,2014-12-01,pressure,262.4293,bar,S_pressure_F-14,volve:prod:15/9-F-14:2014-12-01
+42,R_water_cut_F-14_2015-01-01,15/9-F-14,F-14,2015-01-01,water_cut,0.9124,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-01-01
+42,R_log_wor_F-14_2015-01-01,15/9-F-14,F-14,2015-01-01,log_wor,1.0178,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-01-01
+42,R_np_cum_F-14_2015-01-01,15/9-F-14,F-14,2015-01-01,np_cum,3849929.53,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-01-01
+42,R_pressure_F-14_2015-01-01,15/9-F-14,F-14,2015-01-01,pressure,263.8302,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-01-01
+42,R_water_cut_F-14_2015-02-01,15/9-F-14,F-14,2015-02-01,water_cut,0.9275,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-02-01
+42,R_log_wor_F-14_2015-02-01,15/9-F-14,F-14,2015-02-01,log_wor,1.107,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-02-01
+42,R_np_cum_F-14_2015-02-01,15/9-F-14,F-14,2015-02-01,np_cum,3857108.33,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-02-01
+42,R_pressure_F-14_2015-02-01,15/9-F-14,F-14,2015-02-01,pressure,263.4099,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-02-01
+42,R_water_cut_F-14_2015-03-01,15/9-F-14,F-14,2015-03-01,water_cut,0.9302,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-03-01
+42,R_log_wor_F-14_2015-03-01,15/9-F-14,F-14,2015-03-01,log_wor,1.1244,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-03-01
+42,R_np_cum_F-14_2015-03-01,15/9-F-14,F-14,2015-03-01,np_cum,3865177.37,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-03-01
+42,R_pressure_F-14_2015-03-01,15/9-F-14,F-14,2015-03-01,pressure,265.1892,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-03-01
+42,R_water_cut_F-14_2015-04-01,15/9-F-14,F-14,2015-04-01,water_cut,0.9295,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-04-01
+42,R_log_wor_F-14_2015-04-01,15/9-F-14,F-14,2015-04-01,log_wor,1.1199,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-04-01
+42,R_np_cum_F-14_2015-04-01,15/9-F-14,F-14,2015-04-01,np_cum,3872864.57,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-04-01
+42,R_pressure_F-14_2015-04-01,15/9-F-14,F-14,2015-04-01,pressure,266.0696,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-04-01
+42,R_water_cut_F-14_2015-05-01,15/9-F-14,F-14,2015-05-01,water_cut,0.9351,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-05-01
+42,R_log_wor_F-14_2015-05-01,15/9-F-14,F-14,2015-05-01,log_wor,1.1584,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-05-01
+42,R_np_cum_F-14_2015-05-01,15/9-F-14,F-14,2015-05-01,np_cum,3880012.36,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-05-01
+42,R_pressure_F-14_2015-05-01,15/9-F-14,F-14,2015-05-01,pressure,266.2055,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-05-01
+42,R_water_cut_F-14_2015-06-01,15/9-F-14,F-14,2015-06-01,water_cut,0.943,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-06-01
+42,R_log_wor_F-14_2015-06-01,15/9-F-14,F-14,2015-06-01,log_wor,1.2184,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-06-01
+42,R_np_cum_F-14_2015-06-01,15/9-F-14,F-14,2015-06-01,np_cum,3886082.29,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-06-01
+42,R_pressure_F-14_2015-06-01,15/9-F-14,F-14,2015-06-01,pressure,266.3291,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-06-01
+42,R_water_cut_F-14_2015-07-01,15/9-F-14,F-14,2015-07-01,water_cut,0.9347,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-07-01
+42,R_log_wor_F-14_2015-07-01,15/9-F-14,F-14,2015-07-01,log_wor,1.1559,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-07-01
+42,R_np_cum_F-14_2015-07-01,15/9-F-14,F-14,2015-07-01,np_cum,3892803.03,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-07-01
+42,R_pressure_F-14_2015-07-01,15/9-F-14,F-14,2015-07-01,pressure,266.9807,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-07-01
+42,R_water_cut_F-14_2015-08-01,15/9-F-14,F-14,2015-08-01,water_cut,0.9423,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-08-01
+42,R_log_wor_F-14_2015-08-01,15/9-F-14,F-14,2015-08-01,log_wor,1.2128,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-08-01
+42,R_np_cum_F-14_2015-08-01,15/9-F-14,F-14,2015-08-01,np_cum,3897679.34,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-08-01
+42,R_pressure_F-14_2015-08-01,15/9-F-14,F-14,2015-08-01,pressure,258.7078,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-08-01
+42,R_water_cut_F-14_2015-09-01,15/9-F-14,F-14,2015-09-01,water_cut,0.941,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-09-01
+42,R_log_wor_F-14_2015-09-01,15/9-F-14,F-14,2015-09-01,log_wor,1.2026,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-09-01
+42,R_np_cum_F-14_2015-09-01,15/9-F-14,F-14,2015-09-01,np_cum,3902979.75,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-09-01
+42,R_pressure_F-14_2015-09-01,15/9-F-14,F-14,2015-09-01,pressure,266.5613,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-09-01
+42,R_water_cut_F-14_2015-10-01,15/9-F-14,F-14,2015-10-01,water_cut,0.9456,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-10-01
+42,R_log_wor_F-14_2015-10-01,15/9-F-14,F-14,2015-10-01,log_wor,1.2397,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-10-01
+42,R_np_cum_F-14_2015-10-01,15/9-F-14,F-14,2015-10-01,np_cum,3908614.61,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-10-01
+42,R_pressure_F-14_2015-10-01,15/9-F-14,F-14,2015-10-01,pressure,264.0436,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-10-01
+42,R_water_cut_F-14_2015-11-01,15/9-F-14,F-14,2015-11-01,water_cut,0.9465,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-11-01
+42,R_log_wor_F-14_2015-11-01,15/9-F-14,F-14,2015-11-01,log_wor,1.2476,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-11-01
+42,R_np_cum_F-14_2015-11-01,15/9-F-14,F-14,2015-11-01,np_cum,3914046.17,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-11-01
+42,R_pressure_F-14_2015-11-01,15/9-F-14,F-14,2015-11-01,pressure,265.8476,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-11-01
+42,R_water_cut_F-14_2015-12-01,15/9-F-14,F-14,2015-12-01,water_cut,0.9483,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2015-12-01
+42,R_log_wor_F-14_2015-12-01,15/9-F-14,F-14,2015-12-01,log_wor,1.2634,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2015-12-01
+42,R_np_cum_F-14_2015-12-01,15/9-F-14,F-14,2015-12-01,np_cum,3919204.26,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2015-12-01
+42,R_pressure_F-14_2015-12-01,15/9-F-14,F-14,2015-12-01,pressure,266.0926,bar,S_pressure_F-14,volve:prod:15/9-F-14:2015-12-01
+42,R_water_cut_F-14_2016-01-01,15/9-F-14,F-14,2016-01-01,water_cut,0.9547,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2016-01-01
+42,R_log_wor_F-14_2016-01-01,15/9-F-14,F-14,2016-01-01,log_wor,1.3241,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2016-01-01
+42,R_np_cum_F-14_2016-01-01,15/9-F-14,F-14,2016-01-01,np_cum,3923810.56,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2016-01-01
+42,R_pressure_F-14_2016-01-01,15/9-F-14,F-14,2016-01-01,pressure,266.6487,bar,S_pressure_F-14,volve:prod:15/9-F-14:2016-01-01
+42,R_water_cut_F-14_2016-02-01,15/9-F-14,F-14,2016-02-01,water_cut,0.9563,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2016-02-01
+42,R_log_wor_F-14_2016-02-01,15/9-F-14,F-14,2016-02-01,log_wor,1.3406,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2016-02-01
+42,R_np_cum_F-14_2016-02-01,15/9-F-14,F-14,2016-02-01,np_cum,3927752.33,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2016-02-01
+42,R_pressure_F-14_2016-02-01,15/9-F-14,F-14,2016-02-01,pressure,266.7555,bar,S_pressure_F-14,volve:prod:15/9-F-14:2016-02-01
+42,R_water_cut_F-14_2016-03-01,15/9-F-14,F-14,2016-03-01,water_cut,0.9632,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2016-03-01
+42,R_log_wor_F-14_2016-03-01,15/9-F-14,F-14,2016-03-01,log_wor,1.4173,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2016-03-01
+42,R_np_cum_F-14_2016-03-01,15/9-F-14,F-14,2016-03-01,np_cum,3931506.13,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2016-03-01
+42,R_pressure_F-14_2016-03-01,15/9-F-14,F-14,2016-03-01,pressure,267.5564,bar,S_pressure_F-14,volve:prod:15/9-F-14:2016-03-01
+42,R_water_cut_F-14_2016-04-01,15/9-F-14,F-14,2016-04-01,water_cut,0.9673,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2016-04-01
+42,R_log_wor_F-14_2016-04-01,15/9-F-14,F-14,2016-04-01,log_wor,1.4704,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2016-04-01
+42,R_np_cum_F-14_2016-04-01,15/9-F-14,F-14,2016-04-01,np_cum,3934618.54,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2016-04-01
+42,R_pressure_F-14_2016-04-01,15/9-F-14,F-14,2016-04-01,pressure,268.1422,bar,S_pressure_F-14,volve:prod:15/9-F-14:2016-04-01
+42,R_water_cut_F-14_2016-05-01,15/9-F-14,F-14,2016-05-01,water_cut,0.9653,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2016-05-01
+42,R_log_wor_F-14_2016-05-01,15/9-F-14,F-14,2016-05-01,log_wor,1.4445,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2016-05-01
+42,R_np_cum_F-14_2016-05-01,15/9-F-14,F-14,2016-05-01,np_cum,3937831.5,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2016-05-01
+42,R_pressure_F-14_2016-05-01,15/9-F-14,F-14,2016-05-01,pressure,270.7802,bar,S_pressure_F-14,volve:prod:15/9-F-14:2016-05-01
+42,R_water_cut_F-14_2016-06-01,15/9-F-14,F-14,2016-06-01,water_cut,0.9664,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2016-06-01
+42,R_log_wor_F-14_2016-06-01,15/9-F-14,F-14,2016-06-01,log_wor,1.4585,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2016-06-01
+42,R_np_cum_F-14_2016-06-01,15/9-F-14,F-14,2016-06-01,np_cum,3940906.53,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2016-06-01
+42,R_pressure_F-14_2016-06-01,15/9-F-14,F-14,2016-06-01,pressure,269.8276,bar,S_pressure_F-14,volve:prod:15/9-F-14:2016-06-01
+42,R_water_cut_F-14_2016-07-01,15/9-F-14,F-14,2016-07-01,water_cut,0.9662,frac,S_water_cut_F-14,volve:prod:15/9-F-14:2016-07-01
+42,R_log_wor_F-14_2016-07-01,15/9-F-14,F-14,2016-07-01,log_wor,1.4557,log10,S_log_wor_F-14,volve:prod:15/9-F-14:2016-07-01
+42,R_np_cum_F-14_2016-07-01,15/9-F-14,F-14,2016-07-01,np_cum,3942233.39,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2016-07-01
+42,R_pressure_F-14_2016-07-01,15/9-F-14,F-14,2016-07-01,pressure,286.9163,bar,S_pressure_F-14,volve:prod:15/9-F-14:2016-07-01
+42,R_np_cum_F-14_2016-08-01,15/9-F-14,F-14,2016-08-01,np_cum,3942233.39,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2016-08-01
+42,R_pressure_F-14_2016-08-01,15/9-F-14,F-14,2016-08-01,pressure,4.5185,bar,S_pressure_F-14,volve:prod:15/9-F-14:2016-08-01
+42,R_np_cum_F-14_2016-09-01,15/9-F-14,F-14,2016-09-01,np_cum,3942233.39,sm3,S_np_cum_F-14,volve:prod:15/9-F-14:2016-09-01
+42,R_pressure_F-14_2016-09-01,15/9-F-14,F-14,2016-09-01,pressure,0.0,bar,S_pressure_F-14,volve:prod:15/9-F-14:2016-09-01
+42,R_water_cut_F-15D_2014-01-01,15/9-F-15 D,F-15 D,2014-01-01,water_cut,0.0,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-01-01
+42,R_np_cum_F-15D_2014-01-01,15/9-F-15 D,F-15 D,2014-01-01,np_cum,5674.63,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-01-01
+42,R_pressure_F-15D_2014-01-01,15/9-F-15 D,F-15 D,2014-01-01,pressure,226.47,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-01-01
+42,R_water_cut_F-15D_2014-02-01,15/9-F-15 D,F-15 D,2014-02-01,water_cut,0.0,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-02-01
+42,R_np_cum_F-15D_2014-02-01,15/9-F-15 D,F-15 D,2014-02-01,np_cum,13573.23,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-02-01
+42,R_pressure_F-15D_2014-02-01,15/9-F-15 D,F-15 D,2014-02-01,pressure,202.0027,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-02-01
+42,R_water_cut_F-15D_2014-03-01,15/9-F-15 D,F-15 D,2014-03-01,water_cut,0.0,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-03-01
+42,R_np_cum_F-15D_2014-03-01,15/9-F-15 D,F-15 D,2014-03-01,np_cum,20654.7,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-03-01
+42,R_pressure_F-15D_2014-03-01,15/9-F-15 D,F-15 D,2014-03-01,pressure,201.5811,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-03-01
+42,R_water_cut_F-15D_2014-04-01,15/9-F-15 D,F-15 D,2014-04-01,water_cut,0.0,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-04-01
+42,R_np_cum_F-15D_2014-04-01,15/9-F-15 D,F-15 D,2014-04-01,np_cum,27818.0,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-04-01
+42,R_pressure_F-15D_2014-04-01,15/9-F-15 D,F-15 D,2014-04-01,pressure,200.664,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-04-01
+42,R_water_cut_F-15D_2014-05-01,15/9-F-15 D,F-15 D,2014-05-01,water_cut,0.0,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-05-01
+42,R_np_cum_F-15D_2014-05-01,15/9-F-15 D,F-15 D,2014-05-01,np_cum,35036.61,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-05-01
+42,R_pressure_F-15D_2014-05-01,15/9-F-15 D,F-15 D,2014-05-01,pressure,198.6844,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-05-01
+42,R_water_cut_F-15D_2014-06-01,15/9-F-15 D,F-15 D,2014-06-01,water_cut,0.0,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-06-01
+42,R_np_cum_F-15D_2014-06-01,15/9-F-15 D,F-15 D,2014-06-01,np_cum,42049.16,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-06-01
+42,R_pressure_F-15D_2014-06-01,15/9-F-15 D,F-15 D,2014-06-01,pressure,200.6284,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-06-01
+42,R_water_cut_F-15D_2014-07-01,15/9-F-15 D,F-15 D,2014-07-01,water_cut,0.0,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-07-01
+42,R_np_cum_F-15D_2014-07-01,15/9-F-15 D,F-15 D,2014-07-01,np_cum,48896.58,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-07-01
+42,R_pressure_F-15D_2014-07-01,15/9-F-15 D,F-15 D,2014-07-01,pressure,199.3815,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-07-01
+42,R_water_cut_F-15D_2014-08-01,15/9-F-15 D,F-15 D,2014-08-01,water_cut,0.0,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-08-01
+42,R_np_cum_F-15D_2014-08-01,15/9-F-15 D,F-15 D,2014-08-01,np_cum,52371.97,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-08-01
+42,R_pressure_F-15D_2014-08-01,15/9-F-15 D,F-15 D,2014-08-01,pressure,225.0851,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-08-01
+42,R_water_cut_F-15D_2014-09-01,15/9-F-15 D,F-15 D,2014-09-01,water_cut,0.0,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-09-01
+42,R_np_cum_F-15D_2014-09-01,15/9-F-15 D,F-15 D,2014-09-01,np_cum,57686.52,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-09-01
+42,R_pressure_F-15D_2014-09-01,15/9-F-15 D,F-15 D,2014-09-01,pressure,206.0239,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-09-01
+42,R_water_cut_F-15D_2014-10-01,15/9-F-15 D,F-15 D,2014-10-01,water_cut,0.0309,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-10-01
+42,R_log_wor_F-15D_2014-10-01,15/9-F-15 D,F-15 D,2014-10-01,log_wor,-1.4965,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2014-10-01
+42,R_np_cum_F-15D_2014-10-01,15/9-F-15 D,F-15 D,2014-10-01,np_cum,63419.49,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-10-01
+42,R_pressure_F-15D_2014-10-01,15/9-F-15 D,F-15 D,2014-10-01,pressure,200.3806,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-10-01
+42,R_water_cut_F-15D_2014-11-01,15/9-F-15 D,F-15 D,2014-11-01,water_cut,0.0393,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2014-11-01
+42,R_log_wor_F-15D_2014-11-01,15/9-F-15 D,F-15 D,2014-11-01,log_wor,-1.3883,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2014-11-01
+42,R_np_cum_F-15D_2014-11-01,15/9-F-15 D,F-15 D,2014-11-01,np_cum,68135.8,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-11-01
+42,R_pressure_F-15D_2014-11-01,15/9-F-15 D,F-15 D,2014-11-01,pressure,209.3449,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-11-01
+42,R_np_cum_F-15D_2014-12-01,15/9-F-15 D,F-15 D,2014-12-01,np_cum,68135.8,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2014-12-01
+42,R_pressure_F-15D_2014-12-01,15/9-F-15 D,F-15 D,2014-12-01,pressure,290.7314,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2014-12-01
+42,R_water_cut_F-15D_2015-01-01,15/9-F-15 D,F-15 D,2015-01-01,water_cut,0.0336,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-01-01
+42,R_log_wor_F-15D_2015-01-01,15/9-F-15 D,F-15 D,2015-01-01,log_wor,-1.4588,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-01-01
+42,R_np_cum_F-15D_2015-01-01,15/9-F-15 D,F-15 D,2015-01-01,np_cum,74111.31,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-01-01
+42,R_pressure_F-15D_2015-01-01,15/9-F-15 D,F-15 D,2015-01-01,pressure,211.0027,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-01-01
+42,R_water_cut_F-15D_2015-02-01,15/9-F-15 D,F-15 D,2015-02-01,water_cut,0.0535,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-02-01
+42,R_log_wor_F-15D_2015-02-01,15/9-F-15 D,F-15 D,2015-02-01,log_wor,-1.2477,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-02-01
+42,R_np_cum_F-15D_2015-02-01,15/9-F-15 D,F-15 D,2015-02-01,np_cum,78692.6,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-02-01
+42,R_pressure_F-15D_2015-02-01,15/9-F-15 D,F-15 D,2015-02-01,pressure,200.4353,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-02-01
+42,R_water_cut_F-15D_2015-03-01,15/9-F-15 D,F-15 D,2015-03-01,water_cut,0.0697,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-03-01
+42,R_log_wor_F-15D_2015-03-01,15/9-F-15 D,F-15 D,2015-03-01,log_wor,-1.1253,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-03-01
+42,R_np_cum_F-15D_2015-03-01,15/9-F-15 D,F-15 D,2015-03-01,np_cum,82826.07,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-03-01
+42,R_pressure_F-15D_2015-03-01,15/9-F-15 D,F-15 D,2015-03-01,pressure,204.6082,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-03-01
+42,R_water_cut_F-15D_2015-04-01,15/9-F-15 D,F-15 D,2015-04-01,water_cut,0.0695,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-04-01
+42,R_log_wor_F-15D_2015-04-01,15/9-F-15 D,F-15 D,2015-04-01,log_wor,-1.1269,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-04-01
+42,R_np_cum_F-15D_2015-04-01,15/9-F-15 D,F-15 D,2015-04-01,np_cum,87085.99,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-04-01
+42,R_pressure_F-15D_2015-04-01,15/9-F-15 D,F-15 D,2015-04-01,pressure,199.985,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-04-01
+42,R_water_cut_F-15D_2015-05-01,15/9-F-15 D,F-15 D,2015-05-01,water_cut,0.0692,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-05-01
+42,R_log_wor_F-15D_2015-05-01,15/9-F-15 D,F-15 D,2015-05-01,log_wor,-1.1286,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-05-01
+42,R_np_cum_F-15D_2015-05-01,15/9-F-15 D,F-15 D,2015-05-01,np_cum,91143.95,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-05-01
+42,R_pressure_F-15D_2015-05-01,15/9-F-15 D,F-15 D,2015-05-01,pressure,200.3887,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-05-01
+42,R_water_cut_F-15D_2015-06-01,15/9-F-15 D,F-15 D,2015-06-01,water_cut,0.0737,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-06-01
+42,R_log_wor_F-15D_2015-06-01,15/9-F-15 D,F-15 D,2015-06-01,log_wor,-1.0994,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-06-01
+42,R_np_cum_F-15D_2015-06-01,15/9-F-15 D,F-15 D,2015-06-01,np_cum,94809.75,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-06-01
+42,R_pressure_F-15D_2015-06-01,15/9-F-15 D,F-15 D,2015-06-01,pressure,200.5264,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-06-01
+42,R_water_cut_F-15D_2015-07-01,15/9-F-15 D,F-15 D,2015-07-01,water_cut,0.0762,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-07-01
+42,R_log_wor_F-15D_2015-07-01,15/9-F-15 D,F-15 D,2015-07-01,log_wor,-1.0834,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-07-01
+42,R_np_cum_F-15D_2015-07-01,15/9-F-15 D,F-15 D,2015-07-01,np_cum,97048.2,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-07-01
+42,R_pressure_F-15D_2015-07-01,15/9-F-15 D,F-15 D,2015-07-01,pressure,225.7634,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-07-01
+42,R_water_cut_F-15D_2015-08-01,15/9-F-15 D,F-15 D,2015-08-01,water_cut,0.3416,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-08-01
+42,R_log_wor_F-15D_2015-08-01,15/9-F-15 D,F-15 D,2015-08-01,log_wor,-0.2849,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-08-01
+42,R_np_cum_F-15D_2015-08-01,15/9-F-15 D,F-15 D,2015-08-01,np_cum,100625.87,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-08-01
+42,R_pressure_F-15D_2015-08-01,15/9-F-15 D,F-15 D,2015-08-01,pressure,261.1827,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-08-01
+42,R_water_cut_F-15D_2015-09-01,15/9-F-15 D,F-15 D,2015-09-01,water_cut,0.3496,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-09-01
+42,R_log_wor_F-15D_2015-09-01,15/9-F-15 D,F-15 D,2015-09-01,log_wor,-0.2696,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-09-01
+42,R_np_cum_F-15D_2015-09-01,15/9-F-15 D,F-15 D,2015-09-01,np_cum,108043.22,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-09-01
+42,R_pressure_F-15D_2015-09-01,15/9-F-15 D,F-15 D,2015-09-01,pressure,221.4468,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-09-01
+42,R_water_cut_F-15D_2015-10-01,15/9-F-15 D,F-15 D,2015-10-01,water_cut,0.3638,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-10-01
+42,R_log_wor_F-15D_2015-10-01,15/9-F-15 D,F-15 D,2015-10-01,log_wor,-0.2428,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-10-01
+42,R_np_cum_F-15D_2015-10-01,15/9-F-15 D,F-15 D,2015-10-01,np_cum,114390.05,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-10-01
+42,R_pressure_F-15D_2015-10-01,15/9-F-15 D,F-15 D,2015-10-01,pressure,219.9833,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-10-01
+42,R_water_cut_F-15D_2015-11-01,15/9-F-15 D,F-15 D,2015-11-01,water_cut,0.4111,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-11-01
+42,R_log_wor_F-15D_2015-11-01,15/9-F-15 D,F-15 D,2015-11-01,log_wor,-0.1561,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-11-01
+42,R_np_cum_F-15D_2015-11-01,15/9-F-15 D,F-15 D,2015-11-01,np_cum,118316.06,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-11-01
+42,R_pressure_F-15D_2015-11-01,15/9-F-15 D,F-15 D,2015-11-01,pressure,231.9423,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-11-01
+42,R_water_cut_F-15D_2015-12-01,15/9-F-15 D,F-15 D,2015-12-01,water_cut,0.5078,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2015-12-01
+42,R_log_wor_F-15D_2015-12-01,15/9-F-15 D,F-15 D,2015-12-01,log_wor,0.0136,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2015-12-01
+42,R_np_cum_F-15D_2015-12-01,15/9-F-15 D,F-15 D,2015-12-01,np_cum,123235.1,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2015-12-01
+42,R_pressure_F-15D_2015-12-01,15/9-F-15 D,F-15 D,2015-12-01,pressure,235.9478,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2015-12-01
+42,R_water_cut_F-15D_2016-01-01,15/9-F-15 D,F-15 D,2016-01-01,water_cut,0.558,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2016-01-01
+42,R_log_wor_F-15D_2016-01-01,15/9-F-15 D,F-15 D,2016-01-01,log_wor,0.1011,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2016-01-01
+42,R_np_cum_F-15D_2016-01-01,15/9-F-15 D,F-15 D,2016-01-01,np_cum,126126.03,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2016-01-01
+42,R_pressure_F-15D_2016-01-01,15/9-F-15 D,F-15 D,2016-01-01,pressure,248.3105,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2016-01-01
+42,R_water_cut_F-15D_2016-02-01,15/9-F-15 D,F-15 D,2016-02-01,water_cut,0.5355,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2016-02-01
+42,R_log_wor_F-15D_2016-02-01,15/9-F-15 D,F-15 D,2016-02-01,log_wor,0.0618,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2016-02-01
+42,R_np_cum_F-15D_2016-02-01,15/9-F-15 D,F-15 D,2016-02-01,np_cum,131235.36,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2016-02-01
+42,R_pressure_F-15D_2016-02-01,15/9-F-15 D,F-15 D,2016-02-01,pressure,206.3018,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2016-02-01
+42,R_water_cut_F-15D_2016-03-01,15/9-F-15 D,F-15 D,2016-03-01,water_cut,0.5733,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2016-03-01
+42,R_log_wor_F-15D_2016-03-01,15/9-F-15 D,F-15 D,2016-03-01,log_wor,0.1283,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2016-03-01
+42,R_np_cum_F-15D_2016-03-01,15/9-F-15 D,F-15 D,2016-03-01,np_cum,134982.91,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2016-03-01
+42,R_pressure_F-15D_2016-03-01,15/9-F-15 D,F-15 D,2016-03-01,pressure,218.1609,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2016-03-01
+42,R_water_cut_F-15D_2016-04-01,15/9-F-15 D,F-15 D,2016-04-01,water_cut,0.5559,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2016-04-01
+42,R_log_wor_F-15D_2016-04-01,15/9-F-15 D,F-15 D,2016-04-01,log_wor,0.0975,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2016-04-01
+42,R_np_cum_F-15D_2016-04-01,15/9-F-15 D,F-15 D,2016-04-01,np_cum,139527.07,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2016-04-01
+42,R_pressure_F-15D_2016-04-01,15/9-F-15 D,F-15 D,2016-04-01,pressure,232.4323,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2016-04-01
+42,R_water_cut_F-15D_2016-05-01,15/9-F-15 D,F-15 D,2016-05-01,water_cut,0.561,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2016-05-01
+42,R_log_wor_F-15D_2016-05-01,15/9-F-15 D,F-15 D,2016-05-01,log_wor,0.1064,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2016-05-01
+42,R_np_cum_F-15D_2016-05-01,15/9-F-15 D,F-15 D,2016-05-01,np_cum,144226.08,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2016-05-01
+42,R_pressure_F-15D_2016-05-01,15/9-F-15 D,F-15 D,2016-05-01,pressure,209.718,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2016-05-01
+42,R_water_cut_F-15D_2016-06-01,15/9-F-15 D,F-15 D,2016-06-01,water_cut,0.6088,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2016-06-01
+42,R_log_wor_F-15D_2016-06-01,15/9-F-15 D,F-15 D,2016-06-01,log_wor,0.1921,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2016-06-01
+42,R_np_cum_F-15D_2016-06-01,15/9-F-15 D,F-15 D,2016-06-01,np_cum,147689.99,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2016-06-01
+42,R_pressure_F-15D_2016-06-01,15/9-F-15 D,F-15 D,2016-06-01,pressure,212.9269,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2016-06-01
+42,R_water_cut_F-15D_2016-07-01,15/9-F-15 D,F-15 D,2016-07-01,water_cut,0.5859,frac,S_water_cut_F-15 D,volve:prod:15/9-F-15 D:2016-07-01
+42,R_log_wor_F-15D_2016-07-01,15/9-F-15 D,F-15 D,2016-07-01,log_wor,0.1507,log10,S_log_wor_F-15 D,volve:prod:15/9-F-15 D:2016-07-01
+42,R_np_cum_F-15D_2016-07-01,15/9-F-15 D,F-15 D,2016-07-01,np_cum,148518.56,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2016-07-01
+42,R_pressure_F-15D_2016-07-01,15/9-F-15 D,F-15 D,2016-07-01,pressure,308.1011,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2016-07-01
+42,R_np_cum_F-15D_2016-08-01,15/9-F-15 D,F-15 D,2016-08-01,np_cum,148518.56,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2016-08-01
+42,R_pressure_F-15D_2016-08-01,15/9-F-15 D,F-15 D,2016-08-01,pressure,345.897,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2016-08-01
+42,R_np_cum_F-15D_2016-09-01,15/9-F-15 D,F-15 D,2016-09-01,np_cum,148518.56,sm3,S_np_cum_F-15 D,volve:prod:15/9-F-15 D:2016-09-01
+42,R_pressure_F-15D_2016-09-01,15/9-F-15 D,F-15 D,2016-09-01,pressure,345.9068,bar,S_pressure_F-15 D,volve:prod:15/9-F-15 D:2016-09-01

@@ -1,0 +1,351 @@
+question_id,system,category,answer,exact_match,ndcg_at_5,source_file
+Q01,S1,Identification,I do not have the CRM connectivity data required to answer; please provide the connectivity matrix or fit results for producer F-12.,0.0,,S1_llm_only
+Q02,S1,Identification,Unknown without the field's CRM data; a typical adjacent-well value would be roughly 0.1–0.4.,0.0,,S1_llm_only
+Q03,S1,Identification,I don't have the specific value; typical CRM tau ranges from a few to several hundred days (commonly ~30–50 days).,0.0,,S1_llm_only
+Q04,S1,Identification,Insufficient data provided—please share the injector-producer connectivity weights to identify the injector with the highest total outgoing connectivity.,0.0,,S1_llm_only
+Q05,S1,Identification,Insufficient data to identify the dominant injector for F-11.,0.0,,S1_llm_only
+Q06,S1,Identification,Insufficient data provided to determine the count.,0.0,,S1_llm_only
+Q07,S1,Identification,Unavailable — I do not have production data for well F-14.,0.0,,S1_llm_only
+Q08,S1,Identification,"Insufficient data to determine; identifying supported producers requires well pattern maps, tracer tests, or streamline/connectivity analysis for injector F-4.",0.0,,S1_llm_only
+Q09,S1,Identification,Data not available — please provide the production dataset for well F-12.,0.0,,S1_llm_only
+Q10,S1,Identification,"Insufficient data — provide tracer/CRM/interference test results; the strongest connection is the injector-producer pair with the highest CRM connectivity gain (or fastest, highest-mass tracer breakthrough).",0.0,,S1_llm_only
+Q11,S1,Identification,Insufficient data provided — please share the field's well list or dataset to determine the number of producer and injector wells.,0.0,,S1_llm_only
+Q12,S1,Identification,Data not available; please consult the field production database or well test records for F-12.,0.0,,S1_llm_only
+Q13,S1,Identification,I don't have this data; please check F-14's well test records or production database for the last water-cut measurement date.,0.0,,S1_llm_only
+Q14,S1,Risk,Insufficient data provided; please share the well alert records or water-cut history to identify producers with WCT_SEVERE (WCT ≥ 90%) alerts.,0.0,,S1_llm_only
+Q15,S1,Risk,Insufficient data provided—please share the well/production/alert dataset to identify producers with water-breakthrough alerts.,0.0,,S1_llm_only
+Q16,S1,Risk,"Cannot determine without the connectivity/CRM data — please provide the λij matrix or tracer results, then filter for pairs with weight > 0.3.",0.0,,S1_llm_only
+Q17,S1,Risk,Data not available — please provide the field alert log or surveillance records to determine the HIGH_WOR alert count.,0.0,,S1_llm_only
+Q18,S1,Risk,Insufficient data provided to determine the producer with the most severe water-cut alerts.,0.0,,S1_llm_only
+Q19,S1,Risk,Cannot determine without the injector-producer connectivity/allocation data; please provide it to identify any single-injector-dependent producers.,1.0,,S1_llm_only
+Q20,S1,Risk,Data not available — please provide the field's alert logs or monitoring records.,0.0,,S1_llm_only
+Q21,S1,Risk,Insufficient data provided — please share the producer list with water breakthrough alert dates.,0.0,,S1_llm_only
+Q22,S1,Risk,Approximately 0.6–0.8 (estimate; actual value requires well-level water-cut data),0.0,,S1_llm_only
+Q23,S1,Risk,"Yes—if any injector's connectivity to F-12 exceeds 0.2, that strong link makes injected-water arrival (water breakthrough) a real risk.",1.0,,S1_llm_only
+Q24,S1,Risk,Insufficient data provided—identify the producer with the maximum single interwell connectivity weight (λ) in your CRM/connectivity matrix.,0.0,,S1_llm_only
+Q25,S1,Risk,Data unavailable — please provide well-level water-cut readings to determine the count.,0.0,,S1_llm_only
+Q26,S1,Recommendation,"I don't have the data; my best estimate is a production/choke optimization or chemical treatment, but a specific answer requires the intervention cost and incremental-barrel dataset.",0.0,,S1_llm_only
+Q27,S1,Recommendation,Insufficient data provided to determine the most frequently recommended intervention action type.,0.0,,S1_llm_only
+Q28,S1,Recommendation,Insufficient data provided to determine the count — please share the intervention/recommendation dataset.,0.0,,S1_llm_only
+Q29,S1,Recommendation,Insufficient data provided to determine the intervention with the highest expected oil uplift.,0.0,,S1_llm_only
+Q30,S1,Recommendation,Approximately $20–25/barrel (estimate; no dataset provided),0.0,,S1_llm_only
+Q31,S1,Recommendation,"Artificial-lift/choke optimization (best uplift-per-cost, pending specific data)",0.0,,S1_llm_only
+Q32,S1,Recommendation,Data not available for well F-14.,0.0,,S1_llm_only
+Q33,S1,Recommendation,Insufficient data provided — please share the well/intervention dataset.,0.0,,S1_llm_only
+Q34,S1,Recommendation,Insufficient data provided — please share intervention costs and incremental barrels to compute the ranking.,,0.0,S1_llm_only
+Q35,S1,Recommendation,Insufficient data provided — please share the intervention list with costs to determine the cheapest option.,0.0,,S1_llm_only
+Q36,S1,Recommendation,Unknown — no data available to determine the count of water_shutoff interventions.,0.0,,S1_llm_only
+Q37,S1,Recommendation,Insufficient data provided to determine the lowest cost-per-barrel intervention for F-14.,0.0,,S1_llm_only
+Q38,S1,Recommendation,Insufficient data provided — please share the intervention candidates and their expected uplift values so I can rank them.,,0.0,S1_llm_only
+Q39,S1,Explanation,"F-14's severe alert fired because measured water cut spiked past the critical setpoint (>~85%) alongside falling oil rate and rising water fraction/salinity, indicating water breakthrough (coning/channeling). Recommended: reduce drawdown immediately, run a PLT to locate water entry, then perform water shutoff (cement squeeze/plug or gel/RPM treatment) and monitor.",,,S1_llm_only
+Q40,S1,Explanation,I don't have the underlying data to trace this—please provide the reading/alert logs.,,,S1_llm_only
+Q41,S1,Explanation,"F-5 → F-11 is flagged because its high injector-producer connectivity weight indicates a strong, direct flow path (likely a high-perm streak/fracture), meaning injected water short-circuits to F-11 and arrives much earlier than normal sweep, causing early water breakthrough and bypassed oil.",,,S1_llm_only
+Q42,S1,Explanation,"I don't have the dataset or recommendation records to trace this. Please provide the intervention recommendations (with costs/IDs) and their lineage metadata, and I will trace the cheapest one back to its source record.",,,S1_llm_only
+Q43,S1,Explanation,"A HIGH_WOR alert is supported when the measured Water-Oil Ratio (WOR) reading exceeds its configured threshold (i.e., WOR reading > WOR threshold).",,,S1_llm_only
+Q44,S1,Explanation,"F-12 shows a gradual, steady, long-term water-cut rise (mature depletion/aquifer advance), whereas F-15 D shows a later breakthrough followed by a steeper, more abrupt water-cut increase (channeling/coning in the deviated well) — best estimate, pending confirmation from actual data.",,,S1_llm_only
+Q45,S1,Explanation,"Because the CRM connectivity weight from F-5 to F-11 is larger than from F-4 to F-11, meaning a greater fraction of F-5's injected volume reaches F-11 (better/more direct reservoir connectivity, higher permeability, fewer flow barriers), so F-5 provides proportionally more injection support.",,,S1_llm_only
+Q46,S1,Explanation,"Chain = ingest well data → compute composite risk score (integrity, production, mechanical, economic) → flag the top-scoring well (typically integrity threat + steep decline/rising water cut) → diagnose root cause via tests/surveys → quantify deferred volume & HSE exposure → recommend action (shut-in/reduce drawdown + integrity remediation, or lift optimization/water shut-off), prioritized by risk-reward. A specific well ID requires the field dataset.",,,S1_llm_only
+Q47,S1,Explanation,"Every KG node carries a source_record_id because it is a provenance pointer linking the node back to the raw record it came from. This matters for citation validation because it makes every fact traceable, verifiable, and auditable: validators can confirm a cited claim actually exists in a real source, detect fabricated/orphaned nodes, resolve conflicting data, and ensure regulatory reproducibility.",,,S1_llm_only
+Q48,S1,Explanation,"Water shutoff is recommended when water diagnostics (chiefly Chan plot WOR/WOR' signatures) indicate channeling through high-permeability streaks/fractures, watered-out layers or behind-casing crossflow, mechanical leaks (casing/tubing/packer), or early water breakthrough—i.e., near-wellbore, treatable water-entry problems rather than aquifer coning.",,,S1_llm_only
+Q49,S1,Explanation,"I lack the specific F-4 connectivity data to give exact producers and weights; please provide the CRM gain factors, tracer, or streamline allocation data. Best generic estimate: F-4 supports its 2–4 nearest offset producers, dominant weight (~0.3–0.5) to the closest, remainder split by distance/transmissibility.",,,S1_llm_only
+Q50,S1,Explanation,"A Reading `triggers` an Alert, and the Alert `recommendsIntervention` pointing to a corrective action—forming the chain Reading → Alert → Intervention, all tied to the same well/equipment asset.",,,S1_llm_only
+Q01,S2:bgek10,Identification,15/9-F-4 and 15/9-F-5,1.0,,S2_text_rag_bge_k10
+Q02,S2:bgek10,Identification,0.4368,1.0,,S2_text_rag_bge_k10
+Q03,S2:bgek10,Identification,45.0 days,1.0,,S2_text_rag_bge_k10
+Q04,S2:bgek10,Identification,15/9-F-4 (total ≈ 0.9186),1.0,,S2_text_rag_bge_k10
+Q05,S2:bgek10,Identification,15/9-F-5 (weight 0.4368),1.0,,S2_text_rag_bge_k10
+Q06,S2:bgek10,Identification,4,1.0,,S2_text_rag_bge_k10
+Q07,S2:bgek10,Identification,"1.4557 (log10 WOR), as of 2016-07-01",1.0,,S2_text_rag_bge_k10
+Q08,S2:bgek10,Identification,"15/9-F-11, 15/9-F-12, 15/9-F-14, and 15/9-F-1 C",1.0,,S2_text_rag_bge_k10
+Q09,S2:bgek10,Identification,"4,579,609.55 sm3 (on 2016-09-01)",1.0,,S2_text_rag_bge_k10
+Q10,S2:bgek10,Identification,15/9-F-5 → 15/9-F-11 (weight 0.4368),1.0,,S2_text_rag_bge_k10
+Q11,S2:bgek10,Identification,5 producers and 2 injectors (based on wells appearing in context),1.0,,S2_text_rag_bge_k10
+Q12,S2:bgek10,Identification,0.8835 frac (on 2016-08-01),1.0,,S2_text_rag_bge_k10
+Q13,S2:bgek10,Identification,2016-07-01,1.0,,S2_text_rag_bge_k10
+Q14,S2:bgek10,Risk,15/9-F-12 and 15/9-F-14,1.0,,S2_text_rag_bge_k10
+Q15,S2:bgek10,Risk,"15/9-F-14, 15/9-F-1 C, 15/9-F-12, 15/9-F-15 D, 15/9-F-11",1.0,,S2_text_rag_bge_k10
+Q16,S2:bgek10,Risk,15/9-F-4→15/9-F-11 (0.3473) and 15/9-F-5→15/9-F-11 (0.4368),0.0,,S2_text_rag_bge_k10
+Q17,S2:bgek10,Risk,10,0.0,,S2_text_rag_bge_k10
+Q18,S2:bgek10,Risk,15/9-F-12,0.0,,S2_text_rag_bge_k10
+Q19,S2:bgek10,Risk,Yes — 15/9-F-1 C (only from F-4) and 15/9-F-15 D (only from F-5).,0.0,,S2_text_rag_bge_k10
+Q20,S2:bgek10,Risk,234,1.0,,S2_text_rag_bge_k10
+Q21,S2:bgek10,Risk,15/9-F-12 and 15/9-F-14 (both 2010-06-01),1.0,,S2_text_rag_bge_k10
+Q22,S2:bgek10,Risk,"Insufficient context to give a fraction; 5 producers (F-1C, F-14, F-12, F-15D, F-11) crossed the threshold, but the total producer count is not provided.",0.0,,S2_text_rag_bge_k10
+Q23,S2:bgek10,Risk,"Yes — F-12 has strong connectivity from both F-4 (0.2684) and F-5 (0.2922), exceeding the 0.2 threshold, so injected-water arrival is a risk.",1.0,,S2_text_rag_bge_k10
+Q24,S2:bgek10,Risk,15/9-F-11 (weight 0.4368),1.0,,S2_text_rag_bge_k10
+Q25,S2:bgek10,Risk,1 (F-14),0.0,,S2_text_rag_bge_k10
+Q26,S2:bgek10,Recommendation,I_WCT_SEVERE_F-12_2014-02-01 (8.49 USD/bbl),0.0,,S2_text_rag_bge_k10
+Q27,S2:bgek10,Recommendation,rate_reduction,0.0,,S2_text_rag_bge_k10
+Q28,S2:bgek10,Recommendation,10,0.0,,S2_text_rag_bge_k10
+Q29,S2:bgek10,Recommendation,I_WCT_SEVERE_F-14_2015-03-01 (11262.1 bbl),0.0,,S2_text_rag_bge_k10
+Q30,S2:bgek10,Recommendation,11.86 USD/bbl,0.0,,S2_text_rag_bge_k10
+Q31,S2:bgek10,Recommendation,I_WCT_SEVERE_F-14_2015-12-01,0.0,,S2_text_rag_bge_k10
+Q32,S2:bgek10,Recommendation,2,0.0,,S2_text_rag_bge_k10
+Q33,S2:bgek10,Recommendation,15/9-F-12 and 15/9-F-14,0.0,,S2_text_rag_bge_k10
+Q34,S2:bgek10,Recommendation,"1) F-14_2015-01-01 (9.71), 2) F-12_2013-05-01 (10.42), 3) F-14_2015-06-01 (10.98), 4) F-14_2015-12-01 (11.74), 5) F-12_2013-10-01 (13.17)",,0.0,S2_text_rag_bge_k10
+Q35,S2:bgek10,Recommendation,rate_reduction (on well 15/9-F-12),0.0,,S2_text_rag_bge_k10
+Q36,S2:bgek10,Recommendation,10,1.0,,S2_text_rag_bge_k10
+Q37,S2:bgek10,Recommendation,I_WCT_SEVERE_F-14_2015-06-01 (10.98 USD/bbl),0.0,,S2_text_rag_bge_k10
+Q38,S2:bgek10,Recommendation,"1) I_WCT_SEVERE_F-14_2015-12-01 (12243.0), 2) I_WCT_SEVERE_F-14_2015-07-01 (10011.5), 3) I_WCT_SEVERE_F-12_2014-07-01 (8380.5), 4) I_WCT_SEVERE_F-14_2015-09-01 (6048.9), 5) I_WCT_SEVERE_F-12_2013-08-01 (5983.6)",,0.0979,S2_text_rag_bge_k10
+Q39,S2:bgek10,Explanation,"F-14's severe water-cut alerts (e.g., A_WCT_SEVERE_F-14_2014-08-01) were each triggered by a high water-cut reading (e.g., R_water_cut_F-14_2014-08-01), recurring monthly from 2014-08 to 2015-11 — indicating sustained water breakthrough. No recommended intervention is provided in the context.",,,S2_text_rag_bge_k10
+Q40,S2:bgek10,Explanation,"The earliest WATER_BREAKTHROUGH alerts were raised 2010-06-01, triggered by readings R_water_cut_F-12_2010-06-01 (15/9-F-12) and R_water_cut_F-14_2010-06-01 (15/9-F-14). No recommended intervention is given in the provided context.",,,S2_text_rag_bge_k10
+Q41,S2:bgek10,Explanation,"Because F-5→F-11 has the dataset's highest CRM weight (0.4368) with a short 45-day tau, indicating strong, fast injector-producer connectivity that channels injected water rapidly to F-11—flagging early breakthrough, as confirmed by F-11's water-breakthrough and high-WOR alerts.",,,S2_text_rag_bge_k10
+Q42,S2:bgek10,Explanation,The cheapest intervention (8.49 USD/bbl) is I_WCT_SEVERE_F-12_2014-02-01; it traces to well 15/9-F-12 and originates from source alert A_WCT_SEVERE_F-12_2014-02-01.,,,S2_text_rag_bge_k10
+Q43,S2:bgek10,Explanation,"Each alert is triggered by its matching monthly R_log_wor_F-1C reading, but the specific reading values and threshold are not given in the context.",,,S2_text_rag_bge_k10
+Q44,S2:bgek10,Explanation,"F-12 is far advanced (water cut ~0.88, log_wor 0.88), while F-15 D is early-stage post-breakthrough (water cut ~0.59, log_wor 0.15).",,,S2_text_rag_bge_k10
+Q45,S2:bgek10,Explanation,"Because F-5's CRM connectivity weight to F-11 (0.4368) is higher than F-4's (0.3473), indicating stronger reservoir connectivity/support from F-5.",,,S2_text_rag_bge_k10
+Q46,S2:bgek10,Explanation,"F-11 is the highest-risk producer (only alert: WATER_BREAKTHROUGH medium, 2015-08-01, from water-cut reading). It is strongly connected to injectors F-5 (CRM 0.4368) and F-4 (CRM 0.3473), implicating injected water as the breakthrough cause; the logical recommendation is to reduce/reallocate F-5 (then F-4) injection—though no explicit recommendation record is in the context.",,,S2_text_rag_bge_k10
+Q47,S2:bgek10,Explanation,"The provided context does not contain any information about KG nodes, source_record_id fields, or citation validation; I cannot answer this question from the given dashboard data.",,,S2_text_rag_bge_k10
+Q48,S2:bgek10,Explanation,A rising water-cut reading that triggered a WATER_BREAKTHROUGH alert (on 15/9-F-15 D via R_water_cut_F-15D_2015-12-01).,,,S2_text_rag_bge_k10
+Q49,S2:bgek10,Explanation,F-4 supports F-11 (0.3473) > F-12 (0.2684) > F-14 (0.1628) > F-1 C (0.1401).,,,S2_text_rag_bge_k10
+Q50,S2:bgek10,Explanation,Alert→triggered by→Reading is present (each HIGH_WOR alert links to its R_log_wor reading on the same well/date); the alert→recommended intervention link cannot be described because no intervention data is provided in the context.,,,S2_text_rag_bge_k10
+Q01,S2:bgek3,Identification,15/9-F-4 and 15/9-F-5,1.0,,S2_text_rag_bge_k3
+Q02,S2:bgek3,Identification,0.4368,1.0,,S2_text_rag_bge_k3
+Q03,S2:bgek3,Identification,45.0 days,1.0,,S2_text_rag_bge_k3
+Q04,S2:bgek3,Identification,15/9-F-4,1.0,,S2_text_rag_bge_k3
+Q05,S2:bgek3,Identification,15/9-F-5 (weight 0.4368),1.0,,S2_text_rag_bge_k3
+Q06,S2:bgek3,Identification,1,0.0,,S2_text_rag_bge_k3
+Q07,S2:bgek3,Identification,1.4557 log10 (on 2016-07-01),1.0,,S2_text_rag_bge_k3
+Q08,S2:bgek3,Identification,"15/9-F-11, 15/9-F-12, and 15/9-F-14",0.0,,S2_text_rag_bge_k3
+Q09,S2:bgek3,Identification,"4,579,609.55 sm3 (on 2016-09-01)",1.0,,S2_text_rag_bge_k3
+Q10,S2:bgek3,Identification,15/9-F-4 → 15/9-F-14 (CRM weight 0.1628),0.0,,S2_text_rag_bge_k3
+Q11,S2:bgek3,Identification,"2 producers, 2 injectors",0.0,,S2_text_rag_bge_k3
+Q12,S2:bgek3,Identification,0.8835 frac (on 2016-08-01),1.0,,S2_text_rag_bge_k3
+Q13,S2:bgek3,Identification,2016-07-01,1.0,,S2_text_rag_bge_k3
+Q14,S2:bgek3,Risk,15/9-F-12 and 15/9-F-14,1.0,,S2_text_rag_bge_k3
+Q15,S2:bgek3,Risk,"15/9-F-14, 15/9-F-1 C, 15/9-F-12",0.0,,S2_text_rag_bge_k3
+Q16,S2:bgek3,Risk,15/9-F-4 → 15/9-F-11 (0.3473),0.0,,S2_text_rag_bge_k3
+Q17,S2:bgek3,Risk,3,0.0,,S2_text_rag_bge_k3
+Q18,S2:bgek3,Risk,15/9-F-12,0.0,,S2_text_rag_bge_k3
+Q19,S2:bgek3,Risk,"Insufficient context to confirm; based only on provided records, each listed producer (15/9-F-1 C, 15/9-F-14, 15/9-F-12) shows a single injector, but complete connectivity data is not available.",1.0,,S2_text_rag_bge_k3
+Q20,S2:bgek3,Risk,234 (water alerts: 185 + 44 + 5),1.0,,S2_text_rag_bge_k3
+Q21,S2:bgek3,Risk,15/9-F-12,1.0,,S2_text_rag_bge_k3
+Q22,S2:bgek3,Risk,"Insufficient context — 3 producers crossed the threshold, but the total number of producers is not given.",0.0,,S2_text_rag_bge_k3
+Q23,S2:bgek3,Risk,"Yes—F-12 has connectivity above 0.2 from both 15/9-F-4 (0.2684) and 15/9-F-5 (0.2922), posing injected-water arrival risk.",1.0,,S2_text_rag_bge_k3
+Q24,S2:bgek3,Risk,15/9-F-12,0.0,,S2_text_rag_bge_k3
+Q25,S2:bgek3,Risk,1,0.0,,S2_text_rag_bge_k3
+Q26,S2:bgek3,Recommendation,I_WCT_SEVERE_F-14_2015-11-01 (11.26 USD/bbl),0.0,,S2_text_rag_bge_k3
+Q27,S2:bgek3,Recommendation,rate_reduction,0.0,,S2_text_rag_bge_k3
+Q28,S2:bgek3,Recommendation,3,0.0,,S2_text_rag_bge_k3
+Q29,S2:bgek3,Recommendation,I_WATER_BREAKTHROUGH_F-1C_2014-10-01 (8158.5 bbl),0.0,,S2_text_rag_bge_k3
+Q30,S2:bgek3,Recommendation,~11.93 USD/bbl,0.0,,S2_text_rag_bge_k3
+Q31,S2:bgek3,Recommendation,I_WCT_SEVERE_F-14_2015-07-01,0.0,,S2_text_rag_bge_k3
+Q32,S2:bgek3,Recommendation,Insufficient context to determine the number of recommended interventions for producer F-14.,0.0,,S2_text_rag_bge_k3
+Q33,S2:bgek3,Recommendation,15/9-F-14 and 15/9-F-12,0.0,,S2_text_rag_bge_k3
+Q34,S2:bgek3,Recommendation,"1) I_WCT_SEVERE_F-12_2013-05-01 (10.42); 2) I_WCT_SEVERE_F-14_2015-06-01 (10.98); 3) I_WCT_SEVERE_F-14_2015-12-01 (11.74) — only 3 available, not 5.",,0.0,S2_text_rag_bge_k3
+Q35,S2:bgek3,Recommendation,rate_reduction,0.0,,S2_text_rag_bge_k3
+Q36,S2:bgek3,Recommendation,3,0.0,,S2_text_rag_bge_k3
+Q37,S2:bgek3,Recommendation,"I_WCT_SEVERE_F-14_2015-12-01 (gas_lift_opt, 11.74 USD/bbl)",0.0,,S2_text_rag_bge_k3
+Q38,S2:bgek3,Recommendation,"1) I_WCT_SEVERE_F-14_2015-07-01 (10011.5), 2) I_WATER_BREAKTHROUGH_F-11_2015-08-01 (5937.7), 3) I_WATER_BREAKTHROUGH_F-14_2010-06-01 (1837.8); only 3 available.",,0.0,S2_text_rag_bge_k3
+Q39,S2:bgek3,Explanation,"F-14 raised WCT_SEVERE alerts (2014-08-01, 2014-10-01, 2014-11-01), each triggered by its matching high water_cut reading (R_water_cut_F-14 on the same date); no recommended intervention is available in the provided context.",,,S2_text_rag_bge_k3
+Q40,S2:bgek3,Explanation,"Earliest alerts are 2010-06-01, triggered by R_water_cut_F-12_2010-06-01 (on 15/9-F-12) and R_water_cut_F-14_2010-06-01 (on 15/9-F-14); the recommended intervention is not given in the provided context.",,,S2_text_rag_bge_k3
+Q41,S2:bgek3,Explanation,"Because F-5→F-11 has a high connectivity weight (0.4368) and short tau (45 days), indicating strong, fast fluid communication that lets injected water reach F-11 quickly—signaling early water breakthrough risk.",,,S2_text_rag_bge_k3
+Q42,S2:bgek3,Explanation,"The cheapest intervention (11.47 USD/bbl) is I_WCT_SEVERE_F-12_2013-08-01 — a rate_reduction on well 15/9-F-12 (expected uplift 5983.6 bbl), which traces back to source record A_WCT_SEVERE_F-12_2013-08-01.",,,S2_text_rag_bge_k3
+Q43,S2:bgek3,Explanation,"Each HIGH_WOR alert is supported by its WOR log reading (R_log_wor_F-1C_2015-05-01, _2015-07-01, _2015-10-01), but the specific threshold value is not provided in the context.",,,S2_text_rag_bge_k3
+Q44,S2:bgek3,Explanation,"Insufficient context — water-cut data is available for F-15 D (0.5859 frac on 2016-07-01) but not for F-12, so the difference in trajectories cannot be determined.",,,S2_text_rag_bge_k3
+Q45,S2:bgek3,Explanation,"F-5 supports F-11 more because its CRM weight (0.4368) exceeds F-4's (0.3473), indicating stronger injector-producer connectivity.",,,S2_text_rag_bge_k3
+Q46,S2:bgek3,Explanation,"Context is insufficient — no risk scores or production data are provided. The only supportable observation is that 15/9-F-11 is the most injection-dependent producer (fed by 15/9-F-5 at 0.4368 and 15/9-F-4 at 0.3473), so its risk chain would hinge on maintaining stable injection from both wells; a full risk-to-recommendation chain cannot be derived.",,,S2_text_rag_bge_k3
+Q47,S2:bgek3,Explanation,Insufficient context — the provided dashboard data does not explain source_record_id or its role in citation validation.,,,S2_text_rag_bge_k3
+Q48,S2:bgek3,Explanation,"Elevated water cut readings triggering WATER_BREAKTHROUGH alerts (e.g., R_water_cut_F-15D_2015-12-01 on 15/9-F-15 D).",,,S2_text_rag_bge_k3
+Q49,S2:bgek3,Explanation,"F-4 supports F-11 (0.3473), F-12 (0.2684), and F-14 (0.1628), ranked strongest to weakest.",,,S2_text_rag_bge_k3
+Q50,S2:bgek3,Explanation,"An alert (with type, severity, well, and date) is connected to a reading through a ""triggered by"" link; the context does not include any recommended-intervention relationship, so that part cannot be determined.",,,S2_text_rag_bge_k3
+Q01,S2:bgek5,Identification,15/9-F-4 and 15/9-F-5,1.0,,S2_text_rag_bge_k5
+Q02,S2:bgek5,Identification,0.4368,1.0,,S2_text_rag_bge_k5
+Q03,S2:bgek5,Identification,45.0 days,1.0,,S2_text_rag_bge_k5
+Q04,S2:bgek5,Identification,15/9-F-4,1.0,,S2_text_rag_bge_k5
+Q05,S2:bgek5,Identification,15/9-F-5,1.0,,S2_text_rag_bge_k5
+Q06,S2:bgek5,Identification,2,0.0,,S2_text_rag_bge_k5
+Q07,S2:bgek5,Identification,1.4557 log10 (on 2016-07-01),1.0,,S2_text_rag_bge_k5
+Q08,S2:bgek5,Identification,"15/9-F-11, 15/9-F-12, 15/9-F-14, 15/9-F-1 C",1.0,,S2_text_rag_bge_k5
+Q09,S2:bgek5,Identification,"4,579,609.55 sm3 (on 2016-09-01)",1.0,,S2_text_rag_bge_k5
+Q10,S2:bgek5,Identification,15/9-F-4 → 15/9-F-11 (weight 0.3473),0.0,,S2_text_rag_bge_k5
+Q11,S2:bgek5,Identification,3 producers and 2 injectors,0.0,,S2_text_rag_bge_k5
+Q12,S2:bgek5,Identification,0.8835 (on 2016-08-01),1.0,,S2_text_rag_bge_k5
+Q13,S2:bgek5,Identification,2016-07-01,1.0,,S2_text_rag_bge_k5
+Q14,S2:bgek5,Risk,15/9-F-12 and 15/9-F-14,1.0,,S2_text_rag_bge_k5
+Q15,S2:bgek5,Risk,"15/9-F-14, 15/9-F-1 C, 15/9-F-12, 15/9-F-15 D, 15/9-F-11",1.0,,S2_text_rag_bge_k5
+Q16,S2:bgek5,Risk,15/9-F-4 → 15/9-F-11 (0.3473),0.0,,S2_text_rag_bge_k5
+Q17,S2:bgek5,Risk,5,0.0,,S2_text_rag_bge_k5
+Q18,S2:bgek5,Risk,15/9-F-12,0.0,,S2_text_rag_bge_k5
+Q19,S2:bgek5,Risk,"Yes — 15/9-F-1 C, 15/9-F-12, and 15/9-F-15 D each depend on a single injector (single-point-of-failure).",0.0,,S2_text_rag_bge_k5
+Q20,S2:bgek5,Risk,234 water alerts (185 HIGH_WOR + 44 WCT_SEVERE + 5 WATER_BREAKTHROUGH),1.0,,S2_text_rag_bge_k5
+Q21,S2:bgek5,Risk,15/9-F-12 and 15/9-F-14 (both 2010-06-01),1.0,,S2_text_rag_bge_k5
+Q22,S2:bgek5,Risk,"Insufficient context — 5 wells crossed the threshold, but the total number of producers is not given, so the fraction cannot be determined.",0.0,,S2_text_rag_bge_k5
+Q23,S2:bgek5,Risk,"Yes — both injectors (F-4: 0.2684, F-5: 0.2922) exceed 0.2, indicating water-arrival risk.",1.0,,S2_text_rag_bge_k5
+Q24,S2:bgek5,Risk,15/9-F-12,0.0,,S2_text_rag_bge_k5
+Q25,S2:bgek5,Risk,1 (F-14),0.0,,S2_text_rag_bge_k5
+Q26,S2:bgek5,Recommendation,I_WCT_SEVERE_F-12_2014-02-01 (8.49 USD/bbl),0.0,,S2_text_rag_bge_k5
+Q27,S2:bgek5,Recommendation,rate_reduction,0.0,,S2_text_rag_bge_k5
+Q28,S2:bgek5,Recommendation,5,0.0,,S2_text_rag_bge_k5
+Q29,S2:bgek5,Recommendation,I_WCT_SEVERE_F-14_2015-03-01 (11262.1 bbl),0.0,,S2_text_rag_bge_k5
+Q30,S2:bgek5,Recommendation,11.11 USD/bbl,0.0,,S2_text_rag_bge_k5
+Q31,S2:bgek5,Recommendation,I_WCT_SEVERE_F-14_2015-12-01 (≈1043 bbl per USD/bbl),0.0,,S2_text_rag_bge_k5
+Q32,S2:bgek5,Recommendation,Insufficient context to determine the number of interventions for F-14.,0.0,,S2_text_rag_bge_k5
+Q33,S2:bgek5,Recommendation,15/9-F-14 and 15/9-F-12,0.0,,S2_text_rag_bge_k5
+Q34,S2:bgek5,Recommendation,"I_WCT_SEVERE_F-12_2013-05-01, I_WCT_SEVERE_F-14_2015-06-01, I_WCT_SEVERE_F-14_2015-12-01, I_WCT_SEVERE_F-14_2015-07-01, I_WCT_SEVERE_F-12_2013-12-01",,0.0,S2_text_rag_bge_k5
+Q35,S2:bgek5,Recommendation,rate_reduction,0.0,,S2_text_rag_bge_k5
+Q36,S2:bgek5,Recommendation,5,0.0,,S2_text_rag_bge_k5
+Q37,S2:bgek5,Recommendation,I_WCT_SEVERE_F-14_2015-11-01 (11.26 USD/bbl),0.0,,S2_text_rag_bge_k5
+Q38,S2:bgek5,Recommendation,"I_WCT_SEVERE_F-14_2015-07-01, I_WCT_SEVERE_F-12_2014-07-01, I_WCT_SEVERE_F-14_2015-09-01, I_WATER_BREAKTHROUGH_F-11_2015-08-01, I_WATER_BREAKTHROUGH_F-14_2010-06-01",,0.0,S2_text_rag_bge_k5
+Q39,S2:bgek5,Explanation,"F-14's WCT_SEVERE alerts (Aug–Dec 2014) were each triggered by high water-cut readings (R_water_cut_F-14) exceeding the severe threshold; however, the context provides no recommended intervention.",,,S2_text_rag_bge_k5
+Q40,S2:bgek5,Explanation,Earliest = 2010-06-01 (tie): F-12 triggered by R_water_cut_F-12_2010-06-01 and F-14 by R_water_cut_F-14_2010-06-01. No recommended intervention is given in the context.,,,S2_text_rag_bge_k5
+Q41,S2:bgek5,Explanation,"Because F-5→F-11 has the strongest connectivity weight (0.4368) with a 45-day tau, indicating a highly efficient flow path that channels a large share of injected fluid directly to F-11, making early water breakthrough likely.",,,S2_text_rag_bge_k5
+Q42,S2:bgek5,Explanation,"The cheapest recommended intervention is I_WCT_SEVERE_F-14_2015-11-01 (11.26 USD/bbl), a rate_reduction on well 15/9-F-14, expected uplift 5514.4 bbl, which traces back to source record A_WCT_SEVERE_F-14_2015-11-01.",,,S2_text_rag_bge_k5
+Q43,S2:bgek5,Explanation,"Each alert cites a triggering reading (R_log_wor_F-1C_<date>), but the actual reading values and the WOR threshold are not given in the context.",,,S2_text_rag_bge_k5
+Q44,S2:bgek5,Explanation,"Insufficient context — F-12 water-cut data is not provided (only F-15 D shows water_cut=0.5859 frac on 2016-07-01), so a comparison cannot be made.",,,S2_text_rag_bge_k5
+Q45,S2:bgek5,Explanation,"F-5's CRM weight to F-11 (0.4368) exceeds F-4's (0.3473), indicating stronger connectivity and thus more injection support.",,,S2_text_rag_bge_k5
+Q46,S2:bgek5,Explanation,"Insufficient context — no risk metrics are provided; only CRM connectivity weights are available, which cannot establish a highest-risk producer or a risk-to-recommendation chain.",,,S2_text_rag_bge_k5
+Q47,S2:bgek5,Explanation,Insufficient context to answer.,,,S2_text_rag_bge_k5
+Q48,S2:bgek5,Explanation,"Water breakthrough events, detected by rising water-cut readings, trigger the WATER_BREAKTHROUGH alerts that lead to recommended water_shutoff interventions.",,,S2_text_rag_bge_k5
+Q49,S2:bgek5,Explanation,"F-4 supports F-11 (0.3473), F-12 (0.2684), F-14 (0.1628), and F-1 C (0.1401), in descending order of weight.",,,S2_text_rag_bge_k5
+Q50,S2:bgek5,Explanation,"An alert is raised on a well and is linked to the triggering reading that caused its condition (e.g., A_HIGH_WOR_F-12_2012-08-01 ← R_log_wor_F-12_2012-08-01); the context does not include any recommended-intervention link, so that part cannot be determined.",,,S2_text_rag_bge_k5
+Q01,S2:minilmk10,Identification,15/9-F-5 and 15/9-F-4,1.0,,S2_text_rag_minilm_k10
+Q02,S2:minilmk10,Identification,0.4368,1.0,,S2_text_rag_minilm_k10
+Q03,S2:minilmk10,Identification,45.0 days,1.0,,S2_text_rag_minilm_k10
+Q04,S2:minilmk10,Identification,15/9-F-4 (total ≈ 0.9186),1.0,,S2_text_rag_minilm_k10
+Q05,S2:minilmk10,Identification,15/9-F-5 (weight 0.4368),1.0,,S2_text_rag_minilm_k10
+Q06,S2:minilmk10,Identification,4,1.0,,S2_text_rag_minilm_k10
+Q07,S2:minilmk10,Identification,1.4557 log10 (on 2016-07-01),1.0,,S2_text_rag_minilm_k10
+Q08,S2:minilmk10,Identification,"15/9-F-12, 15/9-F-14, 15/9-F-11, and 15/9-F-1 C",1.0,,S2_text_rag_minilm_k10
+Q09,S2:minilmk10,Identification,"4,579,609.55 sm3 (on 2016-09-01)",1.0,,S2_text_rag_minilm_k10
+Q10,S2:minilmk10,Identification,15/9-F-5 → 15/9-F-11 (weight 0.4368),1.0,,S2_text_rag_minilm_k10
+Q11,S2:minilmk10,Identification,"5 producers, 2 injectors",1.0,,S2_text_rag_minilm_k10
+Q12,S2:minilmk10,Identification,0.8835 frac (on 2016-08-01),1.0,,S2_text_rag_minilm_k10
+Q13,S2:minilmk10,Identification,2016-07-01,1.0,,S2_text_rag_minilm_k10
+Q14,S2:minilmk10,Risk,15/9-F-12 and 15/9-F-14,1.0,,S2_text_rag_minilm_k10
+Q15,S2:minilmk10,Risk,"15/9-F-11, 15/9-F-14, 15/9-F-12, 15/9-F-1 C, and 15/9-F-15 D",1.0,,S2_text_rag_minilm_k10
+Q16,S2:minilmk10,Risk,15/9-F-5→15/9-F-11 (0.4368) and 15/9-F-4→15/9-F-11 (0.3473),0.0,,S2_text_rag_minilm_k10
+Q17,S2:minilmk10,Risk,10,0.0,,S2_text_rag_minilm_k10
+Q18,S2:minilmk10,Risk,15/9-F-12,0.0,,S2_text_rag_minilm_k10
+Q19,S2:minilmk10,Risk,Yes — 15/9-F-1 C (only F-4) and 15/9-F-15 D (only F-5).,0.0,,S2_text_rag_minilm_k10
+Q20,S2:minilmk10,Risk,234,1.0,,S2_text_rag_minilm_k10
+Q21,S2:minilmk10,Risk,"15/9-F-14 and 15/9-F-12 (tied, both 2010-06-01)",1.0,,S2_text_rag_minilm_k10
+Q22,S2:minilmk10,Risk,"Insufficient context — 5 producers had breakthrough alerts, but the total producer count is not given.",0.0,,S2_text_rag_minilm_k10
+Q23,S2:minilmk10,Risk,"Yes — both injectors exceed 0.2 (F-5: 0.2922, F-4: 0.2684).",1.0,,S2_text_rag_minilm_k10
+Q24,S2:minilmk10,Risk,15/9-F-11 (weight 0.4368 from injector 15/9-F-5),1.0,,S2_text_rag_minilm_k10
+Q25,S2:minilmk10,Risk,1 (F-14),0.0,,S2_text_rag_minilm_k10
+Q26,S2:minilmk10,Recommendation,I_WCT_SEVERE_F-14_2014-12-01 (9.46 USD/bbl),0.0,,S2_text_rag_minilm_k10
+Q27,S2:minilmk10,Recommendation,rate_reduction,0.0,,S2_text_rag_minilm_k10
+Q28,S2:minilmk10,Recommendation,10,0.0,,S2_text_rag_minilm_k10
+Q29,S2:minilmk10,Recommendation,I_WCT_SEVERE_F-14_2015-03-01 (11262.1 bbl),0.0,,S2_text_rag_minilm_k10
+Q30,S2:minilmk10,Recommendation,≈12.43 USD/bbl,1.0,,S2_text_rag_minilm_k10
+Q31,S2:minilmk10,Recommendation,I_WCT_SEVERE_F-12_2014-02-01,0.0,,S2_text_rag_minilm_k10
+Q32,S2:minilmk10,Recommendation,7,0.0,,S2_text_rag_minilm_k10
+Q33,S2:minilmk10,Recommendation,"15/9-F-11, 15/9-F-12, 15/9-F-14, 15/9-F-1C",0.0,,S2_text_rag_minilm_k10
+Q34,S2:minilmk10,Recommendation,"I_WCT_SEVERE_F-12_2013-07-01, I_WCT_SEVERE_F-12_2014-01-01, I_WCT_SEVERE_F-12_2014-07-01, I_WCT_SEVERE_F-12_2014-09-01, I_WCT_SEVERE_F-12_2013-05-01",,0.0979,S2_text_rag_minilm_k10
+Q35,S2:minilmk10,Recommendation,rate_reduction,0.0,,S2_text_rag_minilm_k10
+Q36,S2:minilmk10,Recommendation,10,1.0,,S2_text_rag_minilm_k10
+Q37,S2:minilmk10,Recommendation,I_WCT_SEVERE_F-14_2015-01-01 (9.71 USD/bbl),0.0,,S2_text_rag_minilm_k10
+Q38,S2:minilmk10,Recommendation,"1) I_WCT_SEVERE_F-12_2014-02-01, 2) I_WCT_SEVERE_F-12_2013-07-01, 3) I_WCT_SEVERE_F-12_2014-08-01, 4) I_WCT_SEVERE_F-12_2014-07-01, 5) I_WCT_SEVERE_F-12_2014-11-01",,0.0,S2_text_rag_minilm_k10
+Q39,S2:minilmk10,Explanation,"The context shows no severe water-cut (WCT_SEVERE) alert for F-14 — only a medium WATER_BREAKTHROUGH alert (2010-06-01, reading R_water_cut_F-14_2010-06-01). No intervention recommendation is provided; context is insufficient to trace a severe alert for F-14.",,,S2_text_rag_minilm_k10
+Q40,S2:minilmk10,Explanation,Earliest breakthrough alerts date 2010-06-01 on 15/9-F-14 (reading R_water_cut_F-14_2010-06-01) and 15/9-F-12 (reading R_water_cut_F-12_2010-06-01); no recommended intervention is given in the context.,,,S2_text_rag_minilm_k10
+Q41,S2:minilmk10,Explanation,"Because F-5 injects into F-11 with the highest CRM weight (0.4368), indicating strong connectivity and fast water transport—consistent with the water-breakthrough alert on F-11.",,,S2_text_rag_minilm_k10
+Q42,S2:minilmk10,Explanation,"I_WCT_SEVERE_F-12_2013-07-01 (8.67 USD/bbl, cheapest) → rate_reduction on well 15/9-F-12 → traces back to source record A_WCT_SEVERE_F-12_2013-07-01.",,,S2_text_rag_minilm_k10
+Q43,S2:minilmk10,Explanation,"The alerts are supported by their corresponding WOR log readings (R_log_wor_<well>_<date>), but the context does not provide the specific reading value or the threshold, so that detail is insufficient.",,,S2_text_rag_minilm_k10
+Q44,S2:minilmk10,Explanation,"F-12 has a much higher, more advanced water cut (~0.88, log_wor 0.88) typical of a watered-out mature well, whereas F-15 D is earlier in its water-encroachment (~0.59, log_wor 0.15) with a recent Dec-2015 breakthrough alert.",,,S2_text_rag_minilm_k10
+Q45,S2:minilmk10,Explanation,"F-5's CRM weight to F-11 (0.4368) exceeds F-4's (0.3473), so F-5 contributes a larger share of injection support.",,,S2_text_rag_minilm_k10
+Q46,S2:minilmk10,Explanation,F-14 is the highest-risk producer (4 recurring HIGH_WOR alerts). Chain: rising WOR log readings → repeated HIGH_WOR medium alerts (Jul/Aug/Oct/Nov 2015) → persistent high water production risk → recommend prioritizing F-14 for water-management/shutoff intervention and surveillance.,,,S2_text_rag_minilm_k10
+Q47,S2:minilmk10,Explanation,"The context does not contain information about source_record_id fields or citation validation, so I cannot answer this question.",,,S2_text_rag_minilm_k10
+Q48,S2:minilmk10,Explanation,They are triggered by water diagnostic alerts: severe water cut (WCT_SEVERE) and water breakthrough (WATER_BREAKTHROUGH) events.,,,S2_text_rag_minilm_k10
+Q49,S2:minilmk10,Explanation,"F-4 injects into F-11 (0.3473), F-12 (0.2684), F-14 (0.1628), and F-1 C (0.1401), with F-11 the dominant connection.",,,S2_text_rag_minilm_k10
+Q50,S2:minilmk10,Explanation,"Alerts link to their triggering readings (e.g., A_HIGH_WOR_F-14_2014-03-01 → R_log_wor_F-14_2014-03-01), and readings encode the well and date; however, the context contains no recommended-intervention data, so that link cannot be described.",,,S2_text_rag_minilm_k10
+Q01,S2:minilmk3,Identification,15/9-F-5 and 15/9-F-4,1.0,,S2_text_rag_minilm_k3
+Q02,S2:minilmk3,Identification,0.4368,1.0,,S2_text_rag_minilm_k3
+Q03,S2:minilmk3,Identification,45.0 days,1.0,,S2_text_rag_minilm_k3
+Q04,S2:minilmk3,Identification,15/9-F-4,1.0,,S2_text_rag_minilm_k3
+Q05,S2:minilmk3,Identification,15/9-F-5,1.0,,S2_text_rag_minilm_k3
+Q06,S2:minilmk3,Identification,1,0.0,,S2_text_rag_minilm_k3
+Q07,S2:minilmk3,Identification,1.4557 log10 (on 2016-07-01),1.0,,S2_text_rag_minilm_k3
+Q08,S2:minilmk3,Identification,"15/9-F-12, 15/9-F-14, 15/9-F-11",0.0,,S2_text_rag_minilm_k3
+Q09,S2:minilmk3,Identification,"4,579,609.55 sm3 (on 2016-09-01)",1.0,,S2_text_rag_minilm_k3
+Q10,S2:minilmk3,Identification,15/9-F-4 → 15/9-F-14 (CRM weight 0.1628),0.0,,S2_text_rag_minilm_k3
+Q11,S2:minilmk3,Identification,3 producer wells; injector count not stated in context.,0.0,,S2_text_rag_minilm_k3
+Q12,S2:minilmk3,Identification,0.8835 frac (on 2016-08-01),1.0,,S2_text_rag_minilm_k3
+Q13,S2:minilmk3,Identification,2016-07-01,1.0,,S2_text_rag_minilm_k3
+Q14,S2:minilmk3,Risk,15/9-F-12,0.0,,S2_text_rag_minilm_k3
+Q15,S2:minilmk3,Risk,"15/9-F-11, 15/9-F-12, 15/9-F-14",0.0,,S2_text_rag_minilm_k3
+Q16,S2:minilmk3,Risk,None; all listed pairs have weights below 0.3 (max is 0.1628).,0.0,,S2_text_rag_minilm_k3
+Q17,S2:minilmk3,Risk,3,0.0,,S2_text_rag_minilm_k3
+Q18,S2:minilmk3,Risk,Insufficient context to determine which producer has the most severe water-cut alerts.,0.0,,S2_text_rag_minilm_k3
+Q19,S2:minilmk3,Risk,"Insufficient context — only injector 15/9-F-4's connections are provided, so single-point-of-failure dependency cannot be determined.",1.0,,S2_text_rag_minilm_k3
+Q20,S2:minilmk3,Risk,234,1.0,,S2_text_rag_minilm_k3
+Q21,S2:minilmk3,Risk,15/9-F-14 (2010-06-01),0.0,,S2_text_rag_minilm_k3
+Q22,S2:minilmk3,Risk,"Insufficient context — 3 producers crossed the threshold, but the total number of producers is not given.",0.0,,S2_text_rag_minilm_k3
+Q23,S2:minilmk3,Risk,"Yes—F-12 has connections above 0.2 (0.2922 from F-5 and 0.2684 from F-4), so injected-water arrival is a risk.",1.0,,S2_text_rag_minilm_k3
+Q24,S2:minilmk3,Risk,15/9-F-15 D (weight 0.0803),0.0,,S2_text_rag_minilm_k3
+Q25,S2:minilmk3,Risk,44 (per WCT_SEVERE count; distinct producer count not separately confirmed in context),0.0,,S2_text_rag_minilm_k3
+Q26,S2:minilmk3,Recommendation,I_WCT_SEVERE_F-12_2014-05-01 (11.12 USD/bbl),0.0,,S2_text_rag_minilm_k3
+Q27,S2:minilmk3,Recommendation,rate_reduction,0.0,,S2_text_rag_minilm_k3
+Q28,S2:minilmk3,Recommendation,3,0.0,,S2_text_rag_minilm_k3
+Q29,S2:minilmk3,Recommendation,I_WCT_SEVERE_F-12_2014-08-01 (9096.3 bbl),0.0,,S2_text_rag_minilm_k3
+Q30,S2:minilmk3,Recommendation,12.89 USD/bbl,1.0,,S2_text_rag_minilm_k3
+Q31,S2:minilmk3,Recommendation,I_WCT_SEVERE_F-12_2014-02-01,0.0,,S2_text_rag_minilm_k3
+Q32,S2:minilmk3,Recommendation,3,0.0,,S2_text_rag_minilm_k3
+Q33,S2:minilmk3,Recommendation,"15/9-F-11, 15/9-F-12, 15/9-F-14",0.0,,S2_text_rag_minilm_k3
+Q34,S2:minilmk3,Recommendation,"Only 3 available: I_WCT_SEVERE_F-12_2013-05-01 (10.42), I_WCT_SEVERE_F-12_2014-08-01 (10.6), I_WATER_BREAKTHROUGH_F-14_2010-06-01 (11.62)",,0.0,S2_text_rag_minilm_k3
+Q35,S2:minilmk3,Recommendation,rate_reduction,0.0,,S2_text_rag_minilm_k3
+Q36,S2:minilmk3,Recommendation,3,0.0,,S2_text_rag_minilm_k3
+Q37,S2:minilmk3,Recommendation,I_WATER_BREAKTHROUGH_F-14_2010-06-01 (11.62 USD/bbl),0.0,,S2_text_rag_minilm_k3
+Q38,S2:minilmk3,Recommendation,"I_WCT_SEVERE_F-12_2014-02-01, I_WCT_SEVERE_F-12_2014-07-01, I_WCT_SEVERE_F-12_2014-09-01 (only 3 available)",,0.0,S2_text_rag_minilm_k3
+Q39,S2:minilmk3,Explanation,F-14's WATER_BREAKTHROUGH alert (A_WATER_BREAKTHROUGH_F-14_2010-06-01) is medium (not severe) and was triggered by reading R_water_cut_F-14_2010-06-01; no recommended intervention is given in the provided context.,,,S2_text_rag_minilm_k3
+Q40,S2:minilmk3,Explanation,Earliest alerts are dated 2010-06-01 (tie): F-14 triggered by R_water_cut_F-14_2010-06-01 and F-12 by R_water_cut_F-12_2010-06-01; no recommended intervention is provided in the context.,,,S2_text_rag_minilm_k3
+Q41,S2:minilmk3,Explanation,"Because F-5 → F-11 has the strongest connectivity weight (0.4368), indicating a dominant, direct injector-producer flow path that (with tau ~45 days) allows injected water to reach F-11 quickly, elevating early-breakthrough risk.",,,S2_text_rag_minilm_k3
+Q42,S2:minilmk3,Explanation,"The cheapest recommended intervention is I_WCT_SEVERE_F-12_2013-07-01 (8.67 USD/bbl), a rate_reduction on well 15/9-F-12, which traces back to source record A_WCT_SEVERE_F-12_2013-07-01.",,,S2_text_rag_minilm_k3
+Q43,S2:minilmk3,Explanation,"Each HIGH_WOR alert is triggered by its corresponding reading (e.g., R_log_wor_F-14_2012-05-01 for the 2012 alert), but the exact threshold value is not stated in the provided context.",,,S2_text_rag_minilm_k3
+Q44,S2:minilmk3,Explanation,"F-12 shows a much higher/more advanced water-cut (~88%, log_wor 0.88) than F-15 D (~59%, log_wor 0.15), reflecting F-12's greater maturity and larger cumulative production.",,,S2_text_rag_minilm_k3
+Q45,S2:minilmk3,Explanation,"Because F-5's CRM weight to F-11 (0.4368) exceeds F-4's (0.3473), indicating a stronger injector-producer connection and more injected fluid reaching F-11.",,,S2_text_rag_minilm_k3
+Q46,S2:minilmk3,Explanation,"Insufficient context — no risk metrics or performance data are provided for the three Volve producers (F-1 C, F-14, F-15 D), so the highest-risk well cannot be identified nor a risk-to-recommendation chain built.",,,S2_text_rag_minilm_k3
+Q47,S2:minilmk3,Explanation,"The provided context is insufficient—it only describes three Volve producer wells and contains no information about KG node structure, source_record_id, or citation validation.",,,S2_text_rag_minilm_k3
+Q48,S2:minilmk3,Explanation,Severe water cut (WCT_SEVERE) diagnostics.,,,S2_text_rag_minilm_k3
+Q49,S2:minilmk3,Explanation,"F-4 supports F-11 (0.3473), F-12 (0.2684), and F-14 (0.1628), in descending order of weight.",,,S2_text_rag_minilm_k3
+Q50,S2:minilmk3,Explanation,"Alerts link to Wells and are ""triggered by"" specific readings (Alert→Reading→Well), but the provided context has no data on recommended interventions, so that link cannot be described.",,,S2_text_rag_minilm_k3
+Q01,S2:minilmk5,Identification,15/9-F-5 and 15/9-F-4,1.0,,S2_text_rag_minilm_k5
+Q02,S2:minilmk5,Identification,0.4368,1.0,,S2_text_rag_minilm_k5
+Q03,S2:minilmk5,Identification,45.0 days,1.0,,S2_text_rag_minilm_k5
+Q04,S2:minilmk5,Identification,15/9-F-5,0.0,,S2_text_rag_minilm_k5
+Q05,S2:minilmk5,Identification,15/9-F-5,1.0,,S2_text_rag_minilm_k5
+Q06,S2:minilmk5,Identification,2,0.0,,S2_text_rag_minilm_k5
+Q07,S2:minilmk5,Identification,1.4557 log10 (on 2016-07-01),1.0,,S2_text_rag_minilm_k5
+Q08,S2:minilmk5,Identification,"15/9-F-12, 15/9-F-14, 15/9-F-11, 15/9-F-1 C",1.0,,S2_text_rag_minilm_k5
+Q09,S2:minilmk5,Identification,"4,579,609.55 sm3 (on 2016-09-01)",1.0,,S2_text_rag_minilm_k5
+Q10,S2:minilmk5,Identification,15/9-F-5 → 15/9-F-12 (weight 0.2922),0.0,,S2_text_rag_minilm_k5
+Q11,S2:minilmk5,Identification,5 producer wells; 0 injector wells mentioned (context does not list any injectors).,0.0,,S2_text_rag_minilm_k5
+Q12,S2:minilmk5,Identification,0.8835 frac (on 2016-08-01),1.0,,S2_text_rag_minilm_k5
+Q13,S2:minilmk5,Identification,2016-07-01,1.0,,S2_text_rag_minilm_k5
+Q14,S2:minilmk5,Risk,15/9-F-12,0.0,,S2_text_rag_minilm_k5
+Q15,S2:minilmk5,Risk,"15/9-F-11, 15/9-F-12, 15/9-F-14, 15/9-F-1 C, and 15/9-F-15 D",1.0,,S2_text_rag_minilm_k5
+Q16,S2:minilmk5,Risk,"None; the maximum weight is 0.2684 (15/9-F-4 → 15/9-F-12), all below 0.3.",0.0,,S2_text_rag_minilm_k5
+Q17,S2:minilmk5,Risk,5,0.0,,S2_text_rag_minilm_k5
+Q18,S2:minilmk5,Risk,Insufficient context to determine which producer has the most severe water-cut alerts.,0.0,,S2_text_rag_minilm_k5
+Q19,S2:minilmk5,Risk,"Based on the given data, every listed producer shows only a single injector connection—15/9-F-15 D depends solely on 15/9-F-5, and 15/9-F-1 C, 15/9-F-14, 15/9-F-12, and 15/9-F-11 each depend solely on 15/9-F-4—indicating potential single-point-of-failure support (context may be incomplete).",0.0,,S2_text_rag_minilm_k5
+Q20,S2:minilmk5,Risk,234 water-related alerts (185 + 44 + 5); total across all alert types is not specified.,1.0,,S2_text_rag_minilm_k5
+Q21,S2:minilmk5,Risk,15/9-F-14 and 15/9-F-12 (both 2010-06-01),1.0,,S2_text_rag_minilm_k5
+Q22,S2:minilmk5,Risk,"Insufficient context — total number of producers is not provided, so the fraction cannot be determined.",0.0,,S2_text_rag_minilm_k5
+Q23,S2:minilmk5,Risk,"Yes — F-12 exceeds 0.2 from both F-5 (0.2922) and F-4 (0.2684), indicating risk of injected-water arrival.",1.0,,S2_text_rag_minilm_k5
+Q24,S2:minilmk5,Risk,15/9-F-12 (weight 0.2922),0.0,,S2_text_rag_minilm_k5
+Q25,S2:minilmk5,Risk,1 (F-14),0.0,,S2_text_rag_minilm_k5
+Q26,S2:minilmk5,Recommendation,I_WCT_SEVERE_F-12_2014-05-01 (11.12 USD/bbl),0.0,,S2_text_rag_minilm_k5
+Q27,S2:minilmk5,Recommendation,rate_reduction,0.0,,S2_text_rag_minilm_k5
+Q28,S2:minilmk5,Recommendation,5,0.0,,S2_text_rag_minilm_k5
+Q29,S2:minilmk5,Recommendation,I_WCT_SEVERE_F-14_2015-03-01 (11262.1 bbl),0.0,,S2_text_rag_minilm_k5
+Q30,S2:minilmk5,Recommendation,11.71 USD/bbl,0.0,,S2_text_rag_minilm_k5
+Q31,S2:minilmk5,Recommendation,I_WCT_SEVERE_F-12_2014-02-01,0.0,,S2_text_rag_minilm_k5
+Q32,S2:minilmk5,Recommendation,5,0.0,,S2_text_rag_minilm_k5
+Q33,S2:minilmk5,Recommendation,"15/9-F-11, 15/9-F-12, 15/9-F-14, 15/9-F-1 C",0.0,,S2_text_rag_minilm_k5
+Q34,S2:minilmk5,Recommendation,"I_WCT_SEVERE_F-12_2014-01-01, I_WCT_SEVERE_F-12_2013-05-01, I_WCT_SEVERE_F-12_2014-08-01, I_WATER_BREAKTHROUGH_F-14_2010-06-01, I_WATER_BREAKTHROUGH_F-11_2015-08-01",,0.0,S2_text_rag_minilm_k5
+Q35,S2:minilmk5,Recommendation,rate_reduction,0.0,,S2_text_rag_minilm_k5
+Q36,S2:minilmk5,Recommendation,5,0.0,,S2_text_rag_minilm_k5
+Q37,S2:minilmk5,Recommendation,I_WCT_SEVERE_F-14_2015-01-01 (9.71 USD/bbl),0.0,,S2_text_rag_minilm_k5
+Q38,S2:minilmk5,Recommendation,"I_WCT_SEVERE_F-12_2014-02-01, I_WCT_SEVERE_F-12_2014-07-01, I_WCT_SEVERE_F-12_2013-08-01, I_WCT_SEVERE_F-14_2014-08-01, I_WCT_SEVERE_F-12_2014-09-01",,0.0,S2_text_rag_minilm_k5
+Q39,S2:minilmk5,Explanation,"Insufficient context — F-14 has no severe water-cut alert (only a medium WATER_BREAKTHROUGH on 2010-06-01 triggered by R_water_cut_F-14_2010-06-01), and no recommended intervention is provided.",,,S2_text_rag_minilm_k5
+Q40,S2:minilmk5,Explanation,"Earliest = 2010-06-01, a tie between readings R_water_cut_F-14_2010-06-01 (F-14) and R_water_cut_F-12_2010-06-01 (F-12); no recommended intervention is given in the context.",,,S2_text_rag_minilm_k5
+Q41,S2:minilmk5,Explanation,"Because F-5 → F-11 has the highest connectivity weight (0.4368), signaling a strong, direct injector-producer flow path that channels injected water rapidly to F-11, risking early breakthrough.",,,S2_text_rag_minilm_k5
+Q42,S2:minilmk5,Explanation,"The cheapest intervention (8.67 USD/bbl) is I_WCT_SEVERE_F-12_2013-07-01, a rate_reduction on well 15/9-F-12, expected uplift 9478.4 bbl, recommended for source record A_WCT_SEVERE_F-12_2013-07-01.",,,S2_text_rag_minilm_k5
+Q43,S2:minilmk5,Explanation,"Each alert cites a triggering water-oil-ratio log reading (R_log_wor_<well>_<date>), but the actual reading values and the WOR threshold are not given in the provided context.",,,S2_text_rag_minilm_k5
+Q44,S2:minilmk5,Explanation,"F-12 is at a mature, water-dominated stage (water_cut ≈ 0.88, log_wor 0.88, ~4.58M sm3 cumulative), whereas F-15 D is earlier with lower water encroachment (water_cut ≈ 0.59, log_wor 0.15, ~148,519 sm3 cumulative).",,,S2_text_rag_minilm_k5
+Q45,S2:minilmk5,Explanation,"Because F-5's CRM weight to F-11 (0.4368) exceeds F-4's (0.3473), indicating stronger connectivity and a larger share of injection support from F-5.",,,S2_text_rag_minilm_k5
+Q46,S2:minilmk5,Explanation,Insufficient context — no risk metrics or production data are provided to identify the highest-risk producer or build a risk-to-recommendation chain.,,,S2_text_rag_minilm_k5
+Q47,S2:minilmk5,Explanation,"The context is insufficient to fully explain the design principle; it only shows one alert linked to a triggering reading (source record), which suggests source_record_ids exist to trace nodes back to originating data for verifiable, non-fabricated citations—but no explicit rationale is provided.",,,S2_text_rag_minilm_k5
+Q48,S2:minilmk5,Explanation,They are caused by WCT_SEVERE (severe water cut) alerts.,,,S2_text_rag_minilm_k5
+Q49,S2:minilmk5,Explanation,"F-4 supports F-11 (0.3473), F-12 (0.2684), F-14 (0.1628), and F-1C (0.1401), in that order of connectivity strength.",,,S2_text_rag_minilm_k5
+Q50,S2:minilmk5,Explanation,"Alerts link to their triggering reading (via a ""triggered by"" relation) and to a well; but the context contains no data on recommended interventions, so that link cannot be described.",,,S2_text_rag_minilm_k5

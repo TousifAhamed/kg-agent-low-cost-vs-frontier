@@ -1,0 +1,18 @@
+question_id,runs_failed,category,root_cause,em_norm_fixes_it,note
+Q01,2,Identification,grader-artifact,yes,Correct wells; strict EM failed on question-echo of producer F-12 in prose
+Q02,3,Identification,grader-artifact,yes,Correct value 0.4368; _first_num picked 5 from "F-5"
+Q07,3,Identification,grader-artifact,yes,Correct value 1.4557; _first_num picked digits from "log10"/"F-14"
+Q09,3,Identification,grader-artifact,yes,Correct value; _first_num picked 2016 from inline date
+Q12,3,Identification,grader-artifact,yes,Correct value 0.8835; _first_num picked 12 from "F-12"
+Q13,1,Identification,grader-artifact,yes,Correct date; "July 1 2016" vs gold "2016-07-01"
+Q16,3,Risk,gold-design-defect,no,Question asks "which pairs" but gold is the count 2; answer lists the 2 correct pairs
+Q19,3,Risk,retrieval-miss,no,Asserts W_F-1C depends on single injector; gold False; incomplete neighbour enumeration every run
+Q22,1,Risk,tool-use-error,no,Counted 4/5 producers over 50% water-cut; missed one crossing
+Q04,1,Identification,tool-use-error,no,Ranked F-5 (0.8821) over gold F-4; one-off aggregation path error (8 tool calls)
+Q33,3,Recommendation,retrieval-miss,no,Enumerated 4 of 5 producers with interventions; consistently drops F-15 D
+Q35,2,Recommendation,grader-artifact,yes,"water shutoff" vs gold "water_shutoff"
+Q39,3,Explanation,explanation-quality,n/a,Rubric 0: generic plural chain; no concrete alert->reading->intervention ids
+Q45,1,Explanation,explanation-quality,n/a,Rubric 1: states weights but no comparative mechanism
+Q46,2,Explanation,explanation-quality,n/a,Rubric 0: answered bare well id; no end-to-end chain
+Q48,3,Explanation,explanation-quality,n/a,Rubric 1: names diagnostics but not causal mechanism
+Q50,1,Explanation,explanation-quality,n/a,Rubric 1: correct edges named; judge wanted alert_code/threshold specifics

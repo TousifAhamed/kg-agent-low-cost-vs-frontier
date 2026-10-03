@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "seed": 42,
+  "volve_source": "data\\raw\\volve_production_data.xlsx",
+  "volve_checksum": "514d4e38763e09be7fbad12313429909b9799b1a6ec999bf5f36e0df1b6c9cae",
+  "counts": {
+    "wells": 7,
+    "connectivity": 8,
+    "readings": 1183,
+    "alerts": 234,
+    "interventions": 49
+  },
+  "checksums": {
+    "wells": "b02aa42a96155c29",
+    "connectivity": "5d9a23907ffae016",
+    "readings": "e00f9a4bb836216c",
+    "alerts": "f5f225a352edb098",
+    "interventions": "e91caaefa0a8608d"
+  }
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or benchmark, please cite the paper."
+title: "Can a Knowledge-Graph Agent Close the Gap Between a Low-Cost and a Frontier-Class LLM? An Audited Upstream Petroleum Case Study"
+authors:
+  - family-names: Nadaf
+    given-names: Tousifahamed Allabksha
+    affiliation: Wipro
+    email: ahamedpapers@gmail.com
+license: MIT
+repository-code: "https://github.com/TousifAhamed/kg-agent-low-cost-vs-frontier"
+preferred-citation:
+  type: conference-paper
+  title: "Can a Knowledge-Graph Agent Close the Gap Between a Low-Cost and a Frontier-Class LLM? An Audited Upstream Petroleum Case Study"
+  authors:
+    - family-names: Nadaf
+      given-names: Tousifahamed Allabksha
+  collection-title: "NeurIPS 2026 Workshop on SLMs for Agentic Systems (SLM-Agents)"
+  year: 2026
+  url: "https://openreview.net/forum?id=9TWY7YtnfX"

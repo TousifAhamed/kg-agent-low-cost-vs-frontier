@@ -1,0 +1,50 @@
+{"question_id": "Q01", "system": "S3", "category": "Identification", "answer": "F-5 and F-4", "exact_match": 1, "ndcg_at_5": null}
+{"question_id": "Q02", "system": "S3", "category": "Identification", "answer": "0.4368", "exact_match": 1, "ndcg_at_5": null}
+{"question_id": "Q03", "system": "S3", "category": "Identification", "answer": "Insufficient facts \u2014 no tau (CRM time constant) values are present in the KG.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q04", "system": "S3", "category": "Identification", "answer": "F-4 (total \u22480.9186)", "exact_match": 1, "ndcg_at_5": null}
+{"question_id": "Q05", "system": "S3", "category": "Identification", "answer": "F-5 (weight 0.4368)", "exact_match": 1, "ndcg_at_5": null}
+{"question_id": "Q06", "system": "S3", "category": "Identification", "answer": "4", "exact_match": 1, "ndcg_at_5": null}
+{"question_id": "Q07", "system": "S3", "category": "Identification", "answer": "Insufficient facts \u2014 no log10(WOR) value is provided.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q08", "system": "S3", "category": "Identification", "answer": "F-1C, F-11, F-12, F-14", "exact_match": 1, "ndcg_at_5": null}
+{"question_id": "Q09", "system": "S3", "category": "Identification", "answer": "Insufficient facts \u2014 no Np value is given.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q10", "system": "S3", "category": "Identification", "answer": "F-5 \u2192 F-11 (weight 0.4368)", "exact_match": 1, "ndcg_at_5": null}
+{"question_id": "Q11", "system": "S3", "category": "Identification", "answer": "5 producers, 2 injectors", "exact_match": 1, "ndcg_at_5": null}
+{"question_id": "Q12", "system": "S3", "category": "Identification", "answer": "Insufficient facts \u2014 no water-cut value is provided for F-12.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q13", "system": "S3", "category": "Identification", "answer": "Insufficient facts \u2014 no measurement date is provided.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q14", "system": "S3", "category": "Risk", "answer": "Insufficient facts \u2014 no WCT_SEVERE alert data provided.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q15", "system": "S3", "category": "Risk", "answer": "Insufficient facts \u2014 no water-breakthrough alerts are recorded in the provided data.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q16", "system": "S3", "category": "Risk", "answer": "F-5\u2192F-11 (0.4368), F-4\u2192F-11 (0.3473)", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q17", "system": "S3", "category": "Risk", "answer": "Insufficient facts \u2014 no HIGH_WOR alerts are recorded.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q18", "system": "S3", "category": "Risk", "answer": "Insufficient facts \u2014 no water-cut alert data provided.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q19", "system": "S3", "category": "Risk", "answer": "Yes \u2014 F-15 D (depends only on injector F-5) and F-1 C (depends only on injector F-4).", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q20", "system": "S3", "category": "Risk", "answer": "Insufficient facts to determine the number of alerts.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q21", "system": "S3", "category": "Risk", "answer": "Insufficient facts \u2014 no water breakthrough alert dates are provided.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q22", "system": "S3", "category": "Risk", "answer": "Insufficient facts \u2014 no water-cut values provided to determine breakthrough.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q23", "system": "S3", "category": "Risk", "answer": "Yes \u2014 F-5 (0.2922) and F-4 (0.2684) both exceed 0.2.", "exact_match": 1, "ndcg_at_5": null}
+{"question_id": "Q24", "system": "S3", "category": "Risk", "answer": "F-11 (0.4368 from injector F-5)", "exact_match": 1, "ndcg_at_5": null}
+{"question_id": "Q25", "system": "S3", "category": "Risk", "answer": "Insufficient facts \u2014 no water-cut values provided to evaluate against the 90% threshold.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q26", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts \u2014 no intervention or cost-per-barrel data provided.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q27", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts \u2014 no intervention action data provided.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q28", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts \u2014 no recommended interventions are present in the knowledge graph.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q29", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts to determine expected oil uplift for any intervention.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q30", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts to answer.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q31", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts \u2014 no intervention uplift or cost data provided.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q32", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts \u2014 no intervention data provided.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q33", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts \u2014 no intervention data is present in the knowledge graph.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q34", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts \u2014 no cost or intervention data available in the knowledge graph.", "ndcg_at_5": 0.0, "exact_match": null}
+{"question_id": "Q35", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts to determine any recommended intervention.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q36", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts \u2014 no intervention or water_shutoff data present.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q37", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts \u2014 no intervention or cost data is available for F-14.", "exact_match": 0, "ndcg_at_5": null}
+{"question_id": "Q38", "system": "S3", "category": "Recommendation", "answer": "Insufficient facts \u2014 no intervention or expected-uplift data is present in the knowledge graph.", "ndcg_at_5": 0.0, "exact_match": null}
+{"question_id": "Q39", "system": "S3", "category": "Explanation", "answer": "F-14's water-cut/WOR sensors raise the alert; the specific triggering value and prescribed intervention are NOT in the KG. By injector connectivity, F-4 (weight 0.1628) is the likeliest water source over F-5 (0.0728), so reducing F-4 injection is the inferred (not stated) intervention.", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q40", "system": "S3", "category": "Explanation", "answer": "Insufficient facts \u2014 no breakthrough alerts, dates, or interventions are present in the knowledge graph.", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q41", "system": "S3", "category": "Explanation", "answer": "F-5 injects most strongly into F-11 (weight 0.4368, its highest), indicating a dominant flow path that makes early water breakthrough at F-11 likely.", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q42", "system": "S3", "category": "Explanation", "answer": "Insufficient facts \u2014 the KG contains no intervention, recommendation, cost, or provenance/source-record data to answer this.", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q43", "system": "S3", "category": "Explanation", "answer": "Insufficient facts \u2014 no WOR readings or threshold values are present in the knowledge graph.", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q44", "system": "S3", "category": "Explanation", "answer": "F-12 has strong dual injection support (F-5=0.2922 + F-4=0.2684 \u2248 0.56 total), driving earlier/steeper water-cut rise; F-15 D has only weak support from F-5 (0.0803), giving a slower, flatter water-cut trajectory. (Inferred from injection weights; actual sensor values not provided.)", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q45", "system": "S3", "category": "Explanation", "answer": "Because the F-5\u2192F-11 injection weight (0.4368) exceeds the F-4\u2192F-11 weight (0.3473).", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q46", "system": "S3", "category": "Explanation", "answer": "Highest-risk producer = F-11 (largest combined injection support 0.784 from F-4 0.347 + F-5 0.437 \u2192 greatest water-breakthrough exposure). Recommend monitoring its water_cut/WOR/pressure sensors and rebalancing injection (especially F-5's dominant 0.437 link). Note: risk is inferred from connectivity weights only, since no sensor values are provided.", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q47", "system": "S3", "category": "Explanation", "answer": "Insufficient facts \u2014 no source_record_id or citation-validation information is present in the provided KG.", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q48", "system": "S3", "category": "Explanation", "answer": "Insufficient facts \u2014 no water_shutoff intervention recommendations or diagnostic-to-intervention causal rules are present in the KG.", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q49", "system": "S3", "category": "Explanation", "answer": "F-4 injects into F-11 (0.3473), F-12 (0.2684), F-14 (0.1628), and F-1C (0.1401); strongest support to F-11, weakest to F-1C.", "exact_match": null, "ndcg_at_5": null}
+{"question_id": "Q50", "system": "S3", "category": "Explanation", "answer": "Insufficient facts \u2014 the KG contains no alert, triggering-reading, or intervention entities/relationships to summarize.", "exact_match": null, "ndcg_at_5": null}

@@ -1,0 +1,4 @@
+Synthetic Dashboard Simulator v1.0 | seed=42
+Volve source: data\raw\volve_production_data.xlsx
+Volve checksum: 514d4e38763e09be7fbad12313429909b9799b1a6ec999bf5f36e0df1b6c9cae
+Calibrated to real Volve 2018 volumes.

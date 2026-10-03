@@ -1,0 +1,217 @@
+backbone,repeat,qid,category,strict,norm,audited,reason,gold,answer
+small,1,Q01,Identification,0,1,1,artifact: well id from the question echoed in prose,"[""F-4"", ""F-5""]",The injectors connected to producer F-12 are F-4 and F-5.
+small,1,Q02,Identification,0,1,1,artifact: strict first-number picked a digit from a well id,0.4368,The CRM connectivity weight from injector F-5 to producer F-11 is 0.4368.
+small,1,Q03,Identification,1,1,1,,45.0,45 days
+small,1,Q04,Identification,1,1,1,,"""F-4""",F-4
+small,1,Q05,Identification,1,1,1,,"""F-5""","The dominant injector for producer F-11 is W_F-5, with a weight of 0.4368."
+small,1,Q06,Identification,1,1,1,,4,"4 injector-producer pairs have a connectivity weight above 0.2: W_F-4 to W_F-11, W_F-4 to W_F-12, W_F-5 to W_F-11, and W_F-5 to W_F-12."
+small,1,Q07,Identification,0,1,1,artifact: strict first-number picked a digit from 'log10'/'F-14',1.4557,The most recent log10(WOR) value for producer F-14 is 1.4557.
+small,1,Q08,Identification,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14""]","F-1C, F-11, F-12, F-14"
+small,1,Q09,Identification,0,1,1,artifact: strict first-number picked '12' (F-12) or the date,4579609.55,"The cumulative oil production (Np) for producer F-12 at the latest timestep (2016-09-01) is 4,579,609.55."
+small,1,Q10,Identification,1,1,1,,"[""F-11"", ""F-5""]",The single strongest injector-producer connection is between well F-5 (W_F-5) and well F-11 (W_F-11) with a weight of 0.4368.
+small,1,Q11,Identification,1,1,1,,"""5 producers, 2 injectors""",5 producer wells and 2 injector wells
+small,1,Q12,Identification,0,1,1,artifact: strict first-number picked '12' from 'F-12',0.8835,The most recent water-cut fraction for producer F-12 is 0.8835.
+small,1,Q13,Identification,0,1,1,"artifact: prose date ('July 1, 2016')","""2016-07-01""","July 1, 2016"
+small,1,Q14,Risk,1,1,1,,"[""F-12"", ""F-14""]",15/9-F-12 and 15/9-F-14
+small,1,Q15,Risk,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14, 15/9-F-15 D"
+small,1,Q16,Risk,0,0,1,gold defect: lists the two correct pairs; gold is a bare count,2,The injector-producer pairs with a connectivity weight above 0.3 are F-4 to F-11 (weight 0.3473) and F-5 to F-11 (weight 0.4368).
+small,1,Q17,Risk,1,1,1,,185,185
+small,1,Q18,Risk,1,1,1,,"""F-14""",15/9-F-14
+small,1,Q19,Risk,0,0,1,gold defect (generator bug): correct answer is True,false,"Yes, the producer W_F-1C depends on only a single injector (W_F-4)."
+small,1,Q20,Risk,1,1,1,,234,There were 234 total alerts raised in the field.
+small,1,Q21,Risk,1,1,1,gold defect (tie): answer correctly reports the F-12/F-14 tie,"""F-12""",15/9-F-12 and 15/9-F-14 reached water breakthrough earliest on 2010-06-01.
+small,1,Q22,Risk,1,1,1,,1.0,1/1 (or 100%) of the 5 producers have triggered a water breakthrough alert.
+small,1,Q23,Risk,1,1,1,,true,"Yes, producer F-12 has strong connectivity (exceeding 0.2) from two injectors: F-4 (0.2684) and F-5 (0.2922)."
+small,1,Q24,Risk,1,1,1,,"""F-11""",W_F-11
+small,1,Q25,Risk,1,1,0,"question defect: 'currently' -> 1; answered 2 (matches gold, not the question)",2,2
+small,1,Q26,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",The single cheapest recommended intervention is I_WCT_SEVERE_F-14_2015-05-01 (a water_shutoff at well 15/9-F-14) with a cost of 8.28 per barrel.
+small,1,Q27,Recommendation,1,1,1,,"""gas_lift_opt""",gas_lift_opt
+small,1,Q28,Recommendation,1,1,1,,49,There are 49 recommended interventions.
+small,1,Q29,Recommendation,1,1,1,,"""I_WATER_BREAKTHROUGH_F-15D_2015-12-01""",I_WATER_BREAKTHROUGH_F-15D_2015-12-01
+small,1,Q30,Recommendation,1,1,1,,12.65,12.65
+small,1,Q31,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2016-02-01""",The intervention I_WCT_SEVERE_F-14_2016-02-01 offers the best expected-uplift-per-cost ratio.
+small,1,Q32,Recommendation,1,1,1,,25,25 interventions are recommended for producer F-14.
+small,1,Q33,Recommendation,0,0,0,"genuine: lists 4 of 5 producers, omits F-15 D","[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14"
+small,1,Q35,Recommendation,1,1,1,,"""water_shutoff""",The cheapest intervention is a water_shutoff at a cost of 8.28 per bbl.
+small,1,Q36,Recommendation,1,1,1,,10,10
+small,1,Q37,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",I_WCT_SEVERE_F-14_2015-05-01
+small,2,Q01,Identification,1,1,1,,"[""F-4"", ""F-5""]","F-4, F-5"
+small,2,Q02,Identification,0,1,1,artifact: strict first-number picked a digit from a well id,0.4368,The CRM connectivity weight from injector F-5 to producer F-11 is 0.4368.
+small,2,Q03,Identification,1,1,1,,45.0,45 days
+small,2,Q04,Identification,0,0,0,"genuine: aggregation error, ranks F-5 (0.8821) above F-4 (0.9186)","""F-4""",W_F-5 (15/9-F-5) with a total outgoing connectivity weight of 0.8821.
+small,2,Q05,Identification,1,1,1,,"""F-5""",W_F-5
+small,2,Q06,Identification,1,1,1,,4,4
+small,2,Q07,Identification,0,1,1,artifact: strict first-number picked a digit from 'log10'/'F-14',1.4557,The most recent log10(WOR) value for producer F-14 is 1.4557.
+small,2,Q08,Identification,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14""]","F-1C, F-11, F-12, F-14"
+small,2,Q09,Identification,0,1,1,artifact: strict first-number picked '12' (F-12) or the date,4579609.55,"The cumulative oil production (Np) for producer F-12 at the latest timestep (2016-09-01) is 4,579,609.55."
+small,2,Q10,Identification,1,1,1,,"[""F-11"", ""F-5""]","The connection from injector F-5 to producer F-11 is the strongest, with a weight of 0.4368."
+small,2,Q11,Identification,1,1,1,,"""5 producers, 2 injectors""",There are 5 producer wells and 2 injector wells in the field.
+small,2,Q12,Identification,0,1,1,artifact: strict first-number picked '12' from 'F-12',0.8835,"The most recent water-cut fraction for producer F-12 is 0.8835, recorded on 2016-08-01."
+small,2,Q13,Identification,1,1,1,,"""2016-07-01""",2016-07-01
+small,2,Q14,Risk,1,1,1,,"[""F-12"", ""F-14""]",15/9-F-12 and 15/9-F-14
+small,2,Q15,Risk,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14, and 15/9-F-15 D."
+small,2,Q16,Risk,0,0,1,gold defect: lists the two correct pairs; gold is a bare count,2,F-4 -> F-11 and F-5 -> F-11
+small,2,Q17,Risk,1,1,1,,185,185
+small,2,Q18,Risk,1,1,1,,"""F-14""",15/9-F-14
+small,2,Q19,Risk,0,0,1,gold defect (generator bug): correct answer is True,false,"Yes, well W_F-1C is supported by only a single injector (W_F-4)."
+small,2,Q20,Risk,1,1,1,,234,234
+small,2,Q21,Risk,1,1,1,gold defect (tie): answer correctly reports the F-12/F-14 tie,"""F-12""","15/9-F-12, 15/9-F-14"
+small,2,Q22,Risk,0,0,0,genuine: counts 4 of 5 producers,1.0,0.8 (4 out of 5 producers)
+small,2,Q23,Risk,1,1,1,,true,"Yes, producer F-12 has strong connectivity (exceeding 0.2) from two injectors: F-4 (0.2684) and F-5 (0.2922)."
+small,2,Q24,Risk,1,1,1,,"""F-11""","The producer with the highest single connectivity weight (injected-water exposure) is F-11, which has a weight of 0.4368 from injector F-5."
+small,2,Q25,Risk,1,1,0,"question defect: 'currently' -> 1; answered 2 (matches gold, not the question)",2,2
+small,2,Q26,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",I_WCT_SEVERE_F-14_2015-05-01
+small,2,Q27,Recommendation,1,1,1,,"""gas_lift_opt""",The intervention action type recommended most frequently is gas_lift_opt.
+small,2,Q28,Recommendation,1,1,1,,49,49
+small,2,Q29,Recommendation,1,1,1,,"""I_WATER_BREAKTHROUGH_F-15D_2015-12-01""",The intervention with the highest expected oil uplift is I_WATER_BREAKTHROUGH_F-15D_2015-12-01.
+small,2,Q30,Recommendation,1,1,1,,12.65,12.6461
+small,2,Q31,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2016-02-01""",I_WCT_SEVERE_F-14_2016-02-01
+small,2,Q32,Recommendation,1,1,1,,25,There are 25 recommended interventions for producer F-14.
+small,2,Q33,Recommendation,0,0,0,"genuine: lists 4 of 5 producers, omits F-15 D","[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14"
+small,2,Q35,Recommendation,0,1,1,artifact: 'water shutoff' vs gold token 'water_shutoff',"""water_shutoff""",water shutoff
+small,2,Q36,Recommendation,1,1,1,,10,There are 10 interventions that use the water_shutoff action.
+small,2,Q37,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",I_WCT_SEVERE_F-14_2015-05-01
+small,3,Q01,Identification,0,1,1,artifact: well id from the question echoed in prose,"[""F-4"", ""F-5""]",Injectors F-4 and F-5 are connected to producer F-12.
+small,3,Q02,Identification,0,1,1,artifact: strict first-number picked a digit from a well id,0.4368,The CRM connectivity weight from injector F-5 to producer F-11 is 0.4368.
+small,3,Q03,Identification,1,1,1,,45.0,The CRM time constant (tau) for all injector-producer pairs in the Volve field is 45 days.
+small,3,Q04,Identification,1,1,1,,"""F-4""",F-4
+small,3,Q05,Identification,1,1,1,,"""F-5""",The dominant supporting injector for F-11 is W_F-5 (weight 0.4368).
+small,3,Q06,Identification,1,1,1,,4,4
+small,3,Q07,Identification,0,1,1,artifact: strict first-number picked a digit from 'log10'/'F-14',1.4557,The most recent log10(WOR) value for producer F-14 is 1.4557.
+small,3,Q08,Identification,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14""]","F-1C, F-11, F-12, F-14"
+small,3,Q09,Identification,0,1,1,artifact: strict first-number picked '12' (F-12) or the date,4579609.55,"The cumulative oil production (Np) for producer F-12 at the latest timestep (2016-09-01) is 4,579,609.55."
+small,3,Q10,Identification,1,1,1,,"[""F-11"", ""F-5""]","The connection between injector F-5 and producer F-11 is the strongest, with a weight of 0.4368."
+small,3,Q11,Identification,1,1,1,,"""5 producers, 2 injectors""",There are 5 producer wells and 2 injector wells in the field.
+small,3,Q12,Identification,0,1,1,artifact: strict first-number picked '12' from 'F-12',0.8835,The most recent water-cut fraction for producer F-12 is 0.8835.
+small,3,Q13,Identification,1,1,1,,"""2016-07-01""",2016-07-01
+small,3,Q14,Risk,1,1,1,,"[""F-12"", ""F-14""]",15/9-F-12 and 15/9-F-14
+small,3,Q15,Risk,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14, 15/9-F-15 D"
+small,3,Q16,Risk,0,0,1,gold defect: lists the two correct pairs; gold is a bare count,2,"F-4 to F-11 (weight 0.3473), F-5 to F-11 (weight 0.4368)"
+small,3,Q17,Risk,1,1,1,,185,There were 185 HIGH_WOR alerts raised across the field.
+small,3,Q18,Risk,1,1,1,,"""F-14""",15/9-F-14 has the greatest number of severe water-cut alerts.
+small,3,Q19,Risk,0,0,1,gold defect (generator bug): correct answer is True,false,"Yes, producers F-1 C (W_F-1C) and F-15 D (W_F-15D) each depend on only a single injector."
+small,3,Q20,Risk,1,1,1,,234,234
+small,3,Q21,Risk,1,1,1,gold defect (tie): answer correctly reports the F-12/F-14 tie,"""F-12""",15/9-F-12 and 15/9-F-14 reached water breakthrough earliest on 2010-06-01.
+small,3,Q22,Risk,1,1,1,,1.0,1.0 (5 out of 5 producers reached the 50% water-cut threshold)
+small,3,Q23,Risk,1,1,1,,true,"Yes, F-12 has strong connectivity (>0.2) to injectors F-4 (0.2684) and F-5 (0.2922), indicating a risk of injected-water arrival."
+small,3,Q24,Risk,1,1,1,,"""F-11""",W_F-11 (15/9-F-11) has the highest single connectivity weight of 0.4368 from injector W_F-5.
+small,3,Q25,Risk,1,1,0,"question defect: 'currently' -> 1; answered 2 (matches gold, not the question)",2,2
+small,3,Q26,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",I_WCT_SEVERE_F-14_2015-05-01
+small,3,Q27,Recommendation,1,1,1,,"""gas_lift_opt""","The most frequently recommended intervention action type is gas_lift_opt, with 13 occurrences."
+small,3,Q28,Recommendation,1,1,1,,49,There are 49 recommended interventions in total.
+small,3,Q29,Recommendation,1,1,1,,"""I_WATER_BREAKTHROUGH_F-15D_2015-12-01""",I_WATER_BREAKTHROUGH_F-15D_2015-12-01
+small,3,Q30,Recommendation,1,1,1,,12.65,12.6461
+small,3,Q31,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2016-02-01""",The intervention I_WCT_SEVERE_F-14_2016-02-01 offers the best expected-uplift-per-cost ratio.
+small,3,Q32,Recommendation,1,1,1,,25,There are 25 interventions recommended for producer F-14.
+small,3,Q33,Recommendation,0,0,0,"genuine: lists 4 of 5 producers, omits F-15 D","[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14"
+small,3,Q35,Recommendation,0,1,1,artifact: 'water shutoff' vs gold token 'water_shutoff',"""water_shutoff""",The cheapest intervention is a water shutoff.
+small,3,Q36,Recommendation,1,1,1,,10,10
+small,3,Q37,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",I_WCT_SEVERE_F-14_2015-05-01
+large,1,Q01,Identification,1,1,1,,"[""F-4"", ""F-5""]","F-4 and F-5 (W_F-4 weight 0.2684, τ=45d; W_F-5 weight 0.2922, τ=45d)"
+large,1,Q02,Identification,1,1,1,,0.4368,0.4368
+large,1,Q03,Identification,1,1,1,,45.0,45 days
+large,1,Q04,Identification,1,1,1,,"""F-4""","W_F-4 (F-4), total outgoing weight ≈ 0.9186"
+large,1,Q05,Identification,1,1,1,,"""F-5""","F-5 (W_F-5), weight 0.4368"
+large,1,Q06,Identification,1,1,1,,4,4
+large,1,Q07,Identification,1,1,1,,1.4557,1.4557 (log10(WOR) on 2016-07-01)
+large,1,Q08,Identification,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14""]","F-1C, F-11, F-12, F-14"
+large,1,Q09,Identification,0,1,1,artifact: strict first-number picked '12' (F-12) or the date,4579609.55,"F-12 cumulative oil production (Np) at the latest timestep (2016-09-01) is 4,579,609.55 bbl"
+large,1,Q10,Identification,1,1,1,,"[""F-11"", ""F-5""]","F-5 → F-11 (INJECTS_INTO, weight 0.4368)"
+large,1,Q11,Identification,1,1,1,,"""5 producers, 2 injectors""",5 producer wells and 2 injector wells
+large,1,Q12,Identification,1,1,1,,0.8835,0.8835 (as of 2016-08-01)
+large,1,Q13,Identification,1,1,1,,"""2016-07-01""",2016-07-01
+large,1,Q14,Risk,1,1,1,,"[""F-12"", ""F-14""]",15/9-F-12 and 15/9-F-14
+large,1,Q15,Risk,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","F-1C, F-11, F-12, F-14, F-15D"
+large,1,Q16,Risk,0,0,1,gold defect: lists the two correct pairs; gold is a bare count,2,F-4 → F-11 (weight 0.3473) and F-5 → F-11 (weight 0.4368)
+large,1,Q17,Risk,1,1,1,,185,185
+large,1,Q18,Risk,1,1,1,,"""F-14""",15/9-F-14 (24 WCT_SEVERE alerts vs 20 for F-12)
+large,1,Q19,Risk,0,0,1,gold defect (generator bug): correct answer is True,false,Yes — F-1 C (only injector F-4) and F-15 D (only injector F-5) are single-point-of-failure producers.
+large,1,Q20,Risk,1,1,1,,234,234
+large,1,Q21,Risk,1,1,1,gold defect (tie): answer correctly reports the F-12/F-14 tie,"""F-12""",Tie at 2010-06-01: 15/9-F-12 and 15/9-F-14
+large,1,Q22,Risk,0,1,1,artifact: strict first-number picked '5' before the stated fraction 1.0,1.0,All 5 of 5 producers — fraction = 1.0 (100%)
+large,1,Q23,Risk,1,1,1,,true,"Yes — F-12 is strongly connected to two injectors above 0.2: F-5 (0.2922) and F-4 (0.2684), so injected-water arrival is a real risk."
+large,1,Q24,Risk,1,1,1,,"""F-11""","F-11 (via injector F-5, weight 0.4368)"
+large,1,Q25,Risk,0,0,1,question defect: 'currently' -> 1; answered 1 (correct as worded),2,1 producer — 15/9-F-14 (water-cut 0.9662)
+large,1,Q26,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",I_WCT_SEVERE_F-14_2015-05-01 (well 15/9-F-14) at 8.28 cost per bbl
+large,1,Q27,Recommendation,1,1,1,,"""gas_lift_opt""",gas_lift_opt
+large,1,Q28,Recommendation,1,1,1,,49,49
+large,1,Q29,Recommendation,1,1,1,,"""I_WATER_BREAKTHROUGH_F-15D_2015-12-01""",I_WATER_BREAKTHROUGH_F-15D_2015-12-01 (expected uplift 14336.5 bbl)
+large,1,Q30,Recommendation,1,1,1,,12.65,12.6461
+large,1,Q31,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2016-02-01""",I_WCT_SEVERE_F-14_2016-02-01
+large,1,Q32,Recommendation,1,1,1,,25,25
+large,1,Q33,Recommendation,0,0,0,"genuine: lists 4 of 5 producers, omits F-15 D","[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14"
+large,1,Q35,Recommendation,1,1,1,,"""water_shutoff""",water_shutoff
+large,1,Q36,Recommendation,1,1,1,,10,10
+large,1,Q37,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",I_WCT_SEVERE_F-14_2015-05-01 (est_cost_per_bbl = 8.28)
+large,2,Q01,Identification,1,1,1,,"[""F-4"", ""F-5""]","F-4 (weight 0.2684, τ=45d) and F-5 (weight 0.2922, τ=45d)"
+large,2,Q02,Identification,1,1,1,,0.4368,0.4368
+large,2,Q03,Identification,1,1,1,,45.0,45 days (tau_days = 45.0 for all injector-producer pairs)
+large,2,Q04,Identification,1,1,1,,"""F-4""",W_F-4
+large,2,Q05,Identification,1,1,1,,"""F-5""",F-5
+large,2,Q06,Identification,1,1,1,,4,4
+large,2,Q07,Identification,1,1,1,,1.4557,1.4557 (log10(WOR) on 2016-07-01)
+large,2,Q08,Identification,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14""]","F-1C, F-11, F-12, F-14"
+large,2,Q09,Identification,0,1,1,artifact: strict first-number picked '12' (F-12) or the date,4579609.55,"F-12's cumulative oil production (Np) at the latest timestep (2016-09-01) is 4,579,609.55 bbl."
+large,2,Q10,Identification,1,1,1,,"[""F-11"", ""F-5""]",F-5 → F-11 (weight 0.4368)
+large,2,Q11,Identification,1,1,1,,"""5 producers, 2 injectors""","5 producer wells (F-1C, F-11, F-12, F-14, F-15D) and 2 injector wells (F-4, F-5)"
+large,2,Q12,Identification,1,1,1,,0.8835,0.8835 (as of 2016-08-01)
+large,2,Q13,Identification,1,1,1,,"""2016-07-01""",2016-07-01
+large,2,Q14,Risk,1,1,1,,"[""F-12"", ""F-14""]",15/9-F-12 and 15/9-F-14
+large,2,Q15,Risk,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14, 15/9-F-15 D"
+large,2,Q16,Risk,0,0,1,gold defect: lists the two correct pairs; gold is a bare count,2,F-4→F-11 (weight 0.3473) and F-5→F-11 (weight 0.4368)
+large,2,Q17,Risk,1,1,1,,185,185
+large,2,Q18,Risk,1,1,1,,"""F-14""",15/9-F-14 (24 WCT_SEVERE alerts vs 20 for F-12)
+large,2,Q19,Risk,0,0,1,gold defect (generator bug): correct answer is True,false,"Yes — F-1 C (W_F-1C, only F-4) and F-15 D (W_F-15D, only F-5) each depend on a single injector."
+large,2,Q20,Risk,1,1,1,,234,234
+large,2,Q21,Risk,1,1,1,gold defect (tie): answer correctly reports the F-12/F-14 tie,"""F-12""","15/9-F-12 and 15/9-F-14 (tied, both 2010-06-01)"
+large,2,Q22,Risk,0,0,1,artifact NOT covered by the normalized grader: fraction given as 5/5 = 100%,1.0,5/5 = 100% (all producers crossed the 50% water-cut breakthrough threshold)
+large,2,Q23,Risk,1,1,1,,true,"Yes — F-12 is strongly connected to injectors F-5 (0.2922) and F-4 (0.2684), both >0.2, so injected-water arrival is a real risk."
+large,2,Q24,Risk,1,1,1,,"""F-11""","F-11 (via injector F-5, weight 0.4368)"
+large,2,Q25,Risk,1,1,0,"question defect: 'currently' -> 1; answered 2 (matches gold, not the question)",2,2 (15/9-F-12 and 15/9-F-14)
+large,2,Q26,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",I_WCT_SEVERE_F-14_2015-05-01 (well 15/9-F-14) at 8.28 per barrel
+large,2,Q27,Recommendation,1,1,1,,"""gas_lift_opt""",gas_lift_opt
+large,2,Q28,Recommendation,1,1,1,,49,49
+large,2,Q29,Recommendation,1,1,1,,"""I_WATER_BREAKTHROUGH_F-15D_2015-12-01""","I_WATER_BREAKTHROUGH_F-15D_2015-12-01 (expected uplift 14336.5 bbl, well 15/9-F-15 D)"
+large,2,Q30,Recommendation,1,1,1,,12.65,12.65 (mean est_cost_per_bbl ≈ 12.6461 across 40 interventions)
+large,2,Q31,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2016-02-01""",I_WCT_SEVERE_F-14_2016-02-01
+large,2,Q32,Recommendation,1,1,1,,25,25
+large,2,Q33,Recommendation,0,0,0,"genuine: lists 4 of 5 producers, omits F-15 D","[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14"
+large,2,Q35,Recommendation,1,1,1,,"""water_shutoff""",water_shutoff
+large,2,Q36,Recommendation,1,1,1,,10,10
+large,2,Q37,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",I_WCT_SEVERE_F-14_2015-05-01 (est_cost_per_bbl = 8.28)
+large,3,Q01,Identification,1,1,1,,"[""F-4"", ""F-5""]","F-4 and F-5 (W_F-4 weight 0.2684, τ=45d; W_F-5 weight 0.2922, τ=45d)"
+large,3,Q02,Identification,1,1,1,,0.4368,0.4368
+large,3,Q03,Identification,1,1,1,,45.0,45 days (tau_days = 45.0 for all injector-producer pairs)
+large,3,Q04,Identification,1,1,1,,"""F-4""",W_F-4
+large,3,Q05,Identification,1,1,1,,"""F-5""","F-5 (W_F-5), weight 0.4368"
+large,3,Q06,Identification,1,1,1,,4,4
+large,3,Q07,Identification,1,1,1,,1.4557,1.4557 (log10 WOR on 2016-07-01)
+large,3,Q08,Identification,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14""]","F-1C, F-11, F-12, F-14"
+large,3,Q09,Identification,0,1,1,artifact: strict first-number picked '12' (F-12) or the date,4579609.55,"F-12 cumulative oil production (Np) at the latest timestep (2016-09-01) is 4,579,609.55 bbl"
+large,3,Q10,Identification,1,1,1,,"[""F-11"", ""F-5""]","F-5 → F-11 (INJECTS_INTO, weight 0.4368)"
+large,3,Q11,Identification,1,1,1,,"""5 producers, 2 injectors""",5 producers and 2 injectors
+large,3,Q12,Identification,1,1,1,,0.8835,0.8835 (water cut ~88.35%) as of 2016-08-01
+large,3,Q13,Identification,1,1,1,,"""2016-07-01""",2016-07-01
+large,3,Q14,Risk,1,1,1,,"[""F-12"", ""F-14""]",15/9-F-12 and 15/9-F-14
+large,3,Q15,Risk,1,1,1,,"[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14, 15/9-F-15 D"
+large,3,Q16,Risk,0,0,1,gold defect: lists the two correct pairs; gold is a bare count,2,F-4→F-11 (weight 0.3473) and F-5→F-11 (weight 0.4368)
+large,3,Q17,Risk,1,1,1,,185,185
+large,3,Q18,Risk,1,1,1,,"""F-14""","15/9-F-14 (24 severe water-cut alerts, vs 20 for F-12)"
+large,3,Q19,Risk,0,0,1,gold defect (generator bug): correct answer is True,false,Yes — F-1C (fed only by injector F-4) and F-15D (fed only by injector F-5) each depend on a single injector.
+large,3,Q20,Risk,1,1,1,,234,234
+large,3,Q21,Risk,1,1,1,gold defect (tie): answer correctly reports the F-12/F-14 tie,"""F-12""",Tie at 2010-06-01: 15/9-F-12 and 15/9-F-14
+large,3,Q22,Risk,0,0,1,artifact NOT covered by the normalized grader: fraction given as 5/5 = 100%,1.0,"5/5 = 100% (all 5 producers: F-1C, F-11, F-12, F-14, F-15D crossed the 50% water-cut threshold)"
+large,3,Q23,Risk,1,1,1,,true,"Yes — F-12 has two injectors above the 0.2 threshold: F-5 (weight 0.2922) and F-4 (weight 0.2684), both with tau≈45 days, so injected-water arrival is a real risk."
+large,3,Q24,Risk,1,1,1,,"""F-11""",F-11 (W_F-11) — highest single connectivity weight 0.4368 from injector F-5
+large,3,Q25,Risk,1,1,0,"question defect: 'currently' -> 1; answered 2 (matches gold, not the question)",2,2 producers — 15/9-F-12 and 15/9-F-14
+large,3,Q26,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""","I_WCT_SEVERE_F-14_2015-05-01 (well 15/9-F-14), at $8.28/bbl"
+large,3,Q27,Recommendation,1,1,1,,"""gas_lift_opt""",gas_lift_opt (recommended 14 times)
+large,3,Q28,Recommendation,1,1,1,,49,49
+large,3,Q29,Recommendation,1,1,1,,"""I_WATER_BREAKTHROUGH_F-15D_2015-12-01""",I_WATER_BREAKTHROUGH_F-15D_2015-12-01 (expected uplift 14336.5 bbl)
+large,3,Q30,Recommendation,1,1,1,,12.65,12.65 (mean est_cost_per_bbl ≈ 12.6461 across 40 interventions)
+large,3,Q31,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2016-02-01""",I_WCT_SEVERE_F-14_2016-02-01
+large,3,Q32,Recommendation,1,1,1,,25,25
+large,3,Q33,Recommendation,0,0,0,"genuine: lists 4 of 5 producers, omits F-15 D","[""F-1 C"", ""F-11"", ""F-12"", ""F-14"", ""F-15 D""]","15/9-F-1 C, 15/9-F-11, 15/9-F-12, 15/9-F-14"
+large,3,Q35,Recommendation,1,1,1,,"""water_shutoff""",water_shutoff
+large,3,Q36,Recommendation,1,1,1,,10,10
+large,3,Q37,Recommendation,1,1,1,,"""I_WCT_SEVERE_F-14_2015-05-01""",I_WCT_SEVERE_F-14_2015-05-01 (est_cost_per_bbl = 8.28)

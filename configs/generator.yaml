@@ -1,0 +1,34 @@
+# CE-W1 Synthetic Dashboard Simulator v1.0 — deterministic config
+version: "1.0"
+seeds: [42, 123, 456]      # generator determinism; primary artifacts use seed 42
+default_seed: 42
+
+volve:
+  path: "data/raw/volve_production_data.xlsx"   # falls back to Volve-shaped seed if missing
+  resample: "MS"           # month-start; keeps KG small (<5 min rebuild)
+  producer_type: "OP"
+  injector_type: "WI"
+
+# Well Connectivity Dashboard (CRM-style)
+connectivity:
+  # gain f_ij in [0,1] per injector->producer, softmax over producer proximity + noise
+  noise_sigma: 0.05        # M4 sweeps {0.05, 0.10, 0.20}
+  min_edge_weight: 0.05    # prune weak connections
+  tau_days: 45.0           # CRM time constant (resistance)
+
+# Water Management Analytics
+water:
+  breakthrough_wct: 0.50   # water-cut threshold for breakthrough alert
+  high_wor_log: 0.0        # log10(WOR) >= 0  => WOR>=1 (water>=oil)
+  severe_wct: 0.90         # severe water-cut alert
+
+# Intervention log (cost-per-barrel outcomes)
+intervention:
+  actions: ["water_shutoff", "rate_reduction", "gas_lift_opt", "polymer_injection"]
+  cost_per_bbl_mean: 12.0  # USD/bbl, lognormal
+  cost_per_bbl_sigma: 0.4
+  expected_uplift_bbl_mean: 8000.0
+  label_noise: 0.10        # fraction of outcomes perturbed (avoid too-clean data)
+
+# Robustness knobs (used from day 1 per roadmap risk mitigation)
+missing_data_fraction: 0.0 # M4 sweeps; 0 for the clean v1 artifact

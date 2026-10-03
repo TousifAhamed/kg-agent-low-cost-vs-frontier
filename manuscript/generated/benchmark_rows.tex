@@ -1,0 +1,50 @@
+Q01 & Id & Which injectors are connected to producer F-12 via the CRM connectivity fit? & F-4, F-5 & EM & E \\
+Q02 & Id & What is the CRM connectivity weight from injector F-5 to producer F-11? & 0.4368 & EM & W \\
+Q03 & Id & What is the CRM time constant (tau, days) used for injector-producer pairs? & 45.0 & EM & E \\
+Q04 & Id & Which injector has the highest total outgoing connectivity weight across the field? & F-4 & EM & W \\
+Q05 & Id & What is the dominant (highest-weight) supporting injector for producer F-11? & F-5 & EM & W \\
+Q06 & Id & How many injector-producer pairs have a connectivity weight above 0.2? & 4 & EM & W \\
+Q07 & Id & What is the most recent log10(WOR) value for producer F-14? & 1.4557 & EM & R \\
+Q08 & Id & Which producers receive injection support from injector F-4? & F-1 C, F-11, F-12, F-14 & EM & E \\
+Q09 & Id & What is the cumulative oil production (Np) for producer F-12 at the latest timestep? & 4579609.55 & EM & R \\
+Q10 & Id & What is the single strongest injector-producer connection in the field? & F-11, F-5 & EM & W \\
+Q11 & Id & How many producer wells and how many injector wells are in the field? & 5 producers, 2 injectors & EM & A \\
+Q12 & Id & What is the most recent water-cut fraction for producer F-12? & 0.8835 & EM & R \\
+Q13 & Id & On what date was producer F-14's water-cut last measured? & 2016-07-01 & EM & R \\
+Q14 & Risk & Which producers have ever raised a WCT\_\allowbreak{}SEVERE (water-cut $\geq$ 90\%) alert? & F-12, F-14 & EM & A \\
+Q15 & Risk & Which producers experienced a water-breakthrough alert? & F-1 C, F-11, F-12, F-14, F-15 D & EM & A \\
+Q16$^{a}$ & Risk & Which injector-producer pairs have connectivity weight above 0.3 (early-breakthrough risk)? & 2 & EM & W \\
+Q17 & Risk & How many HIGH\_\allowbreak{}WOR alerts were raised across the field? & 185 & EM & A \\
+Q18 & Risk & Which producer has the greatest number of severe water-cut alerts? & F-14 & EM & A \\
+Q19$^{b}$ & Risk & Do any producers depend on only a single injector (support single-point-of-failure)? & false & EM & E \\
+Q20 & Risk & How many total alerts were raised in the field? & 234 & EM & A \\
+Q21$^{c}$ & Risk & Which producer reached water breakthrough earliest (by alert date)? & F-12 & EM & A \\
+Q22 & Risk & What fraction of producers ever crossed the 50\% water-cut breakthrough threshold? & 1.0 & EM & A \\
+Q23 & Risk & Is producer F-12's connectivity strong enough ($>$0.2 from any injector) to risk injected-water arrival? & true & EM & W \\
+Q24 & Risk & Which producer carries the highest single connectivity weight (largest injected-water exposure)? & F-11 & EM & W \\
+Q25$^{d}$ & Risk & How many distinct producers currently sit above the severe (90\%) water-cut level? & 2 & EM & A \\
+Q26 & Rec & What is the single cheapest recommended intervention (by cost per barrel)? & \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-14\_\allowbreak{}2015-05-01} & EM & A \\
+Q27 & Rec & Which intervention action type is recommended most frequently? & \texttt{gas\_\allowbreak{}lift\_\allowbreak{}opt} & EM & A \\
+Q28 & Rec & How many recommended interventions are there in total? & 49 & EM & A \\
+Q29 & Rec & Which intervention has the highest expected oil uplift (bbl)? & \texttt{I\_\allowbreak{}WATER\_\allowbreak{}BREAKTHROUGH\_\allowbreak{}F-15D\_\allowbreak{}2015-12-01} & EM & A \\
+Q30 & Rec & What is the mean estimated cost-per-barrel across all interventions? & 12.65 & EM & A \\
+Q31 & Rec & Which intervention offers the best expected-uplift-per-cost ratio? & \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-14\_\allowbreak{}2016-02-01} & EM & A \\
+Q32 & Rec & How many interventions are recommended for producer F-14? & 25 & EM & A \\
+Q33 & Rec & Which producers have at least one recommended intervention? & F-1 C, F-11, F-12, F-14, F-15 D & EM & A \\
+Q34 & Rec & Rank the 5 cheapest interventions by cost-per-barrel (ascending). & 1. \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-12\_\allowbreak{}2013-07-01}\newline 2. \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-12\_\allowbreak{}2014-02-01}\newline 3. \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-12\_\allowbreak{}2014-06-01}\newline 4. \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-14\_\allowbreak{}2015-05-01}\newline 5. \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-14\_\allowbreak{}2016-02-01} & NDCG & -- \\
+Q35 & Rec & What action is recommended for the cheapest intervention? & \texttt{water\_\allowbreak{}shutoff} & EM & A \\
+Q36 & Rec & How many interventions use the water\_\allowbreak{}shutoff action? & 10 & EM & A \\
+Q37 & Rec & For producer F-14, which recommended intervention has the lowest cost per barrel? & \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-14\_\allowbreak{}2015-05-01} & EM & A \\
+Q38 & Rec & Rank the top 5 interventions by expected uplift (descending). & 1. \texttt{I\_\allowbreak{}WATER\_\allowbreak{}BREAKTHROUGH\_\allowbreak{}F-15D\_\allowbreak{}2015-12-01}\newline 2. \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-12\_\allowbreak{}2013-06-01}\newline 3. \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-12\_\allowbreak{}2013-11-01}\newline 4. \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-14\_\allowbreak{}2015-12-01}\newline 5. \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-14\_\allowbreak{}2016-02-01} & NDCG & -- \\
+Q39$^{e}$ & Expl & Explain why producer F-14 raised a severe water-cut alert: trace alert $\rightarrow$ triggering reading $\rightarrow$ recommended intervention. & rubric; evidence \texttt{A\_\allowbreak{}WATER\_\allowbreak{}BREAKTHROUGH\_\allowbreak{}F-14\_\allowbreak{}2010-06-01} & Rubric & -- \\
+Q40$^{c}$ & Expl & Trace the earliest water-breakthrough alert: which reading triggered it, on what date, and what intervention was recommended? & rubric; evidence \texttt{A\_\allowbreak{}WATER\_\allowbreak{}BREAKTHROUGH\_\allowbreak{}F-12\_\allowbreak{}2010-06-01}, \texttt{R\_\allowbreak{}water\_\allowbreak{}cut\_\allowbreak{}F-12\_\allowbreak{}2010-06-01} & Rubric & -- \\
+Q41 & Expl & Why is the F-5 $\rightarrow$ F-11 pair flagged as an early-breakthrough risk? Explain using its connectivity weight. & rubric; evidence \texttt{C\_\allowbreak{}F-5\_\allowbreak{}F-11} & Rubric & -- \\
+Q42 & Expl & Explain the provenance chain of the cheapest recommended intervention back to its source record. & rubric; evidence \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-14\_\allowbreak{}2015-05-01} & Rubric & -- \\
+Q43$^{e}$ & Expl & What evidence supports a HIGH\_\allowbreak{}WOR alert (which reading and threshold)? & rubric; evidence \texttt{A\_\allowbreak{}HIGH\_\allowbreak{}WOR\_\allowbreak{}F-1C\_\allowbreak{}2014-10-01} & Rubric & -- \\
+Q44 & Expl & Explain the difference in water-cut trajectory between producers F-12 and F-15 D. & rubric; evidence \texttt{W\_\allowbreak{}F-12}, \texttt{W\_\allowbreak{}F-15D} & Rubric & -- \\
+Q45 & Expl & Why does producer F-11 receive more support from injector F-5 than from F-4? Explain using the weights. & rubric; evidence \texttt{C\_\allowbreak{}F-5\_\allowbreak{}F-11}, \texttt{C\_\allowbreak{}F-4\_\allowbreak{}F-11} & Rubric & -- \\
+Q46 & Expl & Explain, end to end, the risk-to-recommendation chain for the field's highest-risk producer. & rubric; evidence \texttt{15/9-F-14} & Rubric & -- \\
+Q47 & Expl & Explain why every KG node carries a source\_\allowbreak{}record\_\allowbreak{}id and why that matters for citation validation. & rubric & Rubric & -- \\
+Q48 & Expl & What causes the recommended water\_\allowbreak{}shutoff interventions, in terms of the water diagnostics? & rubric; evidence \texttt{I\_\allowbreak{}WCT\_\allowbreak{}SEVERE\_\allowbreak{}F-12\_\allowbreak{}2013-03-01} & Rubric & -- \\
+Q49 & Expl & Describe the connectivity structure of injector F-4: which producers it supports and the relative weights. & rubric; evidence \texttt{W\_\allowbreak{}F-4} & Rubric & -- \\
+Q50 & Expl & Summarize how an alert, its triggering reading, and its recommended intervention link together in the ontology. & rubric & Rubric & -- \\

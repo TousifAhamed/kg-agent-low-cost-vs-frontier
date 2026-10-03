@@ -1,0 +1,15 @@
+# Neo4j Community for the CE-W1 KG (one-command start: docker compose up -d)
+services:
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: cew1-neo4j
+    ports:
+      - "7474:7474"   # HTTP browser
+      - "7687:7687"   # Bolt
+    environment:
+      NEO4J_AUTH: "neo4j/cew1password"
+      NEO4J_PLUGINS: '["apoc"]'
+    volumes:
+      - neo4j_data:/data
+volumes:
+  neo4j_data:

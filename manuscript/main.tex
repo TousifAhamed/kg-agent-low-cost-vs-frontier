@@ -1,0 +1,672 @@
+\documentclass{article}
+% Camera-ready: the official style with the workshop track plus [final]; the style
+% file is byte-identical to the official NeurIPS 2026 template.
+\usepackage[dblblindworkshop,final,nonatbib]{neurips_2026}
+\workshoptitle{SLM-Agents}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\renewcommand{\ttdefault}{lmtt}  % Type 1 typewriter; EC tt would embed as Type 3 bitmaps
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Can a Knowledge-Graph Agent Close the Gap Between a Low-Cost and a Frontier-Class LLM? An Audited Upstream Petroleum Case Study}, pdfauthor={Tousifahamed Allabksha Nadaf}}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{Can a Knowledge-Graph Agent Close the Gap Between a Low-Cost and a
+Frontier-Class LLM? An Audited Upstream Petroleum Case Study}
+
+\author{
+  Tousifahamed Allabksha Nadaf \\
+  Wipro \\
+  \texttt{tousifahamed.nadaf@wipro.com}, \texttt{ahamedpapers@gmail.com}\thanks{Corresponding email address.}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Small, low-cost language models are attractive agent backbones but are assumed
+to trail frontier models on tasks requiring exact identifiers, deterministic
+aggregation, and multi-hop reasoning. We test how close a knowledge-graph (KG)
+agent brings them. One ReAct pipeline -- a structured graph-query tool, a
+deterministic aggregation tool, and a citation-traceability guardrail
+-- runs a 50-question upstream-petroleum benchmark with a low-cost backbone
+(Gemini~3.1~Flash-Lite) and a frontier-class one (Claude~Opus~4.8), three
+repeats each. Normalized exact match (EM) gives \textbf{0.898} vs.\
+\textbf{0.889}; a symmetric hand audit of all 216 EM answers gives
+\textbf{0.926} vs.\ \textbf{0.954}, and the backbones differ on only 3 of 36
+items, so this benchmark cannot separate them. The audit also shows that most
+strict-EM failures of both backbones are correct answers (82\% and 81\%), that
+grading rules derived from one backbone missed a format of the other, and that
+7 of the 50 items are defective. An ablation ladder places the gain in the
+graph plus deterministic tools: graph retrieval without agency scores
+\textbf{0.278}, below Text-RAG at \textbf{0.583}. Since gold answers are
+computed from the graph the tools query, we read this as both backbones driving
+one toolchain to similar accuracy, not as a claim about model size.
+\end{abstract}
+
+\section{Introduction}
+
+Small language models (SLMs) are attractive as agent backbones: cheaper,
+faster, and often free-tier-accessible, which matters for who can afford to
+deploy agentic tools at all. The standard assumption is that this comes at a
+capability cost on tasks needing exact identifiers, deterministic
+aggregation, and multi-hop reasoning -- exactly the profile of upstream
+petroleum analytics, where analysts mix identification (\emph{which well}),
+risk assessment (\emph{is this pair a breakthrough risk}), recommendation
+(\emph{what is the cheapest fix}), and causal explanation (\emph{why}) over
+well topology, injector-producer connectivity, time-series sensor readings,
+alerts, and recommended interventions. We ask how much of that capability cost
+a better-structured pipeline can remove, rather than a bigger model.
+
+Standard text-based RAG treats this domain as unstructured passages: it can
+retrieve topically relevant text, but it cannot compute rankings or
+aggregates, and it is prone to inventing plausible-looking but fake
+identifiers (e.g., intervention IDs) when asked to rank or recommend.
+Knowledge-graph RAG
+(KG-RAG)~\cite{lewis2020rag,edge2024graphrag,sanmartin2024kgrag,pan2024roadmap}
+promises structure-aware retrieval and agentic tool
+use~\cite{yao2023react,schick2023toolformer} promises deterministic
+computation, but whether combining both lets a low-cost backbone do as well as
+a frontier one, and how such a system behaves when the graph is incomplete or
+noisy, remains relatively underexplored.
+
+We present a knowledge-graph agent that combines (1) a structured graph-query
+tool, (2) a deterministic aggregation tool, and (3) a citation guardrail that
+rejects identifiers no tool returned, and evaluate it under two API backbones
+and against text-RAG and graph-retrieval-only baselines on a 50-question
+benchmark built from the public Volve field dataset, used here as a demanding
+testbed rather than as the paper's primary claim. We study two research
+questions. \textbf{RQ1 (backbone dependence):} with the same KG agent, how close
+do a low-cost and a frontier-class backbone come, and which parts of the
+scaffold account for the result? \textbf{RQ2 (robustness, preliminary):} how
+does the agent's accuracy change when the graph is incomplete or its
+connectivity weights are noisy? Our contributions are:
+
+\begin{enumerate}
+  \item A cross-backbone comparison with a symmetric audit (RQ1): under one
+  pipeline the two backbones come within one EM item per repeat of each other
+  (audited EM 0.926 vs.\ 0.954), a difference this 36-item benchmark cannot
+  resolve; we report similar accuracy, not parity
+  (Section~\ref{sec:results}).
+  \item An instance-level audit of both backbones' answers (RQ1) that separates
+  model errors from grader artifacts and benchmark defects: most strict-EM
+  failures of both backbones are correct answers, a normalized grader built from
+  one backbone's failures missed a format of the other, and seven benchmark
+  items are defective.
+  \item An ablation ladder (RQ1) in which graph structure alone scores
+  \emph{lower} than text retrieval and the deterministic aggregation tool
+  accounts for the largest single share of the full agent's score.
+  \item A preliminary robustness probe (RQ2) on the low-cost backbone, with the
+  perturbations, and the evidence they can and cannot reach, stated exactly.
+\end{enumerate}
+Code, data, run logs, and audit verdicts are available at
+\url{https://github.com/TousifAhamed/kg-agent-low-cost-vs-frontier}.
+
+\section{Related Work}
+
+\textbf{KG-RAG and graph-structured retrieval.} GraphRAG~\cite{edge2024graphrag}
+and related work~\cite{sanmartin2024kgrag} summarize community structure in a
+knowledge graph to answer global, corpus-level questions; Think-on-Graph~\cite{sun2024tog}
+performs beam search over KG relations, showing that a strong graph can let a
+smaller LLM match a larger one, a hypothesis we test in a new domain.
+Pan et al.~\cite{pan2024roadmap} survey the broader space of unifying LLMs and
+KGs. We build on classical RAG~\cite{lewis2020rag} (see Gao
+et al.~\cite{ragsurvey2023} for a survey of the RAG design space) but replace
+passage retrieval with structured graph queries plus deterministic tools.
+
+\textbf{Agentic tool use.} Chain-of-thought prompting~\cite{cot2022}
+established that intermediate reasoning traces improve LLM task performance;
+ReAct~\cite{yao2023react} interleaves such traces with tool actions, and
+Toolformer~\cite{schick2023toolformer} teaches models to invoke APIs. Qin et
+al.~\cite{toollearning2023} and Wang et al.~\cite{llmagents2024} survey the
+broader tool-use and autonomous-agent literature. Our agent follows the ReAct
+pattern but adds a domain-specific deterministic aggregation tool and a
+post-hoc citation guardrail, rather than relying on the LLM to compute
+rankings itself.
+
+\textbf{Ontologies and hallucination.} We anchor entities to a minimal subset
+of the ISO 15926 process-industry data model~\cite{iso15926}, maintained by the
+POSC~Caesar Association, within a knowledge graph~\cite{hogan2021kgsurvey} that
+carries a W3C PROV-O provenance profile~\cite{provo2013}, so every tool result
+carries a traceable node id. Ji et al.~\cite{ji2023hallucination} survey
+hallucination in NLG; our citation guardrail is a lightweight, verifiable
+traceability check in the spirit of self-verification approaches such as
+Self-RAG~\cite{selfrag2024}.
+
+\textbf{Domain analytics.} Capacitance-resistance modeling
+(CRM)~\cite{yousef2006crm,sayarpour2009} and Chan's water-cut/WOR diagnostic
+plots~\cite{chan1995wor} are standard reservoir-engineering tools for inferring
+injector-producer connectivity and diagnosing coning/channeling; we encode
+their outputs as first-class KG edges and node properties rather than leaving
+them to unstructured retrieval.
+
+\section{Method}
+
+\textbf{Knowledge graph.} We build a property graph~\cite{graphdb2008} over production and injection records from the public
+Volve field dataset (5 producers, 2 injectors, 2007--2016). Alerts,
+interventions, and derived diagnostic edges are not in the raw field release;
+they are generated once from the real series by fixed rules (first water cut
+$\geq 0.50$ $\to$ breakthrough alert, water cut $\geq 0.90$ $\to$ severe alert,
+$\log_{10}\mathrm{WOR} \geq 0$ $\to$ high-WOR alert, one recommended
+intervention with sampled cost and uplift per breakthrough or severe alert;
+Appendix~\ref{app:benchmark}). This single instantiation is the KG seed for all
+experiments. The graph has 7 node types (\texttt{Well}, \texttt{Reservoir},
+\texttt{Sensor}, \texttt{MetricReading}, \texttt{Alert},
+\texttt{Intervention}, \texttt{Field}) and 6 relation types, each carrying a
+PROV \texttt{wasDerivedFrom} edge~\cite{provo2013} (provenance coverage 1.0).
+All reported runs query an in-memory NetworkX copy of the graph; a Cypher export
+for Neo4j 5.26 exists but was not queried in these experiments.
+
+\textbf{Agent.} An entity linker~\cite{entitylink2015} seeds the first turn
+with mentioned KG node ids; a ReAct loop (max 5 tool rounds) then selects among
+\texttt{cypher\_query} (despite its name, a structured tool: the model picks
+an operation -- label/filter search, neighbours, $k$-hop subgraph, latest
+reading -- and filters, rather than writing Cypher), \texttt{compute\_metric} (deterministic count / sum / mean /
+min / max / rank, including derived ratios such as cost-per-barrel), and
+\texttt{semantic\_search} (FAISS~1.9.0~\cite{faiss2017} over the
+serialized-dashboard corpus of the Text-RAG baseline, as a fuzzy fallback). A
+citation guardrail checks \emph{traceability}, not support: it accepts a cited
+id only if the id exists in the graph and was returned by a tool during that
+run (retrying up to twice), so it blocks fabricated identifiers but does not
+verify that a cited node supports the claim made about it. The low-cost
+backbone is \texttt{gemini-3.1-flash-lite}~\cite{gemini31flashlite}, accessed
+through the Gemini API free tier; it is Google's most cost-efficient Gemini
+3-series model and its parameter count is not published, so we call it
+``small'' and ``low-cost'' in the sense of price tier only. The large backbone is
+\texttt{claude-opus-4-8}~\cite{claudeopus48}, a frontier-class commercial model
+at the time of the study. Both use the provider's default decoding temperature
+and a 1024-token output cap, and the full agent was run three independent
+times on each. Large-backbone runs were made on 2026-07-03 and small-backbone
+runs on 2026-07-17--22, through floating API aliases without logged snapshot
+identifiers; the two-week gap is a confound we cannot remove, and exact
+re-execution against the same weights is not guaranteed.
+
+\textbf{Baselines.} \emph{S1 (LLM-only)}: no retrieval or tools. \emph{S2
+(Text-RAG)}: FAISS dense retrieval~\cite{dpr2020} ($k{=}10$) over serialized
+dashboard documents with the \texttt{all-MiniLM-L6-v2}
+Sentence-BERT~\cite{sbert2019} embedder (sentence-transformers 3.3.1).
+\emph{S3 (KG-retrieval-only)}: $k$-hop subgraph serialization into a single
+LLM call, with no tools and no agent loop.
+
+\section{Experimental Setup}
+
+\textbf{Benchmark.} 50 questions (13 Identification, 12 Risk, 13
+Recommendation, 12 Explanation), instantiated from templates by a script that
+computes each gold answer by traversal or aggregation over the KG;
+Appendix~\ref{app:benchmark} lists all 50. The templates were drafted before
+any agent code existed, but were instantiated against the KG in the same week
+the agent's tools were built, so tool design was not blind to the question
+set. We report EM over the 36 string- or number-answerable items, NDCG@5~\cite{ndcg2002}
+over the 2 ranking items, citation validity, and a 0--3 rubric over the 12
+Explanation items, scored by an LLM judge~\cite{llmjudge2023} given the gold
+evidence nodes; the judge is the backbone being scored, so rubric scores are
+not comparable across backbones (Appendix~\ref{app:explanation}).
+
+\textbf{Grading.} Strict EM applies a 2\% numeric tolerance and ordered
+number matching for multi-number answers. Normalized EM additionally scans
+every number in a prose answer (strict takes only the first, which can pick
+the ``5'' out of ``\texttt{F-5}''), normalizes prose dates, squashes
+underscores and hyphens, and discounts well ids echoed from the question
+(Appendix~\ref{app:grading}). These four rules were written \emph{after}
+auditing the small backbone's failures, so they are tuned on one arm of the
+comparison, and a check that S1--S3 are unchanged by them cannot detect a rule
+that favors prose. We therefore also audit every EM answer of both backbones by
+hand against the question as worded (Section~\ref{sec:results},
+Appendix~\ref{app:audit}).
+
+\textbf{Repeats and perturbations.} The full agent runs three times per
+backbone; the two ablations and the four perturbation conditions run once, on
+the small backbone only. Edge dropout at rate $p$ removes each
+\texttt{INJECTS\_INTO} edge and each \texttt{MetricReading} node independently
+with probability $p$; weight noise at relative $\sigma$ multiplies each
+\texttt{INJECTS\_INTO} connectivity weight by $1+\epsilon$,
+$\epsilon \sim \mathcal{N}(0,\sigma^2)$, clipped at 0. Each condition is a
+single draw (seed 42), with gold answers fixed to the clean graph. Neither
+perturbation touches alert, intervention, or well nodes, and the
+\texttt{semantic\_search} fallback indexes the unperturbed corpus.
+
+\section{Results}
+\label{sec:results}
+
+\begin{table}[t]
+  \centering
+  \small
+  \caption{Full agent, 36 EM items, 3 repeats per backbone (108 answers each).
+  ``Audited'' judges every answer by hand against the question as worded, with
+  corrected gold for defective items (Appendix~\ref{app:audit}).}
+  \label{tab:audit}
+  \begin{tabular}{lcc}
+    \toprule
+    & Small (Flash-Lite) & Large (Opus 4.8) \\
+    \midrule
+    Strict EM & 0.741 & 0.852 \\
+    Normalized EM (repeats 1/2/3) & 0.898 (.917/.861/.917) & 0.889 (.889/.889/.889) \\
+    Audited EM (repeats 1/2/3) & 0.926 (.944/.889/.944) & 0.954 (.972/.944/.944) \\
+    \midrule
+    Strict-EM failures & 28 & 16 \\
+    \quad artifact, fixed by normalization & 17 & 4 \\
+    \quad artifact, missed by normalization & 0 & 2 \\
+    \quad defective item, correct as worded & 6 & 7 \\
+    \quad genuine error & 5 & 3 \\
+    Normalized credit, wrong on audit & 3 & 2 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\textbf{Similar accuracy, not parity (RQ1, Table~\ref{tab:audit}).} Under
+normalized EM the small backbone scores 0.898 and the large 0.889. But
+normalization lifts the small backbone by 15.7 points and the large by 3.7,
+and its rules came from the small backbone's failures, so we audited all 216
+EM answers of both. Every answer the normalized grader newly accepts is
+correct for both backbones, so we found no credit for incidentally mentioned
+numbers; but the rules miss a format only the large backbone uses (``5/5 =
+100\%''), and the audit exposed two defective EM items: Q19's gold value comes
+from a generator bug (the correct answer is ``yes''), and Q25 asks how many
+producers ``currently'' exceed 90\% water cut (one) while its gold counts those
+that ever did (two). On audit the scores are 0.926 (small) and 0.954 (large).
+The backbones' item-level means differ on 3 of the 36 items, all in the large
+backbone's favor (two-sided sign test $p=0.25$; paired item bootstrap 95\% CI
+for small minus large $[-0.065, 0.000]$; under normalized EM $[-0.019,
++0.046]$). The benchmark therefore cannot separate the two backbones, and the
+audited point estimate favors the large one by one item per repeat. S2 and S3
+score identically for both backbones (0.583 and 0.278); S1 scores 0.028 (small)
+and 0.056 (large), the extra credit being a non-answer to the defective Q19
+that the boolean grader counts as ``no''. Because the backbones also tie
+without the agent, these results show both reaching similar accuracy through
+the pipeline, not the pipeline closing a gap measured here.
+
+\textbf{What the scaffold contributes (RQ1).} The ablations
+(Figure~\ref{fig:main}, small backbone) show graph structure alone is not
+enough: S3 (0.278) scores below S2 (0.583), since a serialized raw subgraph is
+a weaker signal than ranked dense passages for this question set. Removing
+\texttt{compute\_metric} drops normalized EM from 0.898 to 0.750 (strict 0.667)
+and NDCG@5 from 1.000 to 0.659 -- the agent still \emph{finds} the right
+entities but can no longer \emph{rank} them. Removing the guardrail costs less
+EM (0.861) and lowers citation validity from 1.00 to 0.98. These effects are
+partly built into the benchmark: gold answers to aggregation items are, by
+construction, what \texttt{compute\_metric} returns over the same graph, and
+S1 scoring 1--2 of 36 shows the items are unanswerable without the tools. The
+ablation therefore says which tools this toolchain needs, not how graph and
+text retrieval compare in general. Rubric scores and NDCG@5 are in
+Appendix~\ref{app:explanation}.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/fig_main_results.png}
+  \caption{Normalized EM on the 36 EM items, small backbone. S4 is a 3-repeat
+  mean; the two S4 ablations and the baselines are single runs. S2 and S3 score
+  the same with the large backbone; S1 scores 0.056 there.}
+  \label{fig:main}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/fig_robustness.png}
+  \caption{Normalized EM under edge dropout and connectivity-weight noise,
+  small backbone, gold fixed to the clean graph. Each perturbed point is one
+  draw; the 0\% point is the 3-repeat mean. Dashed line: undegraded Text-RAG.}
+  \label{fig:robustness}
+\end{figure}
+
+\textbf{Robustness, preliminary (RQ2, Figure~\ref{fig:robustness}).}
+Normalized EM at 0 / 30 / 60\% edge dropout is 0.898 / 0.694 / 0.778, and at
+relative weight noise $\sigma$ = 0 / 0.3 / 0.6 it is 0.898 / 0.833 / 0.889; all
+four perturbed scores stay above the undegraded Text-RAG baseline (0.583).
+These numbers are weaker evidence than they look. Of the 36 EM items, 20 rest
+only on alert, intervention, or well properties that neither perturbation
+alters, weight noise reaches the evidence of only 8, and the fallback search
+can still return clean values. On those 8 weight items, noise lowers EM from
+0.833 to 0.625 ($\sigma$=0.3) and 0.750 ($\sigma$=0.6), while untouched items
+barely move; under 30\% dropout, both touched (0.854 $\to$ 0.625) and untouched
+(0.933 $\to$ 0.750) items fall, which single draws cannot attribute to the
+perturbation rather than run-to-run variation. Neither curve is monotonic, and
+with one backbone the probe does not test whether similar accuracy holds under
+corruption.
+
+\section{Limitations and Future Work}
+\label{sec:limits}
+
+\textbf{Benchmark.} The 50 items are generated from the same KG the agent
+queries, with gold defined as traversals or aggregations over it; we have no
+independently authored items (e.g., from field reports or engineers), so the
+results show that both backbones can drive this toolchain, not that the agent
+solves independently posed tasks. Only 36 items are EM-graded, which limits
+resolution to differences of a few points. Seven items are defective (Q16,
+Q19, Q21, Q25 among EM items; Q39, Q40, Q43 among rubric items; details in
+Appendix~\ref{app:benchmark}); we flag them rather than patch them, and on the
+32 non-defective EM items audited EM is 0.948 (small) vs.\ 0.969 (large). The
+alerts and interventions are rule-derived from one KG seed whose stability
+across regenerated seeds we have not tested.
+\textbf{Grading.} The normalized rules were fixed after the small-backbone
+audit and are not tested on held-out items; the audit is a single annotator's
+judgment. The rubric judge is the scored backbone itself and is not validated
+against human raters. \textbf{Backbones and cost.} The two backbones are API
+models called through floating aliases two weeks apart; ``small'' refers to
+price tier, since Flash-Lite's parameter count is unpublished, and we measured
+neither latency nor token cost, so the cost motivation in Section~1 is not
+tested here (Appendix~\ref{app:compute}). \textbf{Robustness.} Single draws,
+one backbone, and perturbations that leave most evidence and the fallback
+corpus intact make RQ2 preliminary. All results are for one benchmark in one
+domain.
+
+\paragraph{Broader impacts.} A citation-guardrailed agent could make
+LLM-assisted field decision support more auditable than free-text RAG, since
+every cited entity is traceable to a KG node and tool call, and a low-cost
+backbone that performs close to a frontier-class one could lower deployment
+cost for smaller operators. But the agent is far from reliable (normalized EM
+0.750 without the aggregation tool and as low as 0.694 under perturbation),
+traceable citations are not verified support, and our audits found seven
+defective benchmark items that automatic grading did not reveal; deploying
+such an agent in safety- or environmentally-critical decisions without human
+review risks automation bias, where a fluent, well-cited answer is trusted past
+its accuracy.
+
+\section{Conclusion}
+
+On this upstream petroleum benchmark, one knowledge-graph agent brings a
+low-cost and a frontier-class backbone to within one EM item per repeat of
+each other (audited 0.926 vs.\ 0.954), a gap the benchmark cannot resolve. The
+ablation ladder shows where that comes from: graph retrieval alone reaches
+0.278 and text retrieval 0.583, while the full agent reaches 0.898 and gives up
+14.8 points without the deterministic aggregation tool. Because the questions
+are answerable only through that toolchain, the finding is that both backbones
+can drive it to similar accuracy, not that knowledge graphs make small models
+as capable as large ones. The most transferable lesson is methodological:
+auditing both backbones' answers changed the sign of the headline difference
+and exposed seven defective items that automatic grading had hidden. Testing on
+independently authored questions, with repeated perturbations and measured
+cost, is the next step.
+
+\begin{ack}
+This work received no external funding. The author declares no competing
+interests.
+\end{ack}
+
+\paragraph{Use of AI tools.} An AI coding and writing assistant helped
+implement the pipeline, generate figures and tables from the stored results,
+draft the instance-level audit verdicts in Section~\ref{sec:results}, and draft
+and revise this manuscript. The author checked every audit verdict against the
+stored answers and the KG, and specified, checked, and approved all design
+choices, result numbers, and claims.
+
+\small
+\bibliographystyle{plain}
+\begin{thebibliography}{99}
+
+\bibitem{lewis2020rag} P. Lewis, E. Perez, A. Piktus, F. Petroni, V. Karpukhin, N. Goyal, H. K\"uttler, M. Lewis, W. Yih, T. Rockt\"aschel, S. Riedel, and D. Kiela, ``Retrieval-augmented generation for knowledge-intensive NLP tasks,'' in \emph{Advances in Neural Information Processing Systems (NeurIPS)}, 2020.
+
+\bibitem{edge2024graphrag} D. Edge, H. Trinh, N. Cheng, J. Bradley, A. Chao, A. Mody, S. Truitt, D. Metropolitansky, R. O. Ness, and J. Larson, ``From local to global: A graph RAG approach to query-focused summarization,'' \emph{arXiv preprint arXiv:2404.16130}, 2024.
+
+\bibitem{sanmartin2024kgrag} D. Sanmartin, ``KG-RAG: Bridging the gap between knowledge and creativity,'' \emph{arXiv preprint arXiv:2405.12035}, 2024.
+
+\bibitem{pan2024roadmap} S. Pan, L. Luo, Y. Wang, C. Chen, J. Wang, and X. Wu, ``Unifying large language models and knowledge graphs: A roadmap,'' \emph{IEEE Transactions on Knowledge and Data Engineering}, 2024.
+
+\bibitem{yao2023react} S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y. Cao, ``ReAct: Synergizing reasoning and acting in language models,'' in \emph{International Conference on Learning Representations (ICLR)}, 2023.
+
+\bibitem{schick2023toolformer} T. Schick, J. Dwivedi-Yu, R. Dess\`i, R. Raileanu, M. Lomeli, L. Zettlemoyer, N. Cancedda, and T. Scialom, ``Toolformer: Language models can teach themselves to use tools,'' in \emph{Advances in Neural Information Processing Systems (NeurIPS)}, 2023.
+
+\bibitem{sun2024tog} J. Sun, C. Xu, L. Tang, S. Wang, C. Lin, Y. Gong, L. M. Ni, H. Shum, and J. Guo, ``Think-on-graph: Deep and responsible reasoning of large language model on knowledge graph,'' in \emph{International Conference on Learning Representations (ICLR)}, 2024.
+
+\bibitem{ragsurvey2023} Y. Gao, Y. Xiong, X. Gao, K. Jia, J. Pan, Y. Bi, Y. Dai, J. Sun, M. Wang, and H. Wang, ``Retrieval-augmented generation for large language models: A survey,'' \emph{arXiv preprint arXiv:2312.10997}, 2023.
+
+\bibitem{cot2022} J. Wei, X. Wang, D. Schuurmans, M. Bosma, B. Ichter, F. Xia, E. Chi, Q. Le, and D. Zhou, ``Chain-of-thought prompting elicits reasoning in large language models,'' in \emph{Advances in Neural Information Processing Systems (NeurIPS)}, 2022.
+
+\bibitem{toollearning2023} Y. Qin, S. Hu, Y. Lin, W. Chen, N. Ding, G. Cui, Z. Zeng, Y. Huang, C. Xiao, et al., ``Tool learning with foundation models,'' \emph{arXiv preprint arXiv:2304.08354}, 2023.
+
+\bibitem{llmagents2024} L. Wang, C. Ma, X. Feng, Z. Zhang, H. Yang, J. Zhang, et al., ``A survey on large language model based autonomous agents,'' \emph{Frontiers of Computer Science}, vol. 18, article 186345, 2024.
+
+\bibitem{iso15926} International Organization for Standardization, ``ISO 15926-2:2003 -- Industrial automation systems and integration -- Integration of life-cycle data for process plants including oil and gas production facilities -- Part 2: Data model,'' 2003.
+
+\bibitem{provo2013} T. Lebo, S. Sahoo, D. McGuinness (eds.), ``PROV-O: The PROV Ontology,'' \emph{W3C Recommendation}, 30 April 2013.
+
+\bibitem{hogan2021kgsurvey} A. Hogan, E. Blomqvist, M. Cochez, C. d'Amato, G. de Melo, C. Gutierrez, S. Kirrane, J. E. L. Gayo, R. Navigli, S. Neumaier, A. N. Ngomo, A. Polleres, S. M. Rashid, A. Rula, L. Schmelzeisen, J. Sequeda, S. Staab, and A. Zimmermann, ``Knowledge graphs,'' \emph{ACM Computing Surveys}, 2021.
+
+\bibitem{ji2023hallucination} Z. Ji, N. Lee, R. Frieske, T. Yu, D. Su, Y. Xu, E. Ishii, Y. Bang, A. Madotto, and P. Fung, ``Survey of hallucination in natural language generation,'' \emph{ACM Computing Surveys}, 2023.
+
+\bibitem{selfrag2024} A. Asai, Z. Wu, Y. Wang, A. Sil, and H. Hajishirzi, ``Self-RAG: Learning to retrieve, generate, and critique through self-reflection,'' in \emph{International Conference on Learning Representations (ICLR)}, 2024.
+
+\bibitem{yousef2006crm} A. A. Yousef, P. Gentil, J. L. Jensen, and L. W. Lake, ``A capacitance model to infer interwell connectivity from production and injection rate fluctuations,'' \emph{SPE Reservoir Evaluation \& Engineering}, vol. 9, no. 6, pp. 630--646, 2006.
+
+\bibitem{sayarpour2009} M. Sayarpour, C. S. Kabir, and L. W. Lake, ``Field applications of capacitance-resistive models in waterfloods,'' \emph{SPE Reservoir Evaluation \& Engineering}, vol. 12, no. 6, pp. 853--864, 2009.
+
+\bibitem{chan1995wor} K. S. Chan, ``Water control diagnostic plots,'' in \emph{SPE Annual Technical Conference and Exhibition}, SPE 30775, 1995.
+
+\bibitem{graphdb2008} R. Angles and C. Gutierrez, ``Survey of graph database models,'' \emph{ACM Computing Surveys}, vol. 40, no. 1, pp. 1:1--1:39, 2008.
+
+\bibitem{entitylink2015} W. Shen, J. Wang, and J. Han, ``Entity linking with a knowledge base: Issues, techniques, and solutions,'' \emph{IEEE Transactions on Knowledge and Data Engineering}, vol. 27, no. 2, pp. 443--460, 2015.
+
+\bibitem{faiss2017} J. Johnson, M. Douze, and H. J\'egou, ``Billion-scale similarity search with GPUs,'' \emph{IEEE Transactions on Big Data}, vol. 7, no. 3, pp. 535--547, 2021 (arXiv:1702.08734, 2017).
+
+\bibitem{gemini31flashlite} Google DeepMind, ``Gemini 3.1 Flash-Lite,'' Model Card, 2026.
+
+\bibitem{claudeopus48} Anthropic, ``Claude Opus 4.8,'' System Card, May 2026.
+
+\bibitem{dpr2020} V. Karpukhin, B. Oguz, S. Min, P. Lewis, L. Wu, S. Edunov, D. Chen, and W. Yih, ``Dense passage retrieval for open-domain question answering,'' in \emph{Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)}, pp. 6769--6781, 2020.
+
+\bibitem{sbert2019} N. Reimers and I. Gurevych, ``Sentence-BERT: Sentence embeddings using Siamese BERT-networks,'' in \emph{Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP-IJCNLP)}, pp. 3982--3992, 2019.
+
+\bibitem{ndcg2002} K. J\"arvelin and J. Kek\"al\"ainen, ``Cumulated gain-based evaluation of IR techniques,'' \emph{ACM Transactions on Information Systems}, vol. 20, no. 4, pp. 422--446, 2002.
+
+\bibitem{llmjudge2023} L. Zheng, W. Chiang, Y. Sheng, S. Zhuang, Z. Wu, Y. Zhuang, Z. Lin, Z. Li, D. Li, E. P. Xing, H. Zhang, J. E. Gonzalez, and I. Stoica, ``Judging LLM-as-a-judge with MT-Bench and Chatbot Arena,'' in \emph{Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track}, 2023.
+
+\end{thebibliography}
+
+\newpage
+\appendix
+
+\section{Benchmark and generation rules}
+\label{app:benchmark}
+
+\textbf{Generation rules.} Wells, connectivity, and production/injection
+series come from the Volve field release; CRM connectivity weights use a
+45-day time constant for every injector-producer pair. Alerts are raised by
+fixed rules on the monthly readings: a \texttt{WATER\_BREAKTHROUGH} alert
+(severity medium) at a producer's first water cut $\geq 0.50$, a
+\texttt{WCT\_SEVERE} alert (severity high) at every water cut $\geq 0.90$, and
+a \texttt{HIGH\_WOR} alert at every $\log_{10}\mathrm{WOR} \geq 0$. Each
+breakthrough or severe alert receives one recommended intervention (action
+sampled from water shutoff, rate reduction, gas-lift optimization, polymer
+injection) with a lognormal cost per barrel (mean 12 USD) and an expected
+uplift. The script \texttt{src/eval/build\_benchmark.py} then instantiates the
+50 question templates and computes each gold answer from these tables or the
+graph.
+
+\textbf{All 50 items.} Table~\ref{tab:bench} lists every item. ``Evid.'' gives
+the evidence an EM item's gold rests on, which determines what the RQ2
+perturbations can reach: \textbf{W} connectivity weights (edge dropout and
+weight noise), \textbf{E} connectivity edges only (edge dropout),
+\textbf{R} metric readings (edge dropout), \textbf{A} alert, intervention, or
+well properties (neither). Defective items are marked: (a)~the question asks
+which pairs but the gold is a count; (b)~the gold comes from a generator bug
+(\texttt{injectors\_of} returns no injectors for \texttt{F-1~C} and
+\texttt{F-15~D} because of the space in their names; F-1~C is fed only by F-4
+and F-15~D only by F-5, so the correct answer is true); (c)~two wells tie on
+the same date and the gold names one; (d)~the question says ``currently''
+(answer 1, only F-14 at 0.9662) but the gold counts producers that ever
+crossed 0.90 (2); (e)~the gold evidence is one specific alert while the
+question admits others, so a correct answer citing a different valid alert
+scores 0 -- the large backbone traced \texttt{A\_WCT\_SEVERE\_F-14\_2016-07-01}
+for Q39 and \texttt{A\_HIGH\_WOR\_F-12\_2010-06-01} for Q43, each with the
+correct reading and value, and scored 0 in every repeat.
+
+{\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.065\textwidth}%
+>{\raggedright\arraybackslash}p{0.055\textwidth}%
+>{\raggedright\arraybackslash}p{0.41\textwidth}%
+>{\raggedright\arraybackslash}p{0.27\textwidth}%
+>{\raggedright\arraybackslash}p{0.065\textwidth}%
+>{\raggedright\arraybackslash}p{0.05\textwidth}@{}}
+\caption{The full benchmark. Defect marks (a)--(e) are explained above.}
+\label{tab:bench}\\
+\toprule
+ID & Cat. & Question & Gold & Grader & Evid. \\
+\midrule
+\endfirsthead
+\toprule
+ID & Cat. & Question & Gold & Grader & Evid. \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\input{generated/benchmark_rows.tex}
+\end{longtable}
+}
+
+\section{Normalized EM grader}
+\label{app:grading}
+
+The normalized grader differs from the strict grader in exactly the four ways
+below. Gold answers are identical under both; only the parsing of the model's
+free text differs, and both graders already apply a 2\% numeric tolerance and
+ordered-subsequence matching for multi-number answers. The rules were written
+after the small-backbone audit of 2026-07-19 and first applied on 2026-07-20;
+the large backbone's answers (2026-07-03) were not used to design them.
+
+\begin{enumerate}
+  \item \emph{Numeric-scalar extraction.} Strict grading extracts only the
+  \emph{first} number in the answer, which can pick a digit out of a well id
+  (the ``5'' in ``\texttt{F-5}''). Normalized grading accepts if \emph{any}
+  number in the text is within tolerance of gold.
+  \item \emph{Date normalization.} Prose dates such as ``July 1, 2016'' are
+  rewritten to \texttt{YYYY-MM-DD} before number matching.
+  \item \emph{Punctuation squashing for single-token strings.} Underscores and
+  hyphens are removed before substring matching, so ``water shutoff'' matches
+  \texttt{water\_shutoff}.
+  \item \emph{Question-echo discounting for entity-list answers.} Well ids that
+  also appear in the question are removed before comparing the predicted and
+  gold sets.
+\end{enumerate}
+
+Rule 1 could in principle credit an answer that mentions the gold value
+incidentally. In the audit (Appendix~\ref{app:audit}) every one of the 21
+answers that normalized EM accepts and strict EM rejects (17 small, 4 large) is
+a correct answer, so this did not occur in these runs. The rules do miss two
+formats: a fraction written as a percentage (``5/5 = 100\%'' for gold 1.0; two
+large-backbone answers), and the boolean grader counts a non-answer (``cannot
+determine'') as ``no'' (one S1 answer).
+
+\section{Symmetric audit}
+\label{app:audit}
+
+Every EM answer of the full agent, 36 items $\times$ 3 repeats $\times$ 2
+backbones, was judged against the question as worded, starting from the
+normalized verdict and overriding it only where the stored answer and the KG
+show the grader is wrong; for the defective EM items the judgment uses the
+corrected gold (Q16: the two pairs F-4$\to$F-11 and F-5$\to$F-11; Q19: true;
+Q21: either tied well; Q25: one). Table~\ref{tab:auditrows} lists every item
+whose verdicts are not uniformly correct; the other 23 items are answered
+correctly by both graders in all six runs. The paired comparison treats the 36
+items as the unit: each backbone's item score is its mean over three repeats,
+and the 95\% interval is a percentile bootstrap over items (10{,}000
+resamples). Because only 3 items differ on audit, all favoring the large
+backbone, the interval's upper end is exactly 0 and the sign test is the more
+interpretable summary ($p=0.25$). The verdicts, with a reason for each, and the
+script that computes every number in Table~\ref{tab:audit} are in the code
+release (\texttt{results/audit/} and \texttt{src/eval/audit\_both.py} at
+\url{https://github.com/TousifAhamed/kg-agent-low-cost-vs-frontier}).
+
+{\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}l>{\raggedright\arraybackslash}p{0.2\textwidth}%
+>{\raggedright\arraybackslash}p{0.2\textwidth}%
+>{\raggedright\arraybackslash}p{0.47\textwidth}@{}}
+\caption{Item-level audit. Each backbone shows three groups (repeats 1--3) of
+three marks: strict / normalized / audited.}
+\label{tab:auditrows}\\
+\toprule
+Item & Small & Large & Reason \\
+\midrule
+\endfirsthead
+\toprule
+Item & Small & Large & Reason \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\input{generated/audit_rows.tex}
+\end{longtable}
+}
+
+\section{Explanation rubric and ranking results}
+\label{app:explanation}
+
+Each Explanation answer is scored 0--3 by an LLM judge that sees the question,
+the gold evidence node ids, and the answer, with the rubric ``0 = wrong or
+unsupported; 1 = partially correct, key steps/evidence missing; 2 = correct
+reasoning with most evidence; 3 = fully correct end-to-end trace citing the
+right evidence nodes'' and a system prompt rewarding correct alert
+$\to$ reading $\to$ intervention chains, correct use of connectivity weights,
+and reference to the gold nodes. The judge is the same backbone as the agent
+being scored (Flash-Lite judged Flash-Lite, Opus judged Opus), so the two
+columns of Table~\ref{tab:rubric} use different judges and should not be
+compared directly. Q39 and Q43 are defective in a way that penalizes correct
+answers (mark (e), Appendix~\ref{app:benchmark}); both backbones score 0 on
+Q39, and the large backbone's 0 on Q43 in every repeat (against the small
+backbone's 3) accounts for the entire difference in summed scores (79 vs.\
+70). NDCG@5 on the two ranking items is 1.000 for both backbones in every
+repeat.
+
+\begin{table}[h]
+  \centering
+  \small
+  \caption{Rubric scores (0--3) per Explanation item, repeats 1 / 2 / 3, each
+  backbone judged by itself.}
+  \label{tab:rubric}
+  \begin{tabular}{lcc}
+    \toprule
+    Item & Small (Flash-Lite) & Large (Opus 4.8) \\
+    \midrule
+\csname @@input\endcsname generated/explanation_rows.tex
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Compute resources}
+\label{app:compute}
+
+All experiments ran on a single consumer laptop with no GPU: an 11th-generation
+Intel Core i7-1185G7 (4 cores / 8 threads), 32~GB RAM, Windows 11 Pro
+(10.0.26200), Python 3.11.15, PyTorch 2.5.1+cpu (CPU build; CUDA unavailable),
+\texttt{sentence-transformers} 3.3.1, \texttt{faiss-cpu} 1.9.0, and NetworkX
+3.4.2 for the in-memory graph that every reported run queries (a Cypher export
+for Neo4j 5.26 was built but not used). On-disk footprint is small: 2.3~MB raw Volve
+input, 203~KB generated tables, 1.6~MB materialized graph artifacts, 16~KB
+benchmark.
+
+Local, non-API pipeline stages measured on that machine: knowledge-graph
+construction 3.5~s (deterministic -- re-running reproduces byte-identical
+artifacts), Text-RAG corpus serialization 1.1~s for 304 documents, embedding
+model load 7.3~s, and embedding of the full corpus 5.3~s. The only substantial
+cost is API latency, not local compute.
+
+Per-question LLM usage is bounded by the agent's budget (max 5 tool rounds, max
+2 citation retries). Measured from the stored run logs, the full agent issues a
+mean of 3.06 tool calls per question on the small backbone (max 9) and 2.41 on
+the large backbone (max 12), with one additional LLM call to produce the final
+answer; the two ablations average 2.94 and the perturbation conditions 3.37. The
+observed full 50-question runs required approximately 200 LLM calls -- a typical
+run volume, not the theoretical maximum the budget allows (50 questions $\times$
+up to 5 tool rounds plus up to 2 citation retries each).
+
+We did not instrument per-run wall-clock time or token counts during the
+original experiments, so we cannot report measured runtime or token cost for
+those runs, and we do not estimate them retrospectively. Because cost and
+latency motivate the use of a low-cost backbone, measuring both is the most
+direct gap to close in future runs.
+
+\newpage
+\input{checklist}
+
+\end{document}
