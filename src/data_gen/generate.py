@@ -31,7 +31,7 @@ CFG_PATH = Path("configs/generator.yaml")
 
 def _pos(name: str) -> np.ndarray:
     """Deterministic 2-D map position from a stable hash of the well name."""
-    h = hashlib.md5(name.encode()).digest()
+    h = hashlib.md5(name.encode(), usedforsecurity=False).digest()
     return np.array([h[0], h[1]], dtype=float) / 255.0
 
 
